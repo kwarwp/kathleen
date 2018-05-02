@@ -12,7 +12,7 @@ def criarEstoria():
     fogo = Cena(img=FOGO)
     agua = Cena(img=AGUA)
     fogo.direita = agua
-    humano = Elemento(img=HUMANO, tit="humano",style = dict(left=200, width=200, hight=200, bottom=200, top=600))
+    humano = Elemento(img=HUMANO, tit="humano",style = dict(left=400, width=400, hight=400, bottom=400, top=50))
     humano.entra(fogo)
     ehumano=Texto(fogo,"quero agua")
     humano.vai = ehumano.vai
