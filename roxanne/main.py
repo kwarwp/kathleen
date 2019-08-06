@@ -2,17 +2,17 @@
 from _spy.vitollino.main import Cena, Texto, Elemento, STYLE,Sala
 from _spy.vitollino.main import INVENTARIO as inv
 
-LABORATORIO = "lorenpixel.com/800/600/city"
-ANA_MARIA = "lorenpixel.com/800/600/people"
-DR_ZUKMAN = "lorenpixel.com/800/600/people"
-PORTA = "lorenpixel.com/800/600/city"
-HOSPITAL = "lorenpixel.com/800/600/city"
-COFRE = "lorenpixel.com/800/600/city"
-PAPEIS = "lorenpixel.com/800/600/city"
-SALA1= "lorenpixel.com/800/600/city"
-SALA2= "lorenpixel.com/800/600/city"
-SALA3= "lorenpixel.com/800/600/city"
-SALA4= "lorenpixel.com/800/600/city"
+LABORATORIO = "lorenpixel.com/800/600/city/"
+ANA_MARIA = "lorenpixel.com/800/600/people/"
+DR_ZUKMAN = "lorenpixel.com/800/600/people/"
+PORTA = "lorenpixel.com/800/600/city/"
+HOSPITAL = "lorenpixel.com/800/600/city/"
+COFRE = "lorenpixel.com/800/600/city/"
+PAPEIS = "lorenpixel.com/800/600/city/"
+SALA1= "lorenpixel.com/800/600/city/"
+SALA2= "lorenpixel.com/800/600/city/"
+SALA3= "lorenpixel.com/800/600/city/"
+SALA4= "lorenpixel.com/800/600/city/"
 
 
 class doidera():
@@ -25,6 +25,7 @@ class doidera():
         ana_maria.entra(congresso.norte)
         dr_zukman.entra(congresso.norte)
         porta.entra(congresso.norte)
+        congresso.norte.vai()
         
 doidera()
 
