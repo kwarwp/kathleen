@@ -2,17 +2,17 @@
 from _spy.vitollino.main import Cena, Texto, Elemento, STYLE,Sala
 from _spy.vitollino.main import INVENTARIO as inv
 
-LABORATORIO = "lorenpixel.com/800/600/city/"
-ANA_MARIA = "lorenpixel.com/800/600/people/"
-DR_ZUKMAN = "lorenpixel.com/800/600/people/"
-PORTA = "lorenpixel.com/800/600/city/"
-HOSPITAL = "lorenpixel.com/800/600/city/"
-COFRE = "lorenpixel.com/800/600/city/"
-PAPEIS = "lorenpixel.com/800/600/city/"
-SALA1= "lorenpixel.com/800/600/city/"
-SALA2= "lorenpixel.com/800/600/city/"
-SALA3= "lorenpixel.com/800/600/city/"
-SALA4= "lorenpixel.com/800/600/city/"
+LABORATORIO = "lorempixel.com/800/600/city"
+ANA_MARIA = "lorempixel.com/800/600/people"
+DR_ZUKMAN = "lorempixel.com/800/600/people"
+PORTA = "lorempixel.com/800/600/city"
+HOSPITAL = "lorempixel.com/800/600/city"
+COFRE = "lorempixel.com/800/600/city"
+PAPEIS = "lorempixel.com/800/600/city"
+SALA1= "lorempixel.com/800/600/city"
+SALA2= "lorempixel.com/800/600/city"
+SALA3= "lorempixel.com/800/600/city"
+SALA4= "lorempixel.com/800/600/city"
 
 
 class doidera():
