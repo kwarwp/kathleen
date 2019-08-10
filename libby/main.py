@@ -25,4 +25,5 @@ hehe= LABIRINTO (norte= SALA1,leste= SALA2,oeste= SALA3,sul= SALA4)
 ana_maria.entra(hehe.norte)
 dr_zuckman.entra(hehe.norte)
 hehe.norte.vai()
+
 HAHA()
