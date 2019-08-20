@@ -45,3 +45,10 @@ SyntaxError: invalid syntax
         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Aug 20 2019 18:04:24.364 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 7
+  Sala 1 = "https://ufsj.edu.br/portal2-repositorio/File/deceb/Laboratorios.png"
+        ^
+SyntaxError: invalid syntax
+'''},
