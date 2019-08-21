@@ -10,7 +10,7 @@ SALA1="http://lorempixel.com/800/600/city"
 SALA2="http://lorempixel.com/800/600/city"
 
 class CHOCOLATE():
-    def __init__(self)
+    def __init__(self):
     ana_maria= Elemento(img=ANA_MARIA)
     dr_duckman= Elemento(img=DR_DUCKMAN)
     laboratori= Cena(img=LABORATORIO)
