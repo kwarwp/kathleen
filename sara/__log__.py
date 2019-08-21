@@ -13,3 +13,10 @@ SyntaxError: invalid syntax
                      ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 21 2019 17:17:41.42 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 14
+  ana_maria= Elemento(img=ANA_MARIA)
+  ^
+IndentationError: expected an indented block
+'''},
