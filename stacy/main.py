@@ -18,7 +18,7 @@ GARCA3 = "http://lorempixel.com/800/600/people/6"
 class alunos():
     def __init__ (self):
         congresso = doidera().congresso
-        estagiario = Elemento(img=ESTAGIARIO, style=dict(left=100, top=10, width=60, height="60px"))
+        estagiario = Elemento(img=ESTAGIARIO,tit="Elton" style=dict(left=100, top=10, width=60, height="60px"))
         estagiario.entra(congresso.norte)
         garca1 = Elemento(img=GARCA1, tit="modificada", style=dict(left=102, top=11, width=60, height="60px")) 
         garca2 = Elemento(img=GARCA2, tit="modificada", style=dict(left=90, top=12, width=60, height="60px")) 
