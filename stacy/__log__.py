@@ -13,3 +13,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Tue Aug 27 2019 17:52:24.865 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 20
+  estagiario = Elemento (img=ESTAGIARIO, tit"Eleven", style=dict(
+                                             ^
+SyntaxError: invalid syntax
+'''},
