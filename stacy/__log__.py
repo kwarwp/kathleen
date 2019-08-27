@@ -75,3 +75,10 @@ SyntaxError: invalid syntax
     ana_maria.entra(congresso.norte)
 NameError: name 'congresso' is not defined
 '''},
+{'date': 'Tue Aug 27 2019 18:09:52.531 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  estagiario = Elemento(img=ESTAGIARIO, tit"Eleven", style=dict(
+                                            ^
+SyntaxError: invalid syntax
+'''},
