@@ -28,7 +28,7 @@ class doidera():
             left=200, top=10, width=60, height="60px")) 
         porta=Elemento(img=PORTA, style=dict(
             left=10, top=10, width=60, height="60px")) 
-        self.congresso=Sala(n=SALA1,l=SALA2,o= SALA3, s=SALA4)
+        self.congresso= congresso = Sala(n=SALA1,l=SALA2,o= SALA3, s=SALA4)
         ana_maria.entra(congresso.norte)
         dr_zukman.entra(congresso.norte)
         porta.entra(congresso.norte)
