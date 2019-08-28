@@ -128,3 +128,10 @@ NameError: name 'jurupinga' is not defined
     jurupinga=Cena(img=JURUPINGA)
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Wed Aug 28 2019 11:26:56.313 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 7
+  jurupinga=Cena(img=jurupinga)
+  ^
+IndentationError: unexpected indent
+'''},
