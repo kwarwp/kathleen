@@ -6,3 +6,10 @@
                  ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 28 2019 11:14:00.136 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 5
+  class DANGER ()
+                  ^
+SyntaxError: invalid syntax
+'''},
