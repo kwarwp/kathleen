@@ -27,3 +27,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Aug 28 2019 11:13:19.199 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 10
+  cusco.entra(jurupinga)
+  ^
+IndentationError: unexpected indent
+'''},
