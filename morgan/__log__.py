@@ -49,3 +49,7 @@ Exception: <TypeError: Cannot read property 'charAt' of undefined>
 'error': '''
 Exception: <TypeError: Cannot read property 'charAt' of undefined>
 '''},
+{'date': 'Wed Aug 28 2019 11:17:07.674 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: <TypeError: Cannot read property 'charAt' of undefined>
+'''},
