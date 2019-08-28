@@ -17,3 +17,10 @@
     def__int__(self)
 NameError: name 'def__int__' is not defined
 '''},
+{'date': 'Wed Aug 28 2019 11:15:50.573 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  def--int--(self)
+      ^
+SyntaxError: invalid syntax
+'''},
