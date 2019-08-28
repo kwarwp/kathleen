@@ -109,3 +109,10 @@ TypeError: 'module' object is not callable
     espaco=Cena(img=ESPACO)
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Wed Aug 28 2019 11:20:12.417 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 8
+  piranha=Elemento(img=PIRANHA)
+  ^
+IndentationError: unexpected indent
+'''},
