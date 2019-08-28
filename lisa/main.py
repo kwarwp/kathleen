@@ -6,9 +6,8 @@ BOLA=...
 
 class PARTY():
       def __ int __(self):
-         praia=Cena(img=PRAIA)
-         bola=Elemento(img=BOLA0
-         bola.entra(PRAI)
-         prai.vai()
-      
+        praia=Cena(img=PRAIA)
+        bola=Elemento(img=BOLA)
+        bola.entra(PRAI)
+        prai.vai()      
 PARTY()
