@@ -149,3 +149,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Aug 28 2019 11:33:32.907 GMt-0300 (Hora oficial do Brasil) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 7
+  jurupinga=Cena(img=jurupinga)
+  ^
+IndentationError: unexpected indent
+'''},
