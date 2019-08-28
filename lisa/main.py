@@ -8,6 +8,6 @@ class PARTY():
       def __ int __(self):
         praia=Cena(img=PRAIA)
         bola=Elemento(img=BOLA)
-        bola.entra(PRAI)
+        bola.entra(praia)
         prai.vai()      
 PARTY()
