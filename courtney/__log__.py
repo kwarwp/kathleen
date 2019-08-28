@@ -163,3 +163,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Aug 28 2019 11:35:26.426 GMt-0300 (Hora oficial do Brasil) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 6
+  class masterkraken
+                     ^
+SyntaxError: invalid syntax
+'''},
