@@ -24,3 +24,10 @@ NameError: name 'def__int__' is not defined
       ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Aug 28 2019 11:16:17.47 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  def __int__(self)
+                    ^
+SyntaxError: invalid syntax
+'''},
