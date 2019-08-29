@@ -20,3 +20,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Thu Aug 29 2019 20:42:35.809 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 15
+  Class HAHA ():
+  ^
+IndentationError: unexpected indent
+'''},
