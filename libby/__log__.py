@@ -13,3 +13,10 @@ SyntaxError: EOL while scanning string literal
          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Thu Aug 29 2019 20:41:46.160 GMt-0300 (Hora padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 15
+  Class HAHA():
+  ^
+IndentationError: unexpected indent
+'''},
