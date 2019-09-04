@@ -59,3 +59,10 @@ SyntaxError: invalid syntax
                                  ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Sep 04 2019 10:36:43.447 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 5
+  from_spy.vittolino.main import
+                                 ^
+SyntaxError: invalid syntax
+'''},
