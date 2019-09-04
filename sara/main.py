@@ -17,7 +17,7 @@ class CHOCOLATE():
     hospital= Cena(img=HOSPITAL)
     sala1= Cena(img=SALA1)
     sala2= Cena(img=SALA2)
-    papel= Labirinto(n=SALA1,l=SALA2)
+    papel= Labirinto(n=SALA1,s=SALA2)
     ana_maria.entra(papel.norte)
     dr_duckman.entra(papel.norte)
     papel.norte.vai()
