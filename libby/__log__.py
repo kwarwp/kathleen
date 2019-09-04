@@ -34,3 +34,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Sep 04 2019 10:21:00.428 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  ana_maria= Elemento(img ANA_MARIA)
+  ^
+IndentationError: expected an indented block
+'''},
