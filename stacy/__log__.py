@@ -103,3 +103,10 @@ SyntaxError: invalid syntax
                                     ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Sep 04 2019 10:52:10.450 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  estagiario = Elemento(img=ESTAGIARIO,tit="Elton" style=dict(left=100, top=10, width=60, height="60px"))
+                                                    ^
+SyntaxError: invalid syntax
+'''},
