@@ -62,3 +62,10 @@ IndentationError: expected an indented block
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Wed Sep 04 2019 10:32:23.37 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  ana_maria =Elemento(img ANA_MARIA)
+  ^
+IndentationError: expected an indented block
+'''},
