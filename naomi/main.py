@@ -1,13 +1,12 @@
 # kathleen.naomi.main.py
-from_spy.vittolino.main import INVENTÁRIO as inv 
-import Cena, Elemento, Labirinto 
-from_spy.vittolino.main import
-Ana_Maria= “imagem em jpe ou png ...**”
-Dr_Zuckman= “imagem em jpe ou png”
-Sala 1 = “imagem do laboratório”
-SALA 2 =“imagem do hospital”
-SALA 3 = “imagem biblioteca”
-SALA 4= “imag laboratório de computação”
+from _spy.vittolino.main import INVENTÁRIO as inv 
+from _spy.vitolli.main import Cena, Elemento, Labirinto 
+Ana_Maria= 
+Dr_Zuckman= 
+Sala 1 = 
+SALA 2 =
+SALA 3 = âimagem bibliotecaâ
+SALA 4= âimag laboratório de computaçãoâ
 
 Class Jesus ();
 def _init_main (self)
