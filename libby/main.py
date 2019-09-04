@@ -13,7 +13,8 @@ SALA2= "img leste HOSPITAL"
 SALA3= "img oeste BIBLIOTECA"
 SALA4= "img sul LAB_INFORMATICA"
 class HAHA():
-    #def __init__(self):
+    #def __init__(self): 
+    
         ana_maria=Elemento(img ANA_MARIA)
         dr_zuckman= Elemento(img DR_ZUCKMAN)
         cofre= Elemento(img COFRE)
