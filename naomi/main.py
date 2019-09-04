@@ -2,11 +2,11 @@
 from _spy.vittolino.main import INVENTÁRIO as inv 
 from _spy.vitolli.main import Cena, Elemento, Labirinto 
 Ana_Maria= 
-Dr_Zuckman= 
-Sala 1 = 
-SALA 2 =
-SALA 3 = âimagem bibliotecaâ
-SALA 4= âimag laboratório de computaçãoâ
+Dr_Zuckman= "http://copycor.com.br/v2/wp-content/uploads/2016/04/boneco.png"
+Sala 1 = "https://upload.wikimedia.org/wikipedia/commons/8/8a/Chapada_Diamantina_Cen%C3%A1rio.JPG"
+SALA 2 = "http://www.conxrede.com.br/wp-content/uploads/2015/02/02-CENARIO-DUO-REDARIO.jpg"
+SALA 3 = "https://1.bp.blogspot.com/-yJ_uAJKWEDw/T-SvdzMdq2I/AAAAAAAAAwE/-a6zCZHweig/s1600/ESCENARIOS+%285%29.jpg"
+SALA 4=  "http://4.bp.blogspot.com/-lexcUCs4Ax4/T-StJYJUEEI/AAAAAAAAAvc/dwgTG6G4HLs/s1600/ESCENARIOS.jpg"
 
 Class Jesus ();
 def _init_main (self)
