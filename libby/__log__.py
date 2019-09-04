@@ -27,3 +27,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Sep 04 2019 10:20:33.494 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 15
+  Class HAHA():
+  ^
+IndentationError: unexpected indent
+'''},
