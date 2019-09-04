@@ -89,3 +89,10 @@ AttributeError: 'str' object has no attribute 'cenas'
     self.centro.cenas[indice].portal(N=sala.cenas[indice]) if sala else None
 AttributeError: 'str' object has no attribute 'cenas'
 '''},
+{'date': 'Wed Sep 04 2019 10:15:19.405 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  papel.norte.vai():
+                    ^
+SyntaxError: invalid syntax
+'''},
