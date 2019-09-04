@@ -73,3 +73,10 @@ SyntaxError: invalid syntax
                                  ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Sep 04 2019 11:03:34.238 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 6
+  Sala 1 = "https://upload.wikimedia.org/wikipedia/commons/8/8a/Chapada_Diamantina_Cen%C3%A1rio.JPG"
+        ^
+SyntaxError: invalid syntax
+'''},
