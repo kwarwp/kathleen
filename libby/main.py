@@ -1,17 +1,17 @@
 # kathleen.libby.main.py
 from _spy.vittolino.main import Cena,Elemento,Labirinto
 from _spy.vittolino.main import INVENTARIO as inv
-ANA_MARIA= "http://lorempixel.com/800/600/people/1"
-DR_ZUCKMAN= "http://lorempixel.com/800/600/people/2"
-COFRE= "http://lorempixel.com/800/600/city"
-LABORATORIO= "http://lorempixel.com/800/600/city"
-HOSPITAL= "http://lorempixel.com/800/600/city/2"
-BIBLIOTECA= "http://lorempixel.com/800/600/city/3"
-LAB_INFORMATICA= "http://lorempixel.com/800/600/city/4"
-SALA1= "img norte LABORATORIO"
-SALA2= "img leste HOSPITAL"
-SALA3= "img oeste BIBLIOTECA"
-SALA4= "img sul LAB_INFORMATICA"
+ANA_MARIA = "http://lorempixel.com/800/600/people/1"
+DR_ZUCKMAN = "http://lorempixel.com/800/600/people/2"
+COFRE = "http://lorempixel.com/800/600/city"
+LABORATORIO = "http://lorempixel.com/800/600/city"
+HOSPITAL = "http://lorempixel.com/800/600/city/2"
+BIBLIOTECA = "http://lorempixel.com/800/600/city/3"
+LAB_INFORMATICA = "http://lorempixel.com/800/600/city/4"
+SALA1 = "img norte LABORATORIO"
+SALA2 = "img leste HOSPITAL"
+SALA3 = "img oeste BIBLIOTECA"
+SALA4 = "img sul LAB_INFORMATICA"
 class HAHA():
     #def __init__(self): 
     
