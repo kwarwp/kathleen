@@ -178,3 +178,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Sep 16 2019 19:42:42.440 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 11
+  boneca.entra(lugar.homem)
+  ^
+IndentationError: unexpected indent
+'''},
