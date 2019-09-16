@@ -157,3 +157,10 @@ SyntaxError: invalid syntax
                         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Sep 16 2019 19:34:21.770 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  ana_maria.entra(lugar.norte)
+  ^
+IndentationError: unexpected indent
+'''},
