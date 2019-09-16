@@ -7,7 +7,8 @@ BONECA = "https://static3.tcdn.com.br/img/img_prod/460977/pre_venda_boneco_homem
 class OI():
 		#def _init_main (self)
 		cena = Cena ( img = CENA )
-		boneca = Elemento ( img = BONECA )
+		boneca = Elemento ( img = BONECA, style=dict(
+            left=100, top=150, width=200, height="150px"))  
 		boneca.entra(cena)
 		cena.vai()
          
