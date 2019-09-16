@@ -308,3 +308,10 @@ NameError: name 'STYLE' is not defined
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Sep 16 2019 20:07:09.514 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  oi = Texto ( texto = OI)
+  ^
+IndentationError: unexpected indent
+'''},
