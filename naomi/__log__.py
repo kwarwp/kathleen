@@ -220,3 +220,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Sep 16 2019 19:49:35.704 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 11
+  boneca= Elemento (img=BONECA)
+  ^
+IndentationError: unexpected indent
+'''},
