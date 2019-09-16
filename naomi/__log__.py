@@ -301,3 +301,10 @@ NameError: name 'STYLE' is not defined
     STYLE["width"] = 200
 NameError: name 'STYLE' is not defined
 '''},
+{'date': 'Mon Sep 16 2019 20:05:36.851 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 14
+  print ( " olá")
+  ^
+IndentationError: unexpected indent
+'''},
