@@ -87,3 +87,10 @@ SyntaxError: invalid syntax
         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Sep 16 2019 19:31:40.377 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 3
+  from _spy.vitolli.main import Cena, Elemento, Texto Labirinto 
+                                                                ^
+SyntaxError: trailing comma not allowed without surrounding parentheses
+'''},
