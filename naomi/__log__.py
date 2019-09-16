@@ -115,3 +115,10 @@ SyntaxError: invalid syntax
          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Sep 16 2019 19:32:20.327 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 5
+  Class Jesus();
+         ^
+SyntaxError: invalid syntax
+'''},
