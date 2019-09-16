@@ -11,5 +11,6 @@ class OI():
             left=100, top=150, width=200, height="150px"))  
 		boneca.entra(cena)
 		cena.vai()
+           
          
 OI() 
