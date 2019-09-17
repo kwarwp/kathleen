@@ -24,3 +24,9 @@ Exception: Cannot read property 'Cena' of undefined
   module '$exec_1730' line 2
 from _spy.vitollino.main.import Cena , Elemento , Texto
 '''},
+{'date': 'Tue Sep 17 2019 16:00:21.236 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: Cannot read property 'Cena' of undefined
+  module '$exec_1733' line 2
+from _spy.vitollino.main.import Cena , Elemento , Texto
+'''},
