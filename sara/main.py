@@ -1,9 +1,6 @@
 # kathleen.sara.main.py
-from _spy.vitollino.main import Cena, Elemento, Labirinto, STYLE, Sala
+from _spy.vitollino.main import Cena, Elemento, Labirinto
 from _spy.vitollino.main import INVENTARIO as inv
-
-STYLE["width"] = 800
-STYLE["height"] = "600px"
 
 ANA_MARIA="http://lorempixel.com/800/600/people/1"
 DR_DUCKMAN="http://lorempixel.com/800/600/people/2"
@@ -14,7 +11,7 @@ SALA2="http://lorempixel.com/800/600/city"
 
 class CHOCOLATE():
    # def __init__(self):
-        ana_maria=Elemento(img=ANA_MARIA)
+        ana_maria=Elemento(img=ANA_MARIA) 
         dr_duckman= Elemento(img=DR_DUCKMAN)
         laboratorio= Cena(img=LABORATORIO)
         hospital= Cena(img=HOSPITAL)
