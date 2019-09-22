@@ -46,6 +46,6 @@ class TORDO():
         delegado.entra(lugar.sul)
         lugar.sul.vai()
         
-TORDO():
+TORDO()
         
         
