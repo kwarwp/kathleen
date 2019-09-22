@@ -16,7 +16,7 @@ class GIRIPOCA ():
     lab_dr = Cena (img= LAB_DR)
     pc_lab = Elemento (img= PC_LAB)
     sala_cofre = Cena (img = SALA_COFRE)
-    cofre = Cena (img = COFRE)
+    cofre_sala = Cena (img = COFRE)
     pc2 = Elemento (img = PC2_SALA)
     lugar = Labirinto (n=LAB_DR, l=SALA_COFRE)
     avatar.entra(lugar.norte)
