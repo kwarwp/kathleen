@@ -125,3 +125,10 @@ NameError: name 'STYLE' is not defined
     STYLE["width"] = 80
 NameError: name 'STYLE' is not defined
 '''},
+{'date': 'Sun Sep 22 2019 10:06:12.472 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 6
+  GABINETE = 
+              ^
+SyntaxError: invalid syntax
+'''},
