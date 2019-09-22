@@ -132,3 +132,10 @@ NameError: name 'STYLE' is not defined
               ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sun Sep 22 2019 10:33:11.862 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 49
+  TORDO():
+          ^
+SyntaxError: invalid syntax
+'''},
