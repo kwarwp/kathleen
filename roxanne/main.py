@@ -36,7 +36,7 @@ class Personagens():
 class Porta(): 
     def __init__(self):
         dragger=dict(Aninha=self.entra_porta)
-        self.porta=Elemento(img=PORTA,tit="portela", drag=dragger, style=dict(
+        self.porta=Elemento(img=PORTA,tit="portela", drop=dragger, style=dict(
             left=10, top=10, width=60, height="60px"))
     def entra (self,lugar):
         self.porta.entra(lugar)
