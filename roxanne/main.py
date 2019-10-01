@@ -31,20 +31,25 @@ class Personagens():
             left=200, top=10, width=60, height="60px")) 
     def some(self):
         self.ana_maria.entra(Cena())
+    def entra(self,lugar):
+        self.ana_maria.entra(lugar)
 class porta(): 
     def __init__(self):
         dragger=dict(Aninha=self.entra_porta)
         porta=Elemento(img=PORTA,tit="portela", drag=dragger, style=dict(
             left=10, top=10, width=60, height="60px")) 
-            
+class Cenas():
+    def __init__(self): 
+
         self.congresso= congresso = Sala(n=SALA1,l=SALA2,o= SALA3, s=SALA4)
-        ana_maria.entra(congresso.norte)
+        PERSONAGEM.entra(congresso.norte)
         dr_zukman.entra(congresso.norte)
         porta.entra(congresso.norte)
         congresso.norte.vai()
     def entra_porta(self,evento,nome):
         PERSONAGEM.some()
 PERSONAGEM=Personagens()
+Cenas()
 #doidera()
 
     
