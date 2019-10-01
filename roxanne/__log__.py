@@ -49,3 +49,10 @@ NameError: name 'dr_zukmam' is not defined
                                                  ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Oct 01 2019 18:52:51.227 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 25
+  class Personagens():
+  ^
+IndentationError: expected an indented block
+'''},
