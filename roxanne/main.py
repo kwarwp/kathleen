@@ -24,11 +24,11 @@ class doidera():
         #laboratorio= Cena(img=LABORATORIO)
         pass
 class Personagens():
-    def __init__(self):
-        self.ana_maria= Elemento(img=ANA_MARIA, tit="Aninha", drag=True, style=dict(
+    def __init__(self,imagem = ANA_MARIA, nome ="Aninha"):
+        self.ana_maria= Elemento(img=imagem, tit=nome, drag=True, style=dict(
             left=100, top=10, width=60, height="60px")) 
-        dr_zukman=Elemento(img=DR_ZUKMAN, style=dict(
-            left=200, top=10, width=60, height="60px")) 
+        #dr_zukman=Elemento(img=DR_ZUKMAN, style=dict(
+        #left=200, top=10, width=60, height="60px")) 
     def some(self):
         self.ana_maria.entra(Cena())
     def entra(self,lugar):
