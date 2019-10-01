@@ -56,3 +56,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Tue Oct 01 2019 18:53:57.903 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 44
+  def entra_porta(self,evento,nome):
+  ^
+IndentationError: unexpected indent
+'''},
