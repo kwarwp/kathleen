@@ -43,7 +43,7 @@ class Cenas():
 
         self.congresso= congresso = Sala(n=SALA1,l=SALA2,o= SALA3, s=SALA4)
         PERSONAGEM.entra(congresso.norte)
-        dr_zukman.entra(congresso.norte)
+        # dr_zukman.entra(congresso.norte)
         porta.entra(congresso.norte)
         congresso.norte.vai()
     def entra_porta(self,evento,nome):
