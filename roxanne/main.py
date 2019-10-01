@@ -22,6 +22,7 @@ PERSONAGEM = None
 class doidera():
     def __init__(self):
         #laboratorio= Cena(img=LABORATORIO)
+        pass
 class Personagens():
     def __init__(self):
         self.ana_maria= Elemento(img=ANA_MARIA, tit="Aninha", drag=True, style=dict(
@@ -31,6 +32,7 @@ class Personagens():
     def some(self):
         self.ana_maria.entra(Cena())
 class porta(): 
+    def __init__(self):
         dragger=dict(Aninha=self.entra_porta)
         porta=Elemento(img=PORTA,tit="portela", drag=dragger, style=dict(
             left=10, top=10, width=60, height="60px")) 
