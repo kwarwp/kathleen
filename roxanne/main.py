@@ -40,6 +40,8 @@ class Porta():
             left=10, top=10, width=60, height="60px"))
     def entra (self,lugar):
         self.porta.entra(lugar)
+    def entra_porta(self,evento,nome):
+        PERSONAGEM.some()
 class Cenas():
     def __init__(self): 
 
