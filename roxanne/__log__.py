@@ -42,3 +42,10 @@ NameError: name 'dr_zukman' is not defined
     dr_zukmam.entra(congresso.norte)
 NameError: name 'dr_zukmam' is not defined
 '''},
+{'date': 'Tue Oct 01 2019 18:48:29.231 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 2
+  from _spy.vitollino.main import Cena, Texto,  """Elemento """, STYLE,Sala
+                                                 ^
+SyntaxError: invalid syntax
+'''},
