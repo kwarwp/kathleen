@@ -264,3 +264,10 @@ SyntaxError: EOL while scanning string literal
                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Oct 07 2019 16:09:03.494 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 4
+  BRASAO=https://www.google.com/search?q=logo+do+bras%C3%A3o+da+biblioteca+da+fiocruz+rj&rlz=1C1EKKP_enBR777BR790&sxsrf=ACYBGNQRC484CK31caMpVhXw_Us1OwMNQw:1569244371251&source=lnms&tbm=isch&sa=X&ved=0ahUKEwimr8HqgufkAhUQF7kGHUxuA3sQ_AUIEigB&biw=1366&bih=657#imgrc=rTN3Q9NzE4cbhM
+               ^
+SyntaxError: invalid syntax
+'''},
