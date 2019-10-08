@@ -32,6 +32,7 @@ class OI():
     boneca.entra(ceu.oeste)
     falaboneca = Texto(SALA3, "Hellou")
     boneca.vai = falaboneca.vai
+    ana.entra(ceu.sul)
     #ceni.entra(ceu.norte)
     #hospital.entra(ceu.leste)
     bilu.entra(ceu.leste)
