@@ -22,9 +22,9 @@ BILHETE=""
 PORTAO=""
 PRACA=""
 class LENI():
-    doente= Elemento(img=DOENTE)
-    ajudante= Elemento(img=AJUDANTE)
-    cientista= Elemento(img=CIENTISTA)
+   
+    
+   
     ladrao= Elemento(img=LADRAO)
     caes= Elemento(img=CAES)
     guardas= Elemento(img=GUARDAS)
@@ -44,15 +44,22 @@ class LENI():
     pracinha= Cena(img=PRACA)
     haha= Labirinto(N=casa,S=biblioteca,O=laboratorio,L=porta)
     hehe= Labirinto(N=porta,S=tunel,O=portao,L=pracinha)
+    
+    doente= Elemento(img=DOENTE)
     doente.entra (casa)
     faladoente= Texto(casa,"o que aconteceu?")
-    doente.vai=falapeixinho.vai
+    doente.vai=faladoente.vai
+    
+    ajudante= Elemento(img=AJUDANTE)
     ajudante.entra(N.casa)
-    falaajudante=texto(casa"o cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
+    falaajudante=Texto(casa"o cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
     ajudante.vai=falaajudante.vai
     falaajudante=Texto(casa" Sua primeira missão é achar os comprimidos para que ele fique estável até você encontrar o cientista")
     ajudante.vai=falaajudante.vai
-    ladrao.entra(N.casa)
+    
+    ladrao= Elemento= (LADRAO)
+   ladrao.entra(N.casa)
+   
     ajudante.entra(S.biblioteca)
     falaajudante=Texto(biblioteca" As coordenadas para seu rémedio estão no genótipo de uma doença")
     ajudante.vai=falaajudante.vai
@@ -64,7 +71,10 @@ class LENI():
     bilhete.vai=falabilhete.vai
     guardas.entra(S.biblioteca)
     livro.entra(S.biblioteca)
+    
+    cientista= Elemento(img=CIENTISTA)
     cientista.entra(O.laboratorio)
+    
     doente.entra(O.laboratorio)
     ladrao.entra(O.laboratorio)
     ajudante.entra(O.laboratorio)
