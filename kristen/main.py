@@ -20,7 +20,7 @@ class CARTA():
     livrinho=Elemento (img=LIVRO)
     corredor=Cena(img=CORREDOR)
     monitor=Elemento (img=MONITOR)
-    portinha=Cena (img=PORTA)
+    portinha=Cena (img=PORTINHA)
     salinha=Cena (img=LABORATORIO)
     dr=Elemento (img=DR_HAMSTER)
     zeze.entra(casinha)
