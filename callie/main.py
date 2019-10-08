@@ -27,8 +27,7 @@ class OVO():
     tunel= Cena (img=TUNEL)
     mapinha= Elemento (img=MAPA)
     homem.entra(casa)
-    casa.direita=biblioteca
-    
-    
-    
+    livro.entra(biblioteca)
+    casa.vai()
+    biblioteca.vai()
     OVO()
