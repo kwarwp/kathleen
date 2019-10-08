@@ -22,9 +22,6 @@ BILHETE=""
 PORTAO=""
 PRACA=""
 class LENI():
-   
-    
-   
     ladrao= Elemento(img=LADRAO)
     caes= Elemento(img=CAES)
     guardas= Elemento(img=GUARDAS)
@@ -52,18 +49,18 @@ class LENI():
     
     ajudante= Elemento(img=AJUDANTE)
     ajudante.entra(N.casa)
-    falaajudante=Texto(casa," cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
+    falaajudante=Texto(casa,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
     ajudante.vai=falaajudante.vai
     falaajudante=Texto(casa,"Sua primeira missão é achar os comprimidos para que ele fique estável até você encontrar o cientista")
     ajudante.vai=falaajudante.vai
     
     ladrao= Elemento= (LADRAO)
-   ladrao.entra(N.casa)
-   
+    ladrao.entra(N.casa)
+    
     ajudante.entra(S.biblioteca)
     falaajudante=Texto(biblioteca,"As coordenadas para seu rémedio estão no genótipo de uma doença")
     ajudante.vai=falaajudante.vai
-    falaajudante=Texto(biblioteca,"odas as informações estão guardadas na biblioteca")
+    falaajudante=Texto(biblioteca,"Todas as informações estão guardadas na biblioteca")
     ajudante.vai=falaajudante.vai
     doente.entra(S.biblioteca)
     bilhete.entra(S.biblioteca)
@@ -82,7 +79,7 @@ class LENI():
     ladrao.entra(L.porta)
     doente.entra(L.porta)
     cientista.entra(O.laboratorio)
-    falacientista=Texto(laboratorio"Foi meu ajudante que roubou as escrituras e me sequestrou!!")
+    falacientista=Texto(laboratorio,"Foi meu ajudante que roubou as escrituras e me sequestrou!!")
     doente.entra(S.tunel)
     cientista.entra(S.tunel)
     saida.entra(O.portao)
@@ -90,8 +87,8 @@ class LENI():
     cientista.entra(O.portao)
     doente.entra(L.pracinha)
     cientista.entra(L.pracinha)
-        hehe.vai()
-        haha.vai()
-        LENI.vai()
+    hehe.vai()
+    haha.vai()
+LENI.vai()
         
         
