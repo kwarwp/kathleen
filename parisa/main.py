@@ -11,4 +11,7 @@ class OI():
     
     sala1 = Cena(img = SALA1)
     sala1.vai()
+    
+    todos = Labirinto( n= SALA1, s= SALA2, o = SALA3, l= SALA4)
+    todos = Labirinto(l= SALA4, o= SALA5, n= SALA1)
 OI()
