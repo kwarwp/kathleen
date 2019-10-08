@@ -7,16 +7,9 @@ SALA3 = "https://cdn.pixabay.com/photo/2017/04/07/19/16/infinity-blue-2211659_96
 SALA4 = "https://cdn.pixabay.com/photo/2017/04/22/00/14/universe-2250310_960_720.jpg"
 class OI():
     def __init__(self):
-        sala1 = Cena(img = SALA1)
-        
-        sala2 = Cena(img = SALA2)
-        sala3 = Cena(img = SALA3)
-        sala4 = Cena(img = SALA4)
-        #sala4.vai()
-
         self.todos = todos = Sala( n= SALA1, s= SALA2, l= SALA3, o= SALA4)
         todos.norte.vai()
-        mensagens=Codigo(cena=todos.norte, topo="Olá, nesse jogo você irá lidar com varios desafios........ TERMINAR A CONSTRUÇÃO", codigo="lorem ipsum sic dolor") 
+        mensagens= Codigo(cena=todos.norte, topo="Olá, nesse jogo você irá lidar com varios desafios........ TERMINAR A CONSTRUÇÃO", codigo="lorem ipsum sic dolor") 
         mensagens.vai()
 
    
