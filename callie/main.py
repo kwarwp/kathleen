@@ -14,7 +14,6 @@ TUNEL="https://www.dm.com.br/wp-content/uploads/2018/08/Sisenando-Francisco-de-A
 MAPA="https://png.pngtree.com/element_origin_min_pic/17/08/13/0637aa84ab59de81fc26e62aa117f071.jpg"
 
 class OVO():
-    def _init_(self):
     homen=Elemento (img=HOMEM)
     casa= Cena (img=CASA)
     ajudante= Elemento (img=AJUDANTE)
