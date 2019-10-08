@@ -30,4 +30,5 @@ class OVO():
     livro.entra(biblioteca)
     casa.vai()
     biblioteca.vai()
+    
     OVO()
