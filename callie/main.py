@@ -15,7 +15,7 @@ MAPA="https://png.pngtree.com/element_origin_min_pic/17/08/13/0637aa84ab59de81fc
 
 class OVO():
     def _init_(self):
-    omem= Elemento (img=HOMEM)
+    homen=Elemento (img=HOMEM)
     casa= Cena (img=CASA)
     ajudante= Elemento (img=AJUDANTE)
     ladrao= Elemento (img=LADRAO)
