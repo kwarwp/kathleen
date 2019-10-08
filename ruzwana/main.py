@@ -22,9 +22,8 @@ BILHETE=""
 PORTAO=""
 PRACA=""
 class LENI():
-    ladrao= Elemento(img=LADRAO)
-    caes= Elemento(img=CAES)
-    guardas= Elemento(img=GUARDAS)
+    caes=Elemento(img=CAES)
+    guardas=Elemento(img=GUARDAS)
     remedio= Elemento(img=REMEDIO)
     mapa= Elemento(img=MAPA)
     computador= Elemento(img=COMPUTADOR)
