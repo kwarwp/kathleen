@@ -33,5 +33,10 @@ class CARTA():
     salinha.vai()
     rosa.entra(salinha)
     salinha.vai()
-    
+    casinha.esquerda=corredor
+    corredor.direita=casinha
+    corredor.esquerda=salinha
+    salinha.direita=corredor
+    salinha.esquerda=casinha
+    casinha.direita=salinha
     CARTA()
