@@ -63,3 +63,10 @@ AttributeError: 'module' object has no attribute 'div'
     imagem1=html.img(src=URL, width=300, height='300px')
 AttributeError: 'module' object has no attribute 'img'
 '''},
+{'date': 'Tue Oct 08 2019 11:55:40.899 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 5
+  laboratorio = "imagem png ou jp9" http://coveli.com.br/wp-content/uploads/2017/09/img-laboratorio.png
+                                     ^
+SyntaxError: invalid syntax
+'''},
