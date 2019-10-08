@@ -29,6 +29,8 @@ class OI():
     sala4 = Cena(img=SALA4)
     self.ceu= ceu= Sala ( n= SALA1, s= SALA2, o= SALA3, l= SALA4)
     boneca.entra(ceu.oeste)
+    falaboneca = Texto(SALA3, "Hellou")
+    boneca.vai = falaboneca.vai
     #ceni.entra(ceu.norte)
     #hospital.entra(ceu.leste)
     bilu.entra(ceu.leste)
