@@ -17,3 +17,10 @@
     homem= Elemento (img=HOMEM)
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Tue Oct 08 2019 07:29:41.601 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  homem= Elemento (img=HOMEM)
+  ^
+IndentationError: expected an indented block
+'''},
