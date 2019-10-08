@@ -911,3 +911,10 @@ SyntaxError: invalid syntax
         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Oct 08 2019 10:49:42.974 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  ceni Cena ( img = CENI)
+        ^
+SyntaxError: invalid syntax
+'''},
