@@ -21,7 +21,7 @@ MAPA="https://png.pngtree.com/element_origin_min_pic/17/08/13/0637aa84ab59de81fc
 BILHETE=""
 PORTAO=""
 PRACA=""
-    class LENI():
+         class LENI():
     doente= Elemento(img=DOENTE)
     ajudante= Elemento(img=AJUDANTE)
     cientista= Elemento(img=CIENTISTA)
