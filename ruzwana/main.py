@@ -48,15 +48,31 @@ PRACA=""
         faladoente= Texto(casa,"o que aconteceu?")
         doente.vai=falapeixinho.vai
         ajudante.entra(casa)
-        falaajudante=texto(casa"o cientista
+        falaajudante=texto(casa"o cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
+        ajudante.vai=falaajudante.vai
+        falaajudante=Texto(casa" Sua primeira missão é achar os comprimidos para que ele fique estável até você encontrar o cientista")
+        ajudante.vai=falaajudante.vai
         ladrao.entra(casa)
         ajudante.entra(biblioteca)
+        falaajudante=Texto(biblioteca" As coordenadas para seu rémedio estão no genótipo de uma doença")
+        ajudante.vai=falaajudante.vai
+        falaajudante=Texto(biblioteca"Todas as informações estão guardadas na biblioteca")
+        ajudante.vai=falaajudante.vai
         doente.entra(biblioteca)
-        doente.entra(laboratorio)
+        bilhete.entra(biblioteca)
+        falabilhete=Texto(biblioteca"Sua coordenada é hemofilia")
+        bilhete.vai=falabilhete.vai
+        guardas.entra(biblioteca)
+        livro.entra(biblioteca)
         cientista.entra(laboratorio)
+        doente.entra(laboratorio)
+        ladrao.entra(laboratorio)
+        ajudante.entra(laboratorio)
+        falaajudante=Texto(laboratorio"Doença onde não há ou há pouca produção de melanina")
         ladrao.entra(porta)
         doente.entra(porta)
         cientista.entra(porta)
+        
         ladrao.entra(tunel)
         doente.entra(tunel)
         cientista.entra(tunel)
