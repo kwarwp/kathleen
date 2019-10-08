@@ -9,4 +9,5 @@ class OI():
           [ inicio, "Olá"]
           ]
     inicio.vai()
+    MENSAGENS.vai()
 OI()
