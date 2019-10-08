@@ -16,7 +16,7 @@ class OI():
         sala4 = Cena(img = SALA4)
         sala4.vai()
 
-        self.todos = todos Labirinto( n= SALA1, s= SALA2, l= SALA3, o= SALA4)
+        self.todos = todos = Labirinto( n= SALA1, s= SALA2, l= SALA3, o= SALA4)
 
    
 OI()
