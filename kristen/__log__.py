@@ -17,3 +17,10 @@
     PLATINA()
 NameError: name 'PLATINA' is not defined
 '''},
+{'date': 'Tue Oct 08 2019 08:08:06.712 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 4
+  ZEZINHO="
+           ^
+SyntaxError: EOL while scanning string literal
+'''},
