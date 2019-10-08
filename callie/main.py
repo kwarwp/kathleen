@@ -8,3 +8,4 @@ CASA="https://www.atom.org.br/wp-content/uploads/2018/07/casas-png-casa-png-499-
 CIENTISTA="https://png.pngtree.com/png-clipart/20190604/original/pngtree-the-scientist-png-image_949187.jpg"
 BIBLIOTECA="https://live.staticflickr.com/30/65319105_09adc58261_z.jpg"
 PORTA="https://cdn.leroymerlin.com.br/products/porta_montada_de_giro_sarrafeada_de_madeira_2,13x0,75m_concrem_wood_89822306_0001_300x300.jpg"
+LIVRO="https://static3.tcdn.com.br/img/img_prod/280297/2276_1_20170803132328.jpg"
