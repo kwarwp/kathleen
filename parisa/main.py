@@ -9,12 +9,12 @@ class OI():
     def __init__(self):
         sala1 = Cena(img = SALA1)
         mensagens=Codigo(cena=sala1, topo="Olá, nesse jogo você irá lidar com varios desafios........ TERMINAR A CONSTRUÇÃO", codigo="lorem ipsum sic dolor") 
-        sala1.vai()
+        #sala1.vai()
         mensagens.vai()
         sala2 = Cena(img = SALA2)
         sala3 = Cena(img = SALA3)
         sala4 = Cena(img = SALA4)
-        sala4.vai()
+        #sala4.vai()
 
         self.todos = todos = Sala( n= SALA1, s= SALA2, l= SALA3, o= SALA4)
         todos.n.vai()
