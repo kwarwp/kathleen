@@ -125,3 +125,10 @@ KeyError: burg_menu
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Tue Oct 08 2019 11:46:39.61 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 14
+  BIBLIOTECA=Cena (img =BIBLIOTECA)
+  ^
+IndentationError: expected an indented block
+'''},
