@@ -13,7 +13,8 @@ LABORATORIO="http://www.hemocito.com.br/wp-content/uploads/2016/06/servicos-labo
 DR_HAMSTER="https://i.pinimg.com/736x/33/34/86/333486c9286ae9acb54ac214594326dd.jpg"
 REMEDIO="https://png.pngtree.com/png-clipart/20190603/original/pngtree-medicine-png-image_486130.jpg"
 GAVETA="http://clipart.coolclips.com/480/vectors/tf05276/CoolClips_vc047763.png"
-PAPEL="
+ESTANTE="https://png.pngtree.com/element_pic/17/08/05/a809ff54a922910ecaa487b955e5d535.jpg"
+
 class CARTA():
     zeze= Elemento (img=ZEZINHO)
     casinha= Cena (img=CASA)
@@ -25,8 +26,10 @@ class CARTA():
     monitor=Elemento (img=MONITOR)
     portinha=Elemento (img=PORTINHA)
     salinha=Cena (img=LABORATORIO)
+    estante=Cena (img=ESTANTE)
     dr=Elemento (img=DR_HAMSTER)
-    fio=Labirinto(N=casinha,S=cofre,O=
+    fio=Labirinto (N=casinha,S=cofre,O=corredor,L=salinha)
+    fio2=Labirinto (L=salinha,S
     zeze.entra(casinha)
     rosa.entra(casinha)
     casinha.vai()
@@ -37,10 +40,5 @@ class CARTA():
     salinha.vai()
     rosa.entra(salinha)
     salinha.vai()
-    casinha.esquerda=corredor
-    corredor.direita=casinha
-    corredor.esquerda=salinha
-    salinha.direita=corredor
-    salinha.esquerda=casinha
-    casinha.direita=salinha
+
     CARTA()
