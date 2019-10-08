@@ -31,7 +31,8 @@ class OI():
     #ceni.entra(ceu.norte)
     #hospital.entra(ceu.leste)
     bilu.entra(ceu.leste)
-    sala1.vai()
+    ceu.oeste.vai()
+    ceu.vai()
 
 OI()
 
