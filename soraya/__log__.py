@@ -509,3 +509,10 @@ AttributeError: 'str' object has no attribute 'nome'
     self.scorer = dict(ponto=1, valor=cena.nome, carta=tit or img, casa=self.xy, move=None)
 AttributeError: 'str' object has no attribute 'nome'
 '''},
+{'date': 'Tue Oct 08 2019 12:29:51.477 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  Verao():
+          ^
+SyntaxError: invalid syntax
+'''},
