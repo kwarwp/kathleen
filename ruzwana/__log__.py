@@ -83,3 +83,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Tue Oct 08 2019 13:09:40.372 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 51
+  falaajudante=texto(casa"o cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
+                          ^
+SyntaxError: invalid syntax
+'''},
