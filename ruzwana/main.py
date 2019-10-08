@@ -21,7 +21,7 @@ MAPA="https://png.pngtree.com/element_origin_min_pic/17/08/13/0637aa84ab59de81fc
 BILHETE=""
 PORTAO=""
 PRACA=""
-         class LENI():
+class LENI():
     doente= Elemento(img=DOENTE)
     ajudante= Elemento(img=AJUDANTE)
     cientista= Elemento(img=CIENTISTA)
@@ -43,44 +43,45 @@ PRACA=""
     saida= Cena(img=SAIDA)
     pracinha= Cena(img=PRACA)
     haha= Labirinto(N=casa,S=biblioteca,O=laboratorio,L=porta)
-    hehe= Labirinto(N=porta,S=tunel,O=saida,L=pracinha)
-        doente.entra(casa)
-        faladoente= Texto(casa,"o que aconteceu?")
-        doente.vai=falapeixinho.vai
-        ajudante.entra(casa)
-        falaajudante=texto(casa"o cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
-        ajudante.vai=falaajudante.vai
-        falaajudante=Texto(casa" Sua primeira missão é achar os comprimidos para que ele fique estável até você encontrar o cientista")
-        ajudante.vai=falaajudante.vai
-        ladrao.entra(casa)
-        ajudante.entra(biblioteca)
-        falaajudante=Texto(biblioteca" As coordenadas para seu rémedio estão no genótipo de uma doença")
-        ajudante.vai=falaajudante.vai
-        falaajudante=Texto(biblioteca"Todas as informações estão guardadas na biblioteca")
-        ajudante.vai=falaajudante.vai
-        doente.entra(biblioteca)
-        bilhete.entra(biblioteca)
-        falabilhete=Texto(biblioteca"Sua coordenada é hemofilia")
-        bilhete.vai=falabilhete.vai
-        guardas.entra(biblioteca)
-        livro.entra(biblioteca)
-        cientista.entra(laboratorio)
-        doente.entra(laboratorio)
-        ladrao.entra(laboratorio)
-        ajudante.entra(laboratorio)
-        falaajudante=Texto(laboratorio"Doença onde não há ou há pouca produção de melanina")
-        ladrao.entra(porta)
-        doente.entra(porta)
-        cientista.entra(laboratorio)
-        falacientista=Texto(laboratorio"Foi meu ajudante que roubou as escrituras e me sequestrou!!")
-        doente.entra(tunel)
-        cientista.entra(tunel)
-        saida.entra(portao)
-        doete.entra(portao)
-        cientista.entra(portao)
-        doente.entra(pracinha)
-        cientista.entra(pracinha)
-        
-        
+    hehe= Labirinto(N=porta,S=tunel,O=portao,L=pracinha)
+    doente.entra (casa)
+    faladoente= Texto(casa,"o que aconteceu?")
+    doente.vai=falapeixinho.vai
+    ajudante.entra(N.casa)
+    falaajudante=texto(casa"o cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
+    ajudante.vai=falaajudante.vai
+    falaajudante=Texto(casa" Sua primeira missão é achar os comprimidos para que ele fique estável até você encontrar o cientista")
+    ajudante.vai=falaajudante.vai
+    ladrao.entra(N.casa)
+    ajudante.entra(S.biblioteca)
+    falaajudante=Texto(biblioteca" As coordenadas para seu rémedio estão no genótipo de uma doença")
+    ajudante.vai=falaajudante.vai
+    falaajudante=Texto(biblioteca"Todas as informações estão guardadas na biblioteca")
+    ajudante.vai=falaajudante.vai
+    doente.entra(S.biblioteca)
+    bilhete.entra(S.biblioteca)
+    falabilhete=Texto(biblioteca"Sua coordenada é hemofilia")
+    bilhete.vai=falabilhete.vai
+    guardas.entra(S.biblioteca)
+    livro.entra(S.biblioteca)
+    cientista.entra(O.laboratorio)
+    doente.entra(O.laboratorio)
+    ladrao.entra(O.laboratorio)
+    ajudante.entra(O.laboratorio)
+    falaajudante=Texto(laboratorio"Doença onde não há ou há pouca produção de melanina")
+    ladrao.entra(L.porta)
+    doente.entra(L.porta)
+    cientista.entra(O.laboratorio)
+    falacientista=Texto(laboratorio"Foi meu ajudante que roubou as escrituras e me sequestrou!!")
+    doente.entra(S.tunel)
+    cientista.entra(S.tunel)
+    saida.entra(O.portao)
+    doente.entra(O.portao)
+    cientista.entra(O.portao)
+    doente.entra(L.pracinha)
+    cientista.entra(L.pracinha)
+        hehe.vai()
+        haha.vai()
+        LENI.vai()
         
         
