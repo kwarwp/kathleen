@@ -17,7 +17,7 @@ class OI():
         #sala4.vai()
 
         self.todos = todos = Sala( n= SALA1, s= SALA2, l= SALA3, o= SALA4)
-        todos.n.vai()
+        todos.norte.vai()
        
    
 OI()
