@@ -5,7 +5,7 @@ INICIO = "https://www.loskatchorros.com.br/forum/uploads/monthly_2017_08/maxresd
 
 class OI():
     inicio = Cena(img = INICIO)
-    mensagens=Codigo(cena=inicio, topo="olá", codigo="lorem ipsum sic dolor") 
+    mensagens=Codigo(cena=inicio, topo="Olá, nesse jogo você irá lidar com varios desafios........ TERMINAR A CONSTRUÇÃO", codigo="lorem ipsum sic dolor") 
     inicio.vai()
     mensagens.vai()
     
