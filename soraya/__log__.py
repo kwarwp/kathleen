@@ -48,3 +48,10 @@ SyntaxError: invalid syntax
        ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Oct 08 2019 09:50:05.161 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 2
+  from-spy.vitolino.main import cena, elemento, labirinto
+      ^
+SyntaxError: invalid syntax
+'''},
