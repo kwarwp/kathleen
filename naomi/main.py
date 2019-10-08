@@ -22,9 +22,9 @@ class OI():
     sala3 = Cena(img=SALA3)
     sala4 = Cena(img=SALA4)
     self.ceu= ceu= Sala ( n= SALA1, s= SALA2, o= SALA3, l= SALA4)
-    boneca.entra(oeste.Sala3)
-    cena.entra(norte.Sala1)
-    hospital.entra(leste.Sala4)
+    boneca.entra(ceu.oeste)
+    cena.entra(ceu.norte)
+    hospital.entra(ceu.leste)
     ceu.vai()
 
 OI()
