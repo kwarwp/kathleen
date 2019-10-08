@@ -52,22 +52,22 @@ class LENI():
     
     ajudante= Elemento(img=AJUDANTE)
     ajudante.entra(N.casa)
-    falaajudante=Texto(casa"o cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
+    falaajudante=Texto(casa," cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
     ajudante.vai=falaajudante.vai
-    falaajudante=Texto(casa" Sua primeira missão é achar os comprimidos para que ele fique estável até você encontrar o cientista")
+    falaajudante=Texto(casa,"Sua primeira missão é achar os comprimidos para que ele fique estável até você encontrar o cientista")
     ajudante.vai=falaajudante.vai
     
     ladrao= Elemento= (LADRAO)
    ladrao.entra(N.casa)
    
     ajudante.entra(S.biblioteca)
-    falaajudante=Texto(biblioteca" As coordenadas para seu rémedio estão no genótipo de uma doença")
+    falaajudante=Texto(biblioteca,"As coordenadas para seu rémedio estão no genótipo de uma doença")
     ajudante.vai=falaajudante.vai
-    falaajudante=Texto(biblioteca"Todas as informações estão guardadas na biblioteca")
+    falaajudante=Texto(biblioteca,"odas as informações estão guardadas na biblioteca")
     ajudante.vai=falaajudante.vai
     doente.entra(S.biblioteca)
     bilhete.entra(S.biblioteca)
-    falabilhete=Texto(biblioteca"Sua coordenada é hemofilia")
+    falabilhete=Texto(biblioteca,"Sua corordenada é hemofila!")
     bilhete.vai=falabilhete.vai
     guardas.entra(S.biblioteca)
     livro.entra(S.biblioteca)
@@ -78,7 +78,7 @@ class LENI():
     doente.entra(O.laboratorio)
     ladrao.entra(O.laboratorio)
     ajudante.entra(O.laboratorio)
-    falaajudante=Texto(laboratorio"Doença onde não há ou há pouca produção de melanina")
+    falaajudante=Texto(laboratorio,"doençança onde não há ou há pouca produção de melanina")
     ladrao.entra(L.porta)
     doente.entra(L.porta)
     cientista.entra(O.laboratorio)
