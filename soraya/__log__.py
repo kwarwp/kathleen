@@ -215,3 +215,10 @@ IndentationError: unexpected indent
     JARDIM.vai()
 AttributeError: 'str' object has no attribute 'vai'
 '''},
+{'date': 'Tue Oct 08 2019 11:56:07.955 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  JARDIM.vai()
+  ^
+IndentationError: unexpected indent
+'''},
