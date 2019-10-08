@@ -554,3 +554,10 @@ AttributeError: 'str' object has no attribute 'nome'
     JARDIM.vai()
 AttributeError: 'str' object has no attribute 'vai'
 '''},
+{'date': 'Tue Oct 08 2019 12:33:21.567 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  self.JARDIM=Cena (img= JARDIM, self.BIBLIOTECA)
+                                                ^
+SyntaxError: non-keyword arg after keyword arg
+'''},
