@@ -246,3 +246,10 @@ SyntaxError: invalid syntax
                                                                       ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Oct 08 2019 13:33:27.393 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 32
+  fio2=Labirinto (L=salinha,S=estante,O=
+                                                                      ^
+SyntaxError: invalid syntax
+'''},
