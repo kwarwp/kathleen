@@ -19,7 +19,8 @@ class OI():
     #hospital = CE(img = HOSPITAL)
     bilu = Elemento(img = BILU, tit = "Olá, eu sou Bilu")
     
-    lilita = Elemento(img = LILITA)
+    lilita = Elemento(img = LILITA,style=dict(
+    left=100, top=150, width=200, height="150px"))
     boneca = Elemento( img = BONECA, style=dict(
     left=100, top=150, width=200, height="150px"))  
     #boneca.entra(ceni)
