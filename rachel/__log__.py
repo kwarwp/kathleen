@@ -70,3 +70,10 @@ AttributeError: 'module' object has no attribute 'img'
                                      ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Oct 08 2019 11:56:24.183 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 5
+  laboratorio = "imagem png"http://coveli.com.br/wp-content/uploads/2017/09/img-laboratorio.png
+                             ^
+SyntaxError: invalid syntax
+'''},
