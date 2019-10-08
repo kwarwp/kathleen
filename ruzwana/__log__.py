@@ -13,3 +13,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Tue Oct 08 2019 12:58:34.804 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  class leni():
+  ^
+IndentationError: unexpected indent
+'''},
