@@ -29,7 +29,7 @@ class CARTA():
     estante=Cena (img=ESTANTE)
     dr=Elemento (img=DR_HAMSTER)
     fio=Labirinto (N=casinha,S=cofre,O=corredor,L=salinha)
-    fio2=Labirinto (L=salinha,S
+    fio2=Labirinto (L=salinha,S=estante,O=
     zeze.entra(casinha)
     rosa.entra(casinha)
     casinha.vai()
