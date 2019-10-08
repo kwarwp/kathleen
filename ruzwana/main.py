@@ -45,15 +45,24 @@ PRACA=""
     haha= Labirinto(N=casa,S=biblioteca,O=laboratorio,L=porta)
     hehe= Labirinto(N=porta,S=tunel,O=saida,L=pracinha)
         doente.entra(casa)
+        faladoente= Texto(casa,"o que aconteceu?")
+        doente.vai=falapeixinho.vai
         ajudante.entra(casa)
+        falaajudante=texto(casa"o cientista
         ladrao.entra(casa)
         ajudante.entra(biblioteca)
         doente.entra(biblioteca)
         doente.entra(laboratorio)
+        cientista.entra(laboratorio)
         ladrao.entra(porta)
         doente.entra(porta)
+        cientista.entra(porta)
         ladrao.entra(tunel)
         doente.entra(tunel)
+        cientista.entra(tunel)
+        doente.entra(pracinha)
+        cientista.entra(pracinha)
+        
         
         
         
