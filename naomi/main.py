@@ -17,6 +17,10 @@ class OI():
     boneca = Elemento ( img = BONECA, style=dict(
     left=100, top=150, width=200, height="150px"))  
     boneca.entra(cena)
+    sala1 = Cena(img= SALA1)
+    sala2 = Cena(img=SALA2)
+    sala3 = Cena(img=SALA3)
+    sala4 = Cena(img=SALA4)
     self.ceu= ceu= Sala ( n= SALA1, s= SALA2, o= SALA3, l= SALA4)
     boneca.entra(oeste.Sala3)
     cena.entra(norte.Sala1)
