@@ -104,3 +104,10 @@ SyntaxError: invalid syntax
                           ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Oct 08 2019 13:17:27.96 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 55
+  falaajudante=Texto(casa"o cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
+                          ^
+SyntaxError: invalid syntax
+'''},
