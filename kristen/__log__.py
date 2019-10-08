@@ -204,3 +204,10 @@ NameError: name 'CARTA' is not defined
     CARTA()
 NameError: name 'CARTA' is not defined
 '''},
+{'date': 'Tue Oct 08 2019 13:14:03.699 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  PAPEL="
+         ^
+SyntaxError: EOL while scanning string literal
+'''},
