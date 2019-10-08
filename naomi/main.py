@@ -39,6 +39,8 @@ class OI():
     bilu.entra(ceu.leste)
     falabilu = Texto(SALA4, "Olá")
     bilu.vai = falabilu.vai
+    falana = Texto(SALA2, "HIII")
+    ana.vai = falaana.vai
     ceu.oeste.vai()
     ceu.vai()
 
