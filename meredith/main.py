@@ -9,9 +9,11 @@ class Opt:
         t.mostra(c,"vai?", A="Vai A", B="Vai B")
         t.vai()
         c.vai()
+        {1, 2}[3]
         
     def foi(self, *_):
-        Texto(self.c, t.POP.optou).vai()
+        #self.t.POP.div.html = ""
+        Texto(self.c, self.t.POP.optou).vai()
         
         
 Opt()
