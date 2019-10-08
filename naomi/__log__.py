@@ -904,3 +904,10 @@ SyntaxError: invalid syntax
         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Oct 08 2019 10:49:28.624 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 5
+  CENI "https://upload.wikimedia.org/wikipedia/commons/8/82/Rodovi%C3%A1ria_de_Curvelo.jpg"
+        ^
+SyntaxError: invalid syntax
+'''},
