@@ -6,11 +6,11 @@ AJUDANTE="https://png.pngtree.com/element_origin_min_pic/16/06/14/16575fc06949b2
 GARCA="https://img1.gratispng.com/20180131/lye/kisspng-bird-crane-egret-bird-5a727ebde23183.4981214015174529899265.jpg"
 REDE="www.entomologiaonline.com.br/image/cache/data/bug_catcher-350x430.jpg"
 LABORATORIO="http://blog.homyquimica.com.br/wp-content/uploads/2018/02/homy-capa-07-02-1.png"
-PENA="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMDDBkGOggim3qSrAJtArWxRXLlJjgD8on0Th1fAA-Ujbr2fKNXg"
+PENA="https://gartic.com.br/imgs/mural/ca/calum/pena.png"
 ESTANTE="https://png.pngtree.com/element_pic/17/08/05/a809ff54a922910ecaa487b955e5d535.jpg"
 LIVRO="https://png.pngtree.com/element_pic/00/16/09/0357caa9ff68093.jpg"
 class SEILACARA()
-    laboratorio=Cena (img=LABORATORIO)
+    laboratorio=Cena (img=LABORATORIO, tit="laboratorio", top=50, left)
     escada=Cena (img=ESCADA)
     ajudante=elemento (img=AJUDANTE)
     garca=elemento (img=GARCA)
