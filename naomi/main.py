@@ -23,6 +23,7 @@ class OI():
     left=100, top=150, width=200, height="150px"))
     boneca = Elemento( img = BONECA, tit = "Olá, eu sou o homem de ferro", style=dict(
     left=100, top=150, width=200, height="150px"))  
+    ana = Elemento(img = ANA)
     #boneca.entra(ceni)
     sala1 = Cena(img= SALA1)
     sala2 = Cena(img=SALA2)
