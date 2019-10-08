@@ -118,3 +118,10 @@ KeyError: burg_menu
     do_menu(self.doc['burg_menu'])
 KeyError: burg_menu
 '''},
+{'date': 'Tue Oct 08 2019 11:45:59.257 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 14
+  BIBLIOTECA=Cena (BIBLIOTECA)
+  ^
+IndentationError: expected an indented block
+'''},
