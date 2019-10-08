@@ -42,7 +42,8 @@ class OI():
     
     ana = Elemento(img = ANA)
     ana.entra(ceu.sul)
-    falaana = Texto(SALA2, "HIII")
+    falaana = Texto(ceu.sul, "HIII")
+    falaana.vai()
     ana.vai = falaana.vai
     
     ceu.oeste.vai()
