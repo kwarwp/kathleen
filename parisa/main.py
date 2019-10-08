@@ -5,7 +5,7 @@ SALA1 = "https://www.loskatchorros.com.br/forum/uploads/monthly_2017_08/maxresde
 SALA2 = "http://www.colegiohoje.com.br/img/predioEscola.png"
 class OI():
     sala1 = Cena(img = SALA1)
-    mensagens=Codigo(cena=inicio, topo="Olá, nesse jogo você irá lidar com varios desafios........ TERMINAR A CONSTRUÇÃO", codigo="lorem ipsum sic dolor") 
+    mensagens=Codigo(cena=sala1, topo="Olá, nesse jogo você irá lidar com varios desafios........ TERMINAR A CONSTRUÇÃO", codigo="lorem ipsum sic dolor") 
     sala1.vai()
     mensagens.vai()
     
