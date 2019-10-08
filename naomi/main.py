@@ -1,5 +1,5 @@
 # kathleen.naomi.main.py
-from _spy.vitollino.main import Cena, Elemento, Labirinto 
+from _spy.vitollino.main import Cena, Elemento, Labirinto, Texto
 from _spy.vitollino.main import INVENTARIO as inv
 
 CENA = "https://img.freepik.com/fotos-gratis/praia-e-mar_74190-2371.jpg?size=626&ext=jpg"
@@ -12,19 +12,16 @@ SALA3="https://upload.wikimedia.org/wikipedia/commons/8/82/Rodovi%C3%A1ria_de_Cu
 SALA4= "https://static.escolakids.uol.com.br/conteudo_legenda/74213602df7655dcb813515dbbb1c837.jpg"
 
 class OI():
-		#def _init_main (self)
-		"""cena = Cena ( img = CENA )
-		boneca = Elemento ( img = BONECA, style=dict(
-            left=100, top=150, width=200, height="150px"))  
-		boneca.entra(cena)
-		cena.vai()"""
-           
-
-ceu= Labirinto (N=Sala1, S= Sala2, O= Sala3, L= Sala4)
-boneca.entra(Oeste.Sala3)
-cena.entra(Norte.Sala1)
-hospital.entra(Leste.Sala4)
-ceu.vai()
+	#def _init_main (self)
+    cena = Cena ( img = CENA )
+    boneca = Elemento ( img = BONECA, style=dict(
+    left=100, top=150, width=200, height="150px"))  
+    boneca.entra(cena)
+    ceu= Labirinto ( n= SALA1, s= SALA2, o= SALA3, l= SALA4)
+    boneca.entra(Oeste.Sala3)
+    cena.entra(Norte.Sala1)
+    hospital.entra(Leste.Sala4)
+    ceu.vai()
 
 OI()
 
