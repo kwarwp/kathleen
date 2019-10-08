@@ -17,7 +17,8 @@ class OI():
 	#def _init_main (self)
     #ceni = Cena(img = CENI)
     #hospital = CE(img = HOSPITAL)
-    bilu = Elemento(img = BILU)
+    bilu = Elemento(img = BILU, tit = "Olá, eu sou Bilu")
+    
     lilita = Elemento(img = LILITA)
     boneca = Elemento( img = BONECA, style=dict(
     left=100, top=150, width=200, height="150px"))  
