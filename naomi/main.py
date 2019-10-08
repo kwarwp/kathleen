@@ -18,29 +18,33 @@ class OI():
 	#def _init_main (self)
     #ceni = Cena(img = CENI)
     #hospital = CE(img = HOSPITAL)
-    bilu = Elemento(img = BILU, tit = "Olá, eu sou Bilu")
     lilita = Elemento(img = LILITA,style=dict(
     left=100, top=150, width=200, height="150px"))
-    boneca = Elemento( img = BONECA, tit = "Olá, eu sou o homem de ferro", style=dict(
-    left=100, top=150, width=200, height="150px"))  
-    ana = Elemento(img = ANA)
     #boneca.entra(ceni)
     sala1 = Cena(img= SALA1)
     sala2 = Cena(img=SALA2)
     sala3 = Cena(img=SALA3)
     sala4 = Cena(img=SALA4)
     self.ceu= ceu= Sala ( n= SALA1, s= SALA2, o= SALA3, l= SALA4)
+    
+    boneca = Elemento( img = BONECA, tit = "Olá, eu sou o homem de ferro", style=dict(
+    left=100, top=150, width=200, height="150px"))  
     boneca.entra(ceu.oeste)
     falaboneca = Texto(SALA3, "Hellou")
     boneca.vai = falaboneca.vai
-    ana.entra(ceu.sul)
+    
     #ceni.entra(ceu.norte)
     #hospital.entra(ceu.leste)
+    bilu = Elemento(img = BILU, tit = "Olá, eu sou Bilu")
     bilu.entra(ceu.leste)
     falabilu = Texto(SALA4, "Olá")
     bilu.vai = falabilu.vai
+    
+    ana = Elemento(img = ANA)
+    ana.entra(ceu.sul)
     falaana = Texto(SALA2, "HIII")
     ana.vai = falaana.vai
+    
     ceu.oeste.vai()
     ceu.vai()
 
