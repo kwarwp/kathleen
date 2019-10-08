@@ -897,3 +897,10 @@ AttributeError: 'Cena' object has no attribute 'entra'
         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Oct 08 2019 10:49:04.29 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 5
+  CENI "https://img.freepik.com/fotos-gratis/praia-e-mar_74190-2371.jpg?size=626&ext=jpg"
+        ^
+SyntaxError: invalid syntax
+'''},
