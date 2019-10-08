@@ -139,3 +139,10 @@ IndentationError: expected an indented block
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Tue Oct 08 2019 11:50:26.138 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  JARDIM.vai()
+  ^
+IndentationError: unexpected indent
+'''},
