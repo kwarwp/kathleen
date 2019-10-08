@@ -218,3 +218,10 @@ SyntaxError: EOL while scanning string literal
          ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Tue Oct 08 2019 13:26:59.175 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 32
+  fio2=Labirinto (L=salinha,S
+                                   ^
+SyntaxError: invalid syntax
+'''},
