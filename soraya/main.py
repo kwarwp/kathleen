@@ -9,6 +9,7 @@ BIBLIOTECA=Cena (BIBLIOTECA)
 BRASAO=Elemento (BRASAO, cena=BIBLIOTECA)
 JARDIM=Cena (JARDIM, BIBLIOTECA)
 CABECA=Elemento (CABECA, cena=JARDIM)
+BIBLIOTECA.direita=JARDIM
 class Verao ():
     def __init__(self):
         JARDIM.vai()
