@@ -32,6 +32,8 @@ class OI():
     #ceni.entra(ceu.norte)
     #hospital.entra(ceu.leste)
     bilu.entra(ceu.leste)
+    falabilu = Texto(ceu.leste, "Olá")
+    bilu.vai = falabilu.vai
     ceu.oeste.vai()
     ceu.vai()
 
