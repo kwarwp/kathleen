@@ -8,6 +8,7 @@ BONECA = "https://static3.tcdn.com.br/img/img_prod/460977/pre_venda_boneco_homem
 BILU = "https://images.vexels.com/media/users/3/134449/isolated/preview/fd3c681037ff454277a744562ae002cd-boneca-da-menina-dos-desenhos-animados-by-vexels.png"
 LILITA = "https://i.pinimg.com/originals/9c/dc/89/9cdc89263f56b697cb165edda0fcbbe1.png"
 CEU= "https://png.pngtree.com/element_origin_min_pic/16/06/19/015765842a90594.jpg"
+ANA = "https://i.pinimg.com/originals/91/71/39/917139b1f345b2cfeaed6fc340f896ec.png"
 SALA1="https://upload.wikimedia.org/wikipedia/commons/0/0d/Corredor_da_Faculdade_de_Informa%C3%A7%C3%A3o_e_Comunica%C3%A7%C3%A3o%2C_UFG_Samambaia%2C_janeiro_de_2017.jpg"
 SALA2= "https://cdn.pixabay.com/photo/2017/04/07/19/16/infinity-blue-2211659_960_720.jpg"
 SALA3="https://upload.wikimedia.org/wikipedia/commons/8/82/Rodovi%C3%A1ria_de_Curvelo.jpg"
