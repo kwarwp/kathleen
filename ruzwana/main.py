@@ -71,11 +71,13 @@ PRACA=""
         falaajudante=Texto(laboratorio"Doença onde não há ou há pouca produção de melanina")
         ladrao.entra(porta)
         doente.entra(porta)
-        cientista.entra(porta)
-        
-        ladrao.entra(tunel)
+        cientista.entra(laboratorio)
+        falacientista=Texto(laboratorio"Foi meu ajudante que roubou as escrituras e me sequestrou!!")
         doente.entra(tunel)
         cientista.entra(tunel)
+        saida.entra(portao)
+        doete.entra(portao)
+        cientista.entra(portao)
         doente.entra(pracinha)
         cientista.entra(pracinha)
         
