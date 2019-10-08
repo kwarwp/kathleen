@@ -11,18 +11,22 @@ MONITOR="https://mpng.pngfly.com/20180208/suw/kisspng-computer-monitor-led-backl
 PORTINHA="https://png.pngtree.com/png-clipart/20190611/original/pngtree-vector-painted-open-door-png-image_2564653.jpg"
 LABORATORIO="http://www.hemocito.com.br/wp-content/uploads/2016/06/servicos-laboratorio.png"
 DR_HAMSTER="https://i.pinimg.com/736x/33/34/86/333486c9286ae9acb54ac214594326dd.jpg"
-
+REMEDIO="https://png.pngtree.com/png-clipart/20190603/original/pngtree-medicine-png-image_486130.jpg"
+GAVETA="http://clipart.coolclips.com/480/vectors/tf05276/CoolClips_vc047763.png"
+PAPEL="
 class CARTA():
     zeze= Elemento (img=ZEZINHO)
     casinha= Cena (img=CASA)
     rosa=Elemento (img=ROSALINDA)
     cofre=Cena (img=COFRE)
+    gavetinha=Elemento (img=GAVETA)
     livrinho=Elemento (img=LIVRO)
     corredor=Cena(img=CORREDOR)
     monitor=Elemento (img=MONITOR)
-    portinha=Cena (img=PORTINHA)
+    portinha=Elemento (img=PORTINHA)
     salinha=Cena (img=LABORATORIO)
     dr=Elemento (img=DR_HAMSTER)
+    fio=Labirinto(N=casinha,S=cofre,O=
     zeze.entra(casinha)
     rosa.entra(casinha)
     casinha.vai()
