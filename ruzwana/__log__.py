@@ -118,3 +118,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Tue Oct 08 2019 13:21:27.46 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 90
+  hehe.vai()
+  ^
+IndentationError: unexpected indent
+'''},
