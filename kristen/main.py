@@ -1,8 +1,8 @@
-# kathleen.kristen.main.PY
+# kathleen.kristen.main.py
 from _spy.vitollino.main import Cena, Elemento,Labirinto
 from _spy.vitollino.main import INVENTARIO as inv
 ZEZINHO="https://cdn.pixabay.com/photo/2014/04/03/10/45/bodybuilding-311351_960_720.png"
-CASA="https://images.vexels.com/media/users/3/137235/isolated/preview/67bd605391bf47796ff9c976879fd002-edif--cio-moderno-casa-da-cidade-by-vexels.png"
+CASA="https://banner2.kisspng.com/20180529/wpo/kisspng-home-living-room-apartment-house-bedroom-5b0de1b6bd2448.4022608015276364067747.jpg"
 ROSALINDA="https://cdn3.iconfinder.com/data/icons/indian-woman-professions/512/21-512.png"
 COFRE="http://1.bp.blogspot.com/-yWkpr4XDKOE/UzRYYgSXO6I/AAAAAAAAdTY/dLHe6tf6COM/s1600/cofre-em-png-queroimagem-cei%C3%A7a-crispim+(1).png"
 LIVRO="https://www.conceicaodabarra.es.leg.br/imagens/livro.png/image_preview"
@@ -14,31 +14,12 @@ DR_HAMSTER="https://i.pinimg.com/736x/33/34/86/333486c9286ae9acb54ac214594326dd.
 REMEDIO="https://png.pngtree.com/png-clipart/20190603/original/pngtree-medicine-png-image_486130.jpg"
 GAVETA="http://clipart.coolclips.com/480/vectors/tf05276/CoolClips_vc047763.png"
 ESTANTE="https://png.pngtree.com/element_pic/17/08/05/a809ff54a922910ecaa487b955e5d535.jpg"
+QUADRO="https://img2.gratispng.com/20180131/yjw/kisspng-chess-window-square-picture-frame-pattern-maroon-border-frame-png-hd-5a721c5a89b177.262021501517427802564.jpg"
 
 class CARTA():
-    zeze= Elemento (img=ZEZINHO)
-    casinha= Cena (img=CASA)
-    rosa=Elemento (img=ROSALINDA)
+    casa=Cena (img=CASA)
     cofre=Cena (img=COFRE)
-    gavetinha=Elemento (img=GAVETA)
-    livrinho=Elemento (img=LIVRO)
-    corredor=Cena(img=CORREDOR)
-    monitor=Elemento (img=MONITOR)
-    portinha=Elemento (img=PORTINHA)
-    salinha=Cena (img=LABORATORIO)
     estante=Cena (img=ESTANTE)
-    dr=Elemento (img=DR_HAMSTER)
-    fio=Labirinto (N=casinha,S=cofre,O=corredor,L=salinha)
-    fio2=Labirinto (L=salinha,S=estante,O=
-    zeze.entra(casinha)
-    rosa.entra(casinha)
-    casinha.vai()
-    zeze.entra(corredor)
-    corredor.vai()
-    zeze.entra(salinha)
-    dr.entra(salinha)
-    salinha.vai()
-    rosa.entra(salinha)
-    salinha.vai()
-
-    CARTA()
+    casa=Cena (img=CASA)
+    corredor=Cena (img=CORREDOR)
+    
