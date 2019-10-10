@@ -13,7 +13,9 @@ class OI():
     def __init__(self):
         self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
         todos.norte.vai()
-        mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas tenham ciência de que a , prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão.") 
+        mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas" 
+        "tenham ciência de que a , prática do bullying pode causar mal à saúde humana."
+        "Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão.") 
         mensagens.vai()
 
    
