@@ -1,6 +1,8 @@
 # kathleen.parisa.main.py
-from _spy.vitollino.main import Cena, Elemento, Labirinto, Texto, Codigo, Sala
+from _spy.vitollino.main import Cena, Elemento, Labirinto, Texto, Codigo, Sala, STYLE
 from _spy.vittolino.main import INVENTARIO as inv
+STYLE["width"] = 1150
+STYLE["height"] = "600px"
 #inicio
 SALA1 = "https://www.loskatchorros.com.br/forum/uploads/monthly_2017_08/maxresdefault.jpg.3845d9d72470fe4e52aa779cf96871b5.jpg"
 #fachada da escola CENA 1
@@ -16,7 +18,7 @@ class OI():
         self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
         todos.norte.vai()
         
-        logo = Elemento(img=LOGO, style=dict(left=50, top=50, width=200, height="150px"))
+        logo = Elemento(img=LOGO, style=dict(left=350, top=350, width=350, height="150px"))
         logo.entra(todos.norte)
         falalogo=Texto(todos.norte,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão. ")
         logo.vai=falalogo.vai
