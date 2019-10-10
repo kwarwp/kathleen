@@ -7,7 +7,7 @@ SALA3 = "https://cdn.pixabay.com/photo/2017/04/07/19/16/infinity-blue-2211659_96
 SALA4 = "https://cdn.pixabay.com/photo/2017/04/22/00/14/universe-2250310_960_720.jpg"
 class OI():
     def __init__(self):
-        self.todos = todos = Sala( n= SALA1, s= SALA2, l= SALA3, o= SALA4)
+        self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
         todos.norte.vai()
         mensagens= Codigo(cena=todos.norte, topo="Olá, nesse jogo você irá lidar com varios desafios........ TERMINAR A CONSTRUÇÃO", codigo="lorem ipsum sic dolor") 
         mensagens.vai()
