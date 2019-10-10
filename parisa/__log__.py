@@ -556,3 +556,10 @@ NameError: name 'n' is not defined
                                                                                          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Thu Oct 10 2019 11:14:18.297 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  logo = Elemento(img=LOGO,style=dict(left=100, top=150, width=200, height="150px")))
+                                                                                    ^
+SyntaxError: invalid syntax
+'''},
