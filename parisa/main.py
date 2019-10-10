@@ -27,6 +27,8 @@ class OI():
         
         neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
         neide.entra(todos.leste)
+        falaneide= Texto("Seja bem vindo!")
+        neide.vai=falaneide.vai
         
         
        # mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas", 
