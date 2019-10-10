@@ -307,3 +307,10 @@ AttributeError: 'str' object has no attribute 'cenas'
     todos.n.vai()
 AttributeError: 'Sala' object has no attribute 'n'
 '''},
+{'date': 'Thu Oct 10 2019 10:35:27.564 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  "prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão.") 
+                                                                                                                                                                                            ^
+SyntaxError: non-keyword arg after keyword arg
+'''},
