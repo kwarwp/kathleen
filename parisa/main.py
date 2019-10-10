@@ -18,7 +18,7 @@ class OI():
         
         logo = Elemento(img=LOGO, style=dict(left=100, top=250, width=200, height="150px"))
         logo.entra(todos.norte)
-        falalogo=Texto(SALA1,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
+        falalogo=Texto(todos.norte,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
         logo.vai=falalogo.vai
         
        # mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas", 
