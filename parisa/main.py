@@ -13,16 +13,14 @@ SALA4 = "https://cdn.pixabay.com/photo/2014/08/13/20/16/school-417612_960_720.jp
 LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
 class OI():
     def __init__(self):
-        logo = Elemento(img=LOGO, style=dict(left=100, top=150, width=200, height="150px"))
-        
         self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
         todos.norte.vai()
         
+        logo = Elemento(img=LOGO, style=dict(left=100, top=250, width=200, height="150px"))
         logo.entra(todos.norte)
-        #logo.vai()
-        
         falalogo=Texto(SALA1,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
         logo.vai=falalogo.vai
+        
        # mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas", 
         #"tenham ciência de que a , prática do bullying pode causar mal à saúde humana."),
         #"Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão.") 
