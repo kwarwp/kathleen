@@ -467,3 +467,10 @@ NameError: name 'sala1' is not defined
     MENSAGENS = [
 NameError: name 'sala1' is not defined
 '''},
+{'date': 'Thu Oct 10 2019 10:56:48.261 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 22
+  ]
+  ^
+IndentationError: unexpected indent
+'''},
