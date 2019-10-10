@@ -349,3 +349,10 @@ SyntaxError: non-keyword arg after keyword arg
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Thu Oct 10 2019 10:47:13.768 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  self. = Texto (sala1,"Olá, aqui é Kayla")
+  ^
+IndentationError: unexpected indent
+'''},
