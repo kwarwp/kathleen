@@ -16,7 +16,7 @@ class OI():
         self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
         todos.norte.vai()
         
-        logo = Elemento(img=LOGO, style=dict(left=100, top=250, width=200, height="150px"))
+        logo = Elemento(img=LOGO, style=dict(left=100, top=150, width=200, height="150px"))
         logo.entra(todos.norte)
         falalogo=Texto(todos.norte,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
         logo.vai=falalogo.vai
