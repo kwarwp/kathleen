@@ -17,6 +17,7 @@ class OI():
         self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
         todos.norte.vai()
         logo.entra(sala1)
+        logo.vai()
         falalogo=Texto(sala1,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
         logo.vai=falalogo.vai
        # mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas", 
