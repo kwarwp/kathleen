@@ -27,7 +27,7 @@ class OI():
         
         neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
         neide.entra(todos.leste)
-        falaneide= Texto("Seja bem vindo!")
+        falaneide= Texto(todos.leste"Seja bem vindo!")
         neide.vai=falaneide.vai
         
         
