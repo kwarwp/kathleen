@@ -10,18 +10,21 @@ SALA3 = "https://estaticos.globoradio.globo.com/fotos/2018/05/6eb89bac-521f-4bac
 #Corredor da escola CENA 4
 SALA4 = "https://cdn.pixabay.com/photo/2014/08/13/20/16/school-417612_960_720.jpg"
 #Quadra de esportes
+LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
 class OI():
     def __init__(self):
+        logo = Elemento(img=LOGO)
         self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
         todos.norte.vai()
+         falalogo=Texto(sala1,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
+    ajudante.vai=falaajudante.vai
        # mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas", 
         #"tenham ciência de que a , prática do bullying pode causar mal à saúde humana."),
         #"Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão.") 
        # mensagens.vai()
        ##[ sala1, "Síntese de proteína ?" "Na síntese de proteína ocorre a tradução do código genético e a formação de proteínas"]
                   
-                  
-        txtsala1 = Texto(sala1, "O portao esta trancado")
+                 
                   
         
 OI()
