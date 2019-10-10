@@ -13,7 +13,7 @@ SALA4 = "https://cdn.pixabay.com/photo/2014/08/13/20/16/school-417612_960_720.jp
 LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
 class OI():
     def __init__(self):
-        logo = Elemento(img=LOGO)
+    logo = Elemento(img=LOGO)
         self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
         todos.norte.vai()
          falalogo=Texto(sala1,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
