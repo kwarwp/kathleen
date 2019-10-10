@@ -8,7 +8,7 @@ SALA2 = "http://www.colegiohoje.com.br/img/predioEscola.png"
 #Sala de aula CENA 2
 SALA3 = "https://estaticos.globoradio.globo.com/fotos/2018/05/6eb89bac-521f-4bac-b3a9-8a664831f478.jpg.640x360_q75_box-0%2C49%2C640%2C408_crop_detail.jpg"
 #Corredor da escola CENA 4
-SALA4 = "https://cdn.pixabay.com/photo/2017/04/22/00/14/universe-2250310_960_720.jpg"
+SALA4 = "https://cdn.pixabay.com/photo/2014/08/13/20/16/school-417612_960_720.jpg"
 class OI():
     def __init__(self):
         self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
