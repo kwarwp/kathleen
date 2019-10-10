@@ -19,7 +19,7 @@ class OI():
         todos.norte.vai()
         
         logo.entra(todos.norte)
-        logo.vai()
+        #logo.vai()
         
         falalogo=Texto(SALA1,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
         logo.vai=falalogo.vai
