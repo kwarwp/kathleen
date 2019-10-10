@@ -21,7 +21,7 @@ class OI():
         logo.entra(todos.norte)
         logo.vai()
         
-        falalogo=Texto(norte,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
+        falalogo=Texto(SALA1,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
         logo.vai=falalogo.vai
        # mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas", 
         #"tenham ciência de que a , prática do bullying pode causar mal à saúde humana."),
