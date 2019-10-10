@@ -549,3 +549,10 @@ IndentationError: unexpected indent
     logo.entra(n.sala1)
 NameError: name 'n' is not defined
 '''},
+{'date': 'Thu Oct 10 2019 11:14:04.20 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  logo = Elemento(img=LOGO,style=dict(
+                                                                                         ^
+SyntaxError: invalid syntax
+'''},
