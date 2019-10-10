@@ -17,8 +17,8 @@ class OI():
         self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
         todos.norte.vai()
         logo.entra(n.sala1)
-         falalogo=Texto(sala1,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
-    ajudante.vai=falaajudante.vai
+        falalogo=Texto(sala1,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
+        logo.vai=falalogo.vai
        # mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas", 
         #"tenham ciência de que a , prática do bullying pode causar mal à saúde humana."),
         #"Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão.") 
