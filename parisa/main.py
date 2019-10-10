@@ -18,7 +18,7 @@ class OI():
         self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
         todos.norte.vai()
         
-        logo = Elemento(img=LOGO, style=dict(left=450, top=350, width=450, height="250px"))
+        logo = Elemento(img=LOGO, style=dict(left=450, top=250, width=450, height="250px"))
         logo.entra(todos.norte)
         falalogo=Texto(todos.norte,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão. ")
         logo.vai=falalogo.vai
