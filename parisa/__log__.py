@@ -689,3 +689,10 @@ NameError: name 'sala1' is not defined
     falalogo=Texto(norte,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
 NameError: name 'norte' is not defined
 '''},
+{'date': 'Thu Oct 10 2019 11:53:04.648 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 30
+  falaneide= Texto(todos.leste"Seja bem vindo!")
+                               ^
+SyntaxError: invalid syntax
+'''},
