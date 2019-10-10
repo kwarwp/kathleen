@@ -321,3 +321,10 @@ SyntaxError: non-keyword arg after keyword arg
                                                                                                                                         ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Thu Oct 10 2019 10:43:22.303 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas", 
+                                                                                                                ^
+SyntaxError: invalid syntax
+'''},
