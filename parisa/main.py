@@ -18,6 +18,6 @@ class OI():
         #"tenham ciência de que a , prática do bullying pode causar mal à saúde humana."),
         #"Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão.") 
        # mensagens.vai()
-       self. = Texto (sala1,"Olá, aqui é Kayla")
+       self.falasala1 texto (sala1,"Olá, aqui é Kayla
    
 OI()
