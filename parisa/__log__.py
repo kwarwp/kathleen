@@ -335,3 +335,10 @@ SyntaxError: invalid syntax
                                                                                  ^
 SyntaxError: non-keyword arg after keyword arg
 '''},
+{'date': 'Thu Oct 10 2019 10:43:57.791 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  "tenham ciência de que a , prática do bullying pode causar mal à saúde humana."),
+                                                                                 ^
+SyntaxError: non-keyword arg after keyword arg
+'''},
