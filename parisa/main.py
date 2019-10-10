@@ -18,7 +18,7 @@ class OI():
         self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
         todos.norte.vai()
         
-        logo.entra(n.sala1)
+        logo.entra(todos.norte)
         logo.vai()
         
         falalogo=Texto(sala1,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
