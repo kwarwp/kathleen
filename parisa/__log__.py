@@ -363,3 +363,10 @@ IndentationError: unexpected indent
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Thu Oct 10 2019 10:50:05.80 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  MENSAGENS = [
+  ^
+IndentationError: unexpected indent
+'''},
