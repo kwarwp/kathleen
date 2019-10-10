@@ -517,3 +517,10 @@ NameError: name 'sala1' is not defined
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Thu Oct 10 2019 11:10:06.631 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  falalogo=Texto(sala1,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
+  ^
+IndentationError: unexpected indent
+'''},
