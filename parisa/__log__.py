@@ -510,3 +510,10 @@ NameError: name 'sala1' is not defined
     txtsala1 = Texto(sala1, "O portao esta trancado")
 NameError: name 'sala1' is not defined
 '''},
+{'date': 'Thu Oct 10 2019 11:09:22.371 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  logo = Elemento(img=LOGO)
+  ^
+IndentationError: expected an indented block
+'''},
