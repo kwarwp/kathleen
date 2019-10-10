@@ -314,3 +314,10 @@ AttributeError: 'Sala' object has no attribute 'n'
                                                                                                                                                                                             ^
 SyntaxError: non-keyword arg after keyword arg
 '''},
+{'date': 'Thu Oct 10 2019 10:36:29.779 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas tenham ciência de que a ", prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão.") 
+                                                                                                                                        ^
+SyntaxError: invalid syntax
+'''},
