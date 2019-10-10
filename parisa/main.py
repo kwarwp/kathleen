@@ -18,10 +18,10 @@ class OI():
         #"tenham ciência de que a , prática do bullying pode causar mal à saúde humana."),
         #"Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão.") 
        # mensagens.vai()
-        MENSAGENS = [
-                  [ sala1, "Síntese de proteína ?" "Na síntese de proteína ocorre a tradução do código genético e a formação de proteínas"]
+       ##[ sala1, "Síntese de proteína ?" "Na síntese de proteína ocorre a tradução do código genético e a formação de proteínas"]
                   ]
                   
+        txtsala1 = Texto(sala1, "O portao esta trancado")
                   
         
 OI()
