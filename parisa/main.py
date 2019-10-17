@@ -35,6 +35,8 @@ class OI():
         
         menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
         menino.entra (todos.leste)
+        falamenino= Texto(todos.leste, "Muito obrigada")
+        menino.vai=falamenino.vai
         
         
         
