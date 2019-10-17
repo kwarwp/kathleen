@@ -20,7 +20,8 @@ class OI():
     def __init__(self):
         self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
         todos.norte.vai()
-        
+        self.todos = todos = Sala( o= SALA4, s=SALA5, l=SALA6, n=SALA1)
+        todos.norte.vai()
         logo = Elemento(img=LOGO, style=dict(left=370, top=200, width=450, height="250px"))
         logo.entra(todos.norte)
         falalogo=Texto(todos.norte,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão. ")
@@ -31,7 +32,7 @@ class OI():
         falaneide= Texto(todos.leste, "Seja bem vindo!")
         neide.vai=falaneide.vai
         
-        sala5 = Cena(img = SALA5)
+        
         
         
         
