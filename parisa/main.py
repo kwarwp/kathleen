@@ -6,7 +6,7 @@ STYLE["height"] = "600px"
 #inicio
 SALA1 = "https://www.loskatchorros.com.br/forum/uploads/monthly_2017_08/maxresdefault.jpg.3845d9d72470fe4e52aa779cf96871b5.jpg"
 #fachada da escola CENA 1
-SALA2 = "http://www.colegiohoje.com.br/img/predioEscola.png"
+SALA2 = "https://i.pinimg.com/originals/f3/9a/19/f39a19544b703101aa9c38b9e5f98ed6.jpg"
 #Sala de aula CENA 2
 SALA3 = "https://estaticos.globoradio.globo.com/fotos/2018/05/6eb89bac-521f-4bac-b3a9-8a664831f478.jpg.640x360_q75_box-0%2C49%2C640%2C408_crop_detail.jpg"
 #Corredor da escola CENA 4
@@ -22,7 +22,8 @@ class OI():
         
         logo = Elemento(img=LOGO, style=dict(left=370, top=200, width=450, height="250px"))
         logo.entra(todos.norte)
-        falalogo=Texto(todos.norte,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa bárbarie, e, saber o limite de brincadeira e agressão. ")      logo.vai=falalogo.vai
+        falalogo=Texto(todos.norte,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão. ")
+        logo.vai=falalogo.vai
         
         neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
         neide.entra(todos.leste)
