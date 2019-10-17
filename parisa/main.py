@@ -28,7 +28,7 @@ class OI():
         falalogo=Texto(todos.norte,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão. ")
         logo.vai=falalogo.vai
         
-        neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
+        neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=500, height="200px"))
         neide.entra(todos.leste)
         falaneide= Texto(todos.leste, "Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nossa vida acadêmica.")
         neide.vai=falaneide.vai
