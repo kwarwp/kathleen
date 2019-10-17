@@ -710,3 +710,10 @@ SyntaxError: invalid syntax
                                                                                                                                                                                                                                                                                                      ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Thu Oct 17 2019 14:31:45.731 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 25
+  falalogo=Texto(todos.norte,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa bárbarie, e, saber o limite de brincadeira e agressão. ")      logo.vai=falalogo.vai
+                                                                                                                                                                                                                                                                                                     ^
+SyntaxError: invalid syntax
+'''},
