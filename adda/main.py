@@ -1,6 +1,7 @@
 # kathleen.adda.main.py 
 from _spy.vittolino.main import  Cena, Elemento, Labirinto, Texto
 from _spy.vittolino.main import Inventario as inv
+
 AYDA = "img da ayda"
 NPC_KAYLA = "img da npc"
 SALA1_LAB = "sala do oswaldin com o computador"
@@ -9,6 +10,7 @@ COMPUTADOR_ELE1 = "tela computador"
 COMPUTADOR_ELE2 = "tela comp. 2"
 SALA2_COFRE = "sala onde vai estar o cofre"
 COFRE_SALA2 = "foto elemento"
+
 class Tordo():
     def __init__(self):
         self.oswaldin = Elemento(img=)
@@ -25,8 +27,8 @@ class Tordo():
         self.ayda.entra(sala1)
         self.computador.vai = self.compcena.vai
         MENSAGENS = [
-                  [ compcena, "Síntese de proteína ?" "Na síntese de proteína ocorre a tradução do código genético e a formação de proteínas"
-                  [ compcena1, "
+                  [ compcena, "Síntese de proteína ?" "Na síntese de proteína ocorre a tradução do código genético e a formação de proteínas"]
+                  ]
                   
         
         
