@@ -850,3 +850,10 @@ NameError: name 'SALA6' is not defined
     self.todos = todos = Sala( o= SALA4, s=SALA5, l=SALA6, n=SALA1)
 NameError: name 'SALA6' is not defined
 '''},
+{'date': 'Thu Oct 17 2019 08:36:59.547 GMt-1000 (Horário Padrão do Havaí e Ilhas Aleutas) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  SALA6 = "
+           ^
+SyntaxError: EOL while scanning string literal
+'''},
