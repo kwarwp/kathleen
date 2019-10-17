@@ -13,7 +13,7 @@ SALA3 = "https://estaticos.globoradio.globo.com/fotos/2018/05/6eb89bac-521f-4bac
 SALA4 = "https://cdn.pixabay.com/photo/2014/08/13/20/16/school-417612_960_720.jpg"
 #Quadra de esportes
 SALA5 = "https://i.pinimg.com/originals/78/99/c9/7899c925ee95618ef0bd21f4b067175b.jpg"
-SALA6 = "
+
 LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
 #diretora neide RASCUNHO
 NEIDE="https://i.pinimg.com/originals/25/48/27/254827fb621ed6c9e50b401d92554810.png"
