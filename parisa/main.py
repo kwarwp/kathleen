@@ -22,8 +22,7 @@ class OI():
         
         logo = Elemento(img=LOGO, style=dict(left=370, top=200, width=450, height="250px"))
         logo.entra(todos.norte)
-        falalogo=Texto(todos.norte,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão. ")
-        logo.vai=falalogo.vai
+        falalogo=Texto(todos.norte,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa bárbarie, e, saber o limite de brincadeira e agressão. ")      logo.vai=falalogo.vai
         
         neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
         neide.entra(todos.leste)
