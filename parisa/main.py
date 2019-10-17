@@ -37,6 +37,7 @@ class OI():
         menino.entra (todos.leste)
         falamenino= Texto(todos.leste, "Muito obrigado, Senhora Neide")
         menino.vai=falamenino.vai
+        menino.entra(todos.sul)
         
         
         
