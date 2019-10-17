@@ -33,7 +33,7 @@ class OI():
         falaneide= Texto(todos.leste, "Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nossa vida acadêmica.")
         neide.vai=falaneide.vai
         
-        menino = Elemento(img=MENINO, style=dict(left=100, top=350, width=50, height="200px"))
+        menino = Elemento(img=MENINO, style=dict(left=800, top=350, width=300, height="200px"))
         menino.entra (todos.leste)
         
         
