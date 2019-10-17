@@ -13,7 +13,6 @@ SALA3 = "https://estaticos.globoradio.globo.com/fotos/2018/05/6eb89bac-521f-4bac
 SALA4 = "https://cdn.pixabay.com/photo/2014/08/13/20/16/school-417612_960_720.jpg"
 #Quadra de esportes
 SALA5 = "https://i.pinimg.com/originals/78/99/c9/7899c925ee95618ef0bd21f4b067175b.jpg"
-
 LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
 #diretora neide RASCUNHO
 NEIDE="https://i.pinimg.com/originals/25/48/27/254827fb621ed6c9e50b401d92554810.png"
@@ -21,8 +20,8 @@ class OI():
     def __init__(self):
         self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
         todos.norte.vai()
-        #self.todos = todos = Sala( o= SALA4, s=SALA5, l=SALA6, n=SALA1)
-        #todos.norte.vai()
+        self.todos = todos = Sala( o= SALA4, s=SALA5, l=SALA6, n=SALA1)
+        todos.norte.vai()
         logo = Elemento(img=LOGO, style=dict(left=370, top=200, width=450, height="250px"))
         logo.entra(todos.norte)
         falalogo=Texto(todos.norte,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão. ")
@@ -30,7 +29,7 @@ class OI():
         
         neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
         neide.entra(todos.leste)
-        falaneide= Texto(todos.leste, "Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nossa vida acadêmica.")
+        falaneide= Texto(todos.leste, "Seja bem vindo!")
         neide.vai=falaneide.vai
         
         
