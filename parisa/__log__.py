@@ -947,3 +947,10 @@ NameError: name 'SALA6' is not defined
     self.todos = todos = Sala( o= SALA4, s=SALA5, l=SALA6, n=SALA1)
 NameError: name 'SALA6' is not defined
 '''},
+{'date': 'Fri Oct 18 2019 16:22:20.695 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 22
+  self.todos = todos = Sala( 1= SALA1, 2= SALA3, 3= SALA2, 4= SALA4)
+                              ^
+SyntaxError: keyword can't be an expression
+'''},
