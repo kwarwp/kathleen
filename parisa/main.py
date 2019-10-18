@@ -13,6 +13,7 @@ SALA3 = "https://st3.depositphotos.com/5383684/15265/v/1600/depositphotos_152658
 SALA4 = "https://cdn.pixabay.com/photo/2014/08/13/20/16/school-417612_960_720.jpg"
 #Quadra de esportes
 SALA5 = "https://i.pinimg.com/originals/78/99/c9/7899c925ee95618ef0bd21f4b067175b.jpg"
+SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-astrocentro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg"
 MENINO= "https://cdn.pixabay.com/photo/2017/07/07/03/21/child-2480290_960_720.png"
 LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
 #diretora neide RASCUNHO
