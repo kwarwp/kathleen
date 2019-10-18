@@ -19,27 +19,27 @@ LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
 NEIDE="https://i.pinimg.com/originals/25/48/27/254827fb621ed6c9e50b401d92554810.png"
 class OI():
     def __init__(self):
-        self.todos = todos = Sala( 1= SALA1, 2= SALA3, 3= SALA2, 4= SALA4)
-        todos.1.vai()
-        self.todos = todos = Sala( 4= SALA4, 5=SALA5, 6=SALA6, 1=SALA1)
+        self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
+        todos.norte.vai()
+        self.todos = todos = Sala( o= SALA4, s=SALA5, l=SALA6, n=SALA1)
         #todos.norte.vai()
         logo = Elemento(img=LOGO, style=dict(left=370, top=200, width=450, height="250px"))
-        logo.entra(todos.1)
-        falalogo=Texto(todos.norte,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão. ")
+        logo.entra(todos.sala1)
+        falalogo=Texto(todos.sala1,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão. ")
         logo.vai=falalogo.vai
         
         neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
-        neide.entra(todos.2)
-        falaneide= Texto(todos.2, "Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nossa vida acadêmica.")
+        neide.entra(todos.leste)
+        falaneide= Texto(todos.leste, "Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nossa vida acadêmica.")
         neide.vai=falaneide.vai
         
         menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
-        menino.entra (todos.2)
-        falamenino= Texto(todos.2, "Muito obrigado, Senhora Neide")
+        menino.entra (todos.leste)
+        falamenino= Texto(todos.leste, "Muito obrigado, Senhora Neide")
         menino.vai=falamenino.vai
         
         menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
-        menino.entra(todos.3)
+        menino.entra(todos.sul)
         
         
         
