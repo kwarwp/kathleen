@@ -77,3 +77,10 @@ SyntaxError: invalid syntax
                              ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sat Oct 26 2019 23:59:32.521 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 5
+  laboratorio = http://coveli.com.br/wp-content/uploads/2017/09/img-laboratorio.png
+                     ^
+SyntaxError: invalid syntax
+'''},
