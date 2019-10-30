@@ -137,3 +137,10 @@ AttributeError: 'porta' object has no attribute 'entra'
     dragger=dict(Aninha=self.entra_porta)
 AttributeError: 'Porta' object has no attribute 'entra_porta'
 '''},
+{'date': 'Wed Oct 30 2019 08:00:41.998 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 59
+  oi
+  ^
+IndentationError: unexpected indent
+'''},
