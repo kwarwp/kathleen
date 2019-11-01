@@ -14,4 +14,4 @@ class pibic():
     aluno.entra(escola)
     sala.vai
     escola.vai
-PIBIC()   
+pibic()   
