@@ -1,6 +1,6 @@
 # kathleen.sarah.main.py
-from _spy vitollino.main import Cena, Elemento
-from _spy vitollino.main import INVENTARIO as inv
+from _spy.vitollino.main import Cena, Elemento
+from _spy.vitollino.main import INVENTARIO as inv
 PROFESSOR ="https://upload.wikimedia.org/wikipedia/commons/b/b1/Professor.png"
 ALUNO="https://myrealdomain.com/images/alunos-png.png"
 SALA="https://cdn.pixabay.com/photo/2018/09/30/11/55/white-board-3713307_960_720.png"
