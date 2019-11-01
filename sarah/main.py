@@ -1,17 +1,6 @@
 # kathleen.sarah.main.py
 from _spy.vitollino.main import Cena, Elemento
 from _spy.vitollino.main import INVENTARIO as inv
-PROFESSOR ="https://upload.wikimedia.org/wikipedia/commons/b/b1/Professor.png"
-ALUNO="https://myrealdomain.com/images/alunos-png.png"
-SALA="https://cdn.pixabay.com/photo/2018/09/30/11/55/white-board-3713307_960_720.png"
-ESCOLA="http://www.kademi.com.br/images/external_layout/escola.png"
-class pibic():
-    professor= Elemento(img=PROFESSOR)
-    aluno= Elemento(img=ALUNO)
-    sala=Cena(img=SALA)
-    escola=Cena(img=ESCOLA)
-    aluno.entra(escola)
-    professor.entra(sala)
-    escola.vai()
-    sala.vai()
-pibic()
+PISTA="https://cdn.aquelamaquina.pt/images/2018-10/img_944x629$2018_10_23_13_20_29_124325.png"
+CARRO="https://www.pnglot.com/pngfile/detail/143-1438797_carro-png-imagenes-de-carros-png.png"
+class yuri():
