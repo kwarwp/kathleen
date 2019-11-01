@@ -614,3 +614,10 @@ NameError: name 'pibic' is not defined
           ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Fri Nov 01 2019 09:18:26.775 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  pibic():
+          ^
+SyntaxError: invalid syntax
+'''},
