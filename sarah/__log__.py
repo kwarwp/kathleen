@@ -154,3 +154,10 @@ KeyError: img
     imagem, kwargs = (imagem, {}) if isinstance(imagem, str) \
 KeyError: img
 '''},
+{'date': 'Fri Nov 01 2019 09:35:32.268 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  professor=Elemento(img=PROFESSOR
+                                        ^
+SyntaxError: invalid syntax
+'''},
