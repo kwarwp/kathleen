@@ -5,7 +5,7 @@ ESCOLA = "https://images.educamaisbrasil.com.br/content/basico/instituicao/logo/
 SALA = "http://www.adel.org.br/wp-content/uploads/2016/07/Sala-de-Aula.png"
 ALUNO = "http://www.ifmg.edu.br/ceadop3/imagens/aluno.png/@@images/image.png"
 PROFESSOR = "https://upload.wikimedia.org/wikipedia/commons/b/b1/Professor.png"
-class PIBIC ():
+class pibic ():
          escola = Cena(img = ESCOLA)
          sala = Cena(img = SALA)
          professor = Elemento(img= PROFESSOR)
@@ -14,4 +14,4 @@ class PIBIC ():
          aluno.entra(escola)
          sala.vai
          escola.vai
-      PIBIC()   
+PIBIC()   
