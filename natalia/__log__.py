@@ -416,3 +416,10 @@ Traceback (most recent call last):
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Fri Nov 01 2019 09:06:11.97 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 17
+  PIBIC()   
+  ^
+IndentationError: unexpected indent
+'''},
