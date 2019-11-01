@@ -1,6 +1,6 @@
 # kathleen.natalia.main.
-from _spy.vittolino.main import Cena, Elemento
-from _spy.vittolino.main import Inventario as inv
+from _spy.vitollino.main import Cena, Elemento
+from _spy.vitollino.main import Inventario as inv
 ESCOLA = "https://images.educamaisbrasil.com.br/content/basico/instituicao/logo/g/colegio-ndi.png"
 SALA = "http://www.adel.org.br/wp-content/uploads/2016/07/Sala-de-Aula.png"
 ALUNO = "http://www.ifmg.edu.br/ceadop3/imagens/aluno.png/@@images/image.png"
