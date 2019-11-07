@@ -12,7 +12,7 @@ HOSPITAL=""
 ANTIDOTO=""
 PAREDE=""
 SETASFLORESCENTES=""
- class leni():
+class leni():
     cientista= Elemento(img=CIENTISTA)
     ajudante= Elemento(img=AJUDANTE)
     caixinha= Elemento(img=CAIXADEMUSICA)
