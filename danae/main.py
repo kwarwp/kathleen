@@ -1,4 +1,4 @@
-# kathleen.danae.main.py
+# kathleen.danae.main.
 from _spy.vitollino.main import Cena,Elemento,Texto
 from _spy.vitollino.main import inventario as inv
 CIENTISTA="https://2.bp.blogspot.com/-380MYApQgg0/T_CU1Iy8f9I/AAAAAAAAFKs/9X5_tDN93YU/s1600/Professor+Hubert+Farnsworth.png"
