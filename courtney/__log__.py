@@ -202,3 +202,10 @@ SyntaxError: invalid syntax
                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Thu Nov 07 2019 14:49:13.1 GMt-0200 (Horário de Verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 4
+  estudante"https://img.lovepik.com/element/40056/5743.png_860.png"
+            ^
+SyntaxError: invalid syntax
+'''},
