@@ -26,4 +26,5 @@ SETASFLORESCENTES=""
     parede= Cena(img=PAREDE)
     cientista.entra(laboratorio)
     ajudante.entra(laboratorio)
-    
+    laboratorio.vai()
+leni()
