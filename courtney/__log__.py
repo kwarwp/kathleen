@@ -188,3 +188,10 @@ SyntaxError: invalid syntax
     jurupinga=Cena(img=jurupinga)
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Thu Nov 07 2019 14:48:41.693 GMt-0200 (Horário de Verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 4
+  ESTUDANTEEEE "https://img.lovepik.com/element/40056/5743.png_860.png"
+                ^
+SyntaxError: invalid syntax
+'''},
