@@ -91,3 +91,7 @@ SyntaxError: invalid syntax
                      ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Nov 12 2019 11:03:24.354 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: <TypeError: innermost.C.tree[0].args.indexOf is not a function>
+'''},
