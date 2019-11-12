@@ -509,3 +509,7 @@ SyntaxError: invalid syntax
     ines.vai=fala.vai
 NameError: name 'fala' is not defined
 '''},
+{'date': 'Tue Nov 12 2019 11:16:24.657 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: <TypeError: module is undefined>
+'''},
