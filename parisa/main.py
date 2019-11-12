@@ -8,7 +8,7 @@ SALA1 = "https://www.loskatchorros.com.br/forum/uploads/monthly_2017_08/maxresde
 #fachada da escola CENA 1
 SALA2 = "https://conteudo.imguol.com.br/c/noticias/2b/2017/10/22/19out2017---escola-municipal-jornalista-e-escritor-daniel-piza-constantemente-tem-aulas-suspensas-por-ficar-na-divisa-entre-o-asfalto-e-a-favela-expondo-alunos-aos-confrontos-entre-a-policia-e-o-1508713540499_615x300.jpg"
 #Sala de aula CENA 2
-SALA3 = "https://st3.depositphotos.com/5383684/15265/v/1600/depositphotos_152658382-stock-illustration-in-front-of-empty-classroom.jpg"
+SALA3 = "https://i.imgur.com/7b4Caxs.jpg"
 #Corredor da escola CENA 4
 SALA4 = "https://cdn.pixabay.com/photo/2014/08/13/20/16/school-417612_960_720.jpg"
 #Quadra de esportes
