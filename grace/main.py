@@ -8,9 +8,11 @@ IGREJA="https://i.pinimg.com/originals/d6/48/be/d648be937077a693a2fcb0ef50a942ef
 class bruninha ():
     espaco=Cena(img=ESPACO)
     igreja=Cena(img=IGREJA)
+    espaco.direita=igreja
+    igreja.esquerda=espaco
     piranha=Elemento(img=PIRANHA)
     ines=Elemento(img=INES)
     piranha.entra(espaco)
     ines.entra(igreja)
-    espaco.vai
+    espaco.vai()
 bruninha()
