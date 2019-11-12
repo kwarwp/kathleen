@@ -446,3 +446,10 @@ TypeError: 'module' object is not callable
     espaco=Cena(img=ESPACO)
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Tue Nov 12 2019 11:12:33.653 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 4
+  STYLE=
+         ^
+SyntaxError: invalid syntax
+'''},
