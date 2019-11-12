@@ -10,7 +10,7 @@ SALA2 = "https://conteudo.imguol.com.br/c/noticias/2b/2017/10/22/19out2017---esc
 #Sala de aula CENA 2
 SALA3 = "https://i.imgur.com/KGfgpSwr.jpg"
 #Corredor da escola CENA 4
-SALA4 = "https://cdn.pixabay.com/photo/2014/08/13/20/16/school-417612_960_720.jpg"
+SALA4 = "https://i.imgur.com/0xs8URf.jpg"
 #Quadra de esportes
 ##SALA5 = "https://i.pinimg.com/originals/78/99/c9/7899c925ee95618ef0bd21f4b067175b.jpg"
 #SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-astrocentro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg"
