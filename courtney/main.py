@@ -9,10 +9,13 @@ LADRAO = "https://cdn.pixabay.com/photo/2017/01/30/21/48/burglar-2022159_960_720
 class JohnnyLindo ():
     mato=Cena(img=MATO)
     indio=Elemento(img=INDIO)
+    indio.entra(mato)
     beco=Cena(img=BECO)
     tartaruga=Elemento(img=TARTARUGA)
     ladrao=Elemento(img=LADRAO)
-    mato.direita=indio
-    beco.esquerda=tartaruga, ladrao
-    ladrao.vai()
+    ladrao.entra(beco)
+    tartaruga.entra(beco)
+    mato.direita=beco
+    beco.esquerda=mato
+    mato.vai()
 JohnnyLindo()
