@@ -513,3 +513,7 @@ NameError: name 'fala' is not defined
 'error': '''
 Exception: <TypeError: module is undefined>
 '''},
+{'date': 'Tue Nov 12 2019 11:16:56.909 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: <TypeError: module is undefined>
+'''},
