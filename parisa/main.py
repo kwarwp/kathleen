@@ -6,7 +6,7 @@ STYLE["height"] = "600px"
 #inicio
 SALA1 = "https://www.loskatchorros.com.br/forum/uploads/monthly_2017_08/maxresdefault.jpg.3845d9d72470fe4e52aa779cf96871b5.jpg"
 #fachada da escola CENA 1
-SALA2 = "https://i.pinimg.com/originals/4e/35/2c/4e352c35cc8b7c437ca26f3dfcc887a7.jpg"
+SALA2 = "https://conteudo.imguol.com.br/c/noticias/2b/2017/10/22/19out2017---escola-municipal-jornalista-e-escritor-daniel-piza-constantemente-tem-aulas-suspensas-por-ficar-na-divisa-entre-o-asfalto-e-a-favela-expondo-alunos-aos-confrontos-entre-a-policia-e-o-1508713540499_615x300.jpg"
 #Sala de aula CENA 2
 SALA3 = "https://st3.depositphotos.com/5383684/15265/v/1600/depositphotos_152658382-stock-illustration-in-front-of-empty-classroom.jpg"
 #Corredor da escola CENA 4
