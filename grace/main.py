@@ -20,9 +20,11 @@ class bruninha ():
     laboty.direita=livro
     livro.esquerda=laboty
     laboty.esquerda=laboratorio
-    piranha=Elemento(img=PIRANHA)
-    ines=Elemento(img=INES)
-    ines.entra(igreja)
+    charles=Elemento(img=CHARLES)
+    ajudante=Elemento(img=AJUDANTE)
+    policia=Elemento(img=POLICIA)
+    charles.entra(laboratorio)
+    
     falaines=Texto(igreja, "graças a Deus")
     ines.vai=falaines.vai
     coringa=Elemento(img=CORINGA)
