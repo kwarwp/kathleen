@@ -460,3 +460,10 @@ SyntaxError: invalid syntax
                      ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Nov 12 2019 11:13:29.96 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 21
+  ines.entra(igreja)falaines=Texto(igreja, "graças a Deus")
+                     ^
+SyntaxError: invalid syntax
+'''},
