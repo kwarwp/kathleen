@@ -513,3 +513,10 @@ AttributeError: 'str' object has no attribute 'cenas'
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Wed Nov 13 2019 16:23:18.857 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 14
+  anamaria=Elemento(img=ANA_MARIA) 
+  ^
+IndentationError: expected an indented block
+'''},
