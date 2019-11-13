@@ -506,3 +506,10 @@ AttributeError: 'str' object has no attribute 'cenas'
     self.centro.cenas[indice].portal(N=sala.cenas[indice]) if sala else None
 AttributeError: 'str' object has no attribute 'cenas'
 '''},
+{'date': 'Wed Nov 13 2019 16:22:52.77 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 14
+  ana_maria=Elemento(img=ANA_MARIA) 
+  ^
+IndentationError: expected an indented block
+'''},
