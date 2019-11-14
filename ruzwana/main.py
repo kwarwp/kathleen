@@ -21,7 +21,7 @@ MAPA="https://pngimage.net/wp-content/uploads/2018/06/mapa-desenho-png-3.png"
 BILHETE="https://i.imgur.com/lv86Znb.png"
 PORTAO="https://i.imgur.com/AfB9mWY.png"
 PRACA="https://i.imgur.com/kkiaSmf.png"
-class LENI():
+class leni():
     caes=Elemento(img=CAES)
     guardas=Elemento(img=GUARDAS)
     remedio=Elemento(img=REMEDIO)
@@ -89,6 +89,6 @@ class LENI():
     cientista.entra(L.pracinha)
     hehe.vai()
     haha.vai()
-LENI.vai()
+leni.vai()
         
         
