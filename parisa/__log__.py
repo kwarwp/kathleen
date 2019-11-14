@@ -1282,3 +1282,10 @@ NameError: name 'entra' is not defined
     setattr(Sala, nome, Sala(nome=nome, **cena))
 TypeError: string indices must be integers
 '''},
+{'date': 'Thu Nov 14 2019 12:04:51.120 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 26
+  todos.norte.vai()  
+  ^
+IndentationError: unexpected indent
+'''},
