@@ -1,6 +1,6 @@
 # kathleen.ruzwana.main.py
-from _spy.vitollino.main import Cena, Elemento, Labirinto, Texto
-from _spy.vitollino.main import inventario as inv
+from _spy.vitollino.main import Cena, Elemento, Labirinto, Texto, Sala
+from _spy.vitollino.main import Inventario as inv
 DOENTE="https://i.imgur.com/OZcZ7uk.png"
 AJUDANTE="https://i.imgur.com/jfJRkQ0.png"
 CIENTISTA="https://i.imgur.com/j9dFKoh.png"
@@ -39,8 +39,9 @@ class leni():
     tunel=Cena(img=TUNEL)
     portao=Cena(img=PORTAO)
     pracinha=Cena(img=PRACA)
-    haha=Labirinto(N=casa,S=biblioteca,O=laboratorio,L=porta)
-    hehe=Labirinto(N=porta,S=tunel,O=portao,L=pracinha)
+    
+    haha=Sala(N=casa,S=biblioteca,O=laboratorio,L=porta)
+    hehe=Sala(L=porta,S=tunel,O=portao,N=casa)
     
     doente=Elemento(img=DOENTE)
     doente.entra (casa)
@@ -87,7 +88,7 @@ class leni():
     cientista.entra(O.portao)
     doente.entra(L.pracinha)
     cientista.entra(L.pracinha)
-    hehe.vai()
+    #hehe.vai()
     haha.vai()
 leni()
         
