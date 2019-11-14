@@ -87,8 +87,8 @@ class LENI():
      cientista.entra(O.portao)
      doente.entra(L.pracinha)
      cientista.entra(L.pracinha)
-    hehe.vai()
-    haha.vai()
+     hehe.vai()
+     haha.vai()
 LENI.vai()
         
         
