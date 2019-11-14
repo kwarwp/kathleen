@@ -351,3 +351,10 @@ AttributeError: 'Cena' object has no attribute 'entra'
     marte.entra
 AttributeError: 'Cena' object has no attribute 'entra'
 '''},
+{'date': 'Thu Nov 14 2019 11:56:19.935 GMt-0200 (Horário de Verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 6
+  MORTI="https://i.pinimg.com/originals/57/79/e9/5779e9e8c85f594eae72c8f5b6ba0d23.png
+                                                                                     ^
+SyntaxError: EOL while scanning string literal
+'''},
