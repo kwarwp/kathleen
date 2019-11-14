@@ -42,51 +42,51 @@ class LENI():
      haha=Labirinto(N=casa,S=biblioteca,O=laboratorio,L=porta)
      hehe=Labirinto(N=porta,S=tunel,O=portao,L=pracinha)
     
-    doente=Elemento(img=DOENTE)
-    doente.entra (casa)
-    faladoente=Texto(casa,"o que aconteceu?")
-    doente.vai=faladoente.vai
+     doente=Elemento(img=DOENTE)
+     doente.entra (casa)
+     faladoente=Texto(casa,"o que aconteceu?")
+     doente.vai=faladoente.vai
     
-    ajudante=Elemento(img=AJUDANTE)
-    ajudante.entra(N.casa)
-    falaajudante=Texto(casa,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
-    ajudante.vai=falaajudante.vai
-    falaajudante=Texto(casa,"Sua primeira missão é achar os comprimidos para que ele fique estável até você encontrar o cientista")
-    ajudante.vai=falaajudante.vai
+     ajudante=Elemento(img=AJUDANTE)
+     ajudante.entra(N.casa)
+     falaajudante=Texto(casa,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
+     ajudante.vai=falaajudante.vai
+     falaajudante=Texto(casa,"Sua primeira missão é achar os comprimidos para que ele fique estável até você encontrar o cientista")
+     ajudante.vai=falaajudante.vai
     
-    ladrao=Elemento= (LADRAO)
-    ladrao.entra(N.casa)
+     ladrao=Elemento= (LADRAO)
+     ladrao.entra(N.casa)
     
-    ajudante.entra(S.biblioteca)
-    falaajudante=Texto(biblioteca,"As coordenadas para seu rémedio estão no genótipo de uma doença")
-    ajudante.vai=falaajudante.vai
-    falaajudante=Texto(biblioteca,"Todas as informações estão guardadas na biblioteca")
-    ajudante.vai=falaajudante.vai
-    doente.entra(S.biblioteca)
-    bilhete.entra(S.biblioteca)
-    falabilhete=Texto(biblioteca,"Sua corordenada é hemofila!")
-    bilhete.vai=falabilhete.vai
-    guardas.entra(S.biblioteca)
-    livro.entra(S.biblioteca)
+     ajudante.entra(S.biblioteca)
+     falaajudante=Texto(biblioteca,"As coordenadas para seu rémedio estão no genótipo de uma doença")
+     ajudante.vai=falaajudante.vai
+     falaajudante=Texto(biblioteca,"Todas as informações estão guardadas na biblioteca")
+     ajudante.vai=falaajudante.vai
+     doente.entra(S.biblioteca)
+     bilhete.entra(S.biblioteca)
+     falabilhete=Texto(biblioteca,"Sua corordenada é hemofila!")
+     bilhete.vai=falabilhete.vai
+     guardas.entra(S.biblioteca)
+     livro.entra(S.biblioteca)
     
-    cientista=Elemento(img=CIENTISTA)
-    cientista.entra(O.laboratorio)
+     cientista=Elemento(img=CIENTISTA)
+     cientista.entra(O.laboratorio)
     
-    doente.entra(O.laboratorio)
-    ladrao.entra(O.laboratorio)
-    ajudante.entra(O.laboratorio)
-    falaajudante=Texto(laboratorio,"doençança onde não há ou há pouca produção de melanina")
-    ladrao.entra(L.porta)
-    doente.entra(L.porta)
-    cientista.entra(O.laboratorio)
-    falacientista=Texto(laboratorio,"Foi meu ajudante que roubou as escrituras e me sequestrou!!")
-    doente.entra(S.tunel)
-    cientista.entra(S.tunel)
-    saida.entra(O.portao)
-    doente.entra(O.portao)
-    cientista.entra(O.portao)
-    doente.entra(L.pracinha)
-    cientista.entra(L.pracinha)
+     doente.entra(O.laboratorio)
+     ladrao.entra(O.laboratorio)
+     ajudante.entra(O.laboratorio)
+     falaajudante=Texto(laboratorio,"doençança onde não há ou há pouca produção de melanina")
+     ladrao.entra(L.porta)
+     doente.entra(L.porta)
+     cientista.entra(O.laboratorio)
+     falacientista=Texto(laboratorio,"Foi meu ajudante que roubou as escrituras e me sequestrou!!")
+     doente.entra(S.tunel)
+     cientista.entra(S.tunel)
+     saida.entra(O.portao)
+     doente.entra(O.portao)
+     cientista.entra(O.portao)
+     doente.entra(L.pracinha)
+     cientista.entra(L.pracinha)
     hehe.vai()
     haha.vai()
 LENI.vai()
