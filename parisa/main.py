@@ -23,7 +23,7 @@ class OI():
         self.todos = todos = Sala( n= SALA1, s= SALA2, l= SALA3, o= SALA4)
                               
         self.todos=todos=Sala(o= SALA4, s= SALA5, l= SALA6, n= SALA1)
-         todos.norte.vai()  
+         #todos.norte.vai()  
         #self.todos = todos = Sala( o= SALA4, s=SALA5, l=SALA6, n=SALA1)
         #todos.norte.vai()
         logo = Elemento(img=LOGO, style=dict(left=370, top=200, width=450, height="250px"))
