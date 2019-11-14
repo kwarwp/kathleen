@@ -89,6 +89,6 @@ class leni():
     cientista.entra(L.pracinha)
     hehe.vai()
     haha.vai()
-leni.vai()
+leni()
         
         
