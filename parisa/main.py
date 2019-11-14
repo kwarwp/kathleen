@@ -43,7 +43,7 @@ class OI():
         
         menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
         menino.entra(todos.sul)
-        
+        SALA1.vai()
         
         
         
