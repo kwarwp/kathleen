@@ -22,11 +22,11 @@ BILHETE="https://i.imgur.com/lv86Znb.png"
 PORTAO="https://i.imgur.com/AfB9mWY.png"
 PRACA="https://i.imgur.com/kkiaSmf.png"
 class LENI():
-    caes=Elemento(img=CAES)
-    guardas=Elemento(img=GUARDAS)
-    remedio=Elemento(img=REMEDIO)
-    mapa=Elemento(img=MAPA)
-    computador=Elemento(img=COMPUTADOR)
+     caes=Elemento(img=CAES)
+     guardas=Elemento(img=GUARDAS)
+     remedio=Elemento(img=REMEDIO)
+     mapa=Elemento(img=MAPA)
+     computador=Elemento(img=COMPUTADOR)
     lixo=Elemento(img=LIXO)
     porta=Elemento(img=PORTA)
     livro=Elemento(img=LIVRO)
