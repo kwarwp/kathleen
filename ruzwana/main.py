@@ -1,6 +1,6 @@
 # kathleen.ruzwana.main.py
-from _spy.vittolino.main import Cena, Elemento, Labirinto, Texto
-from _spy.vittolino.main import inventario as inv
+from _spy.vitollino.main import Cena, Elemento, Labirinto, Texto
+from _spy.vitollino.main import inventario as inv
 DOENTE="https://i.imgur.com/OZcZ7uk.png"
 AJUDANTE="https://i.imgur.com/jfJRkQ0.png"
 CIENTISTA="https://i.imgur.com/j9dFKoh.png"
