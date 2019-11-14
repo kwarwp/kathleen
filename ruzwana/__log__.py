@@ -345,3 +345,10 @@ TypeError: 'module' object is not callable
     caes=Elemento(img=CAES)
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Thu Nov 14 2019 11:22:40.390 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 26
+  guardas=Elemento(img=GUARDAS)
+  ^
+IndentationError: unexpected indent
+'''},
