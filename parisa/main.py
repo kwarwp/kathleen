@@ -22,28 +22,32 @@ class OI():
     def __init__(self):
         self.todos = todos = Sala( n= SALA1, s= SALA2, l= SALA3, o= SALA4)
                               
-        self.todos=todos=Sala(o= SALA4, s= SALA5, l= SALA6, n= SALA1)
-         #todos.norte.vai()  
+        self.todas=todas= Sala(o= SALA4, s= SALA5, l= SALA6, n= SALA1)
+        
+        self.todos.oeste.vai=self.todas.sul.vai
+        #self.todas.todas.vai()
+        #self.SALA4.direita=todas
+        #todos.norte.vai()  
         #self.todos = todos = Sala( o= SALA4, s=SALA5, l=SALA6, n=SALA1)
         #todos.norte.vai()
-        logo = Elemento(img=LOGO, style=dict(left=370, top=200, width=450, height="250px"))
-        logo.entra(todos.norte)
-        falalogo=Texto(todos.norte,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbaridade, e saber o limite de brincadeira e agressão. ")
-        logo.vai=falalogo.vai
+        self.logo = Elemento(img=LOGO, style=dict(left=370, top=200, width=450, height="250px"))
+        self.logo.entra(todos.norte)
+        self.falalogo=Texto(todos.norte,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbaridade, e saber o limite de brincadeira e agressão. ")
+        self.logo.vai=self.falalogo.vai
         
-        neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
-        neide.entra(todos.leste)
-        falaneide= Texto(todos.leste, "Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nossa vida acadêmica.")
-        neide.vai=falaneide.vai
+        self.neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
+        self. neide.entra(todos.leste)
+        self.falaneide= Texto(todos.leste, "Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nossa vida acadêmica.")
+        self. neide.vai=self.falaneide.vai
         
-        menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
-        menino.entra (todos.leste)
-        falamenino= Texto(todos.leste, "Muito obrigado, Senhora Neide")
-        menino.vai=falamenino.vai
+        self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
+        self.menino.entra (todos.leste)
+        self.falamenino= Texto(todos.leste, "Muito obrigado, Senhora Neide")
+        self.menino.vai=self.falamenino.vai
         
-        menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
-        menino.entra(todos.sul)
-        SALA1.vai()
+        self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
+        self.menino.entra(todos.sul)
+        self.todos.norte.vai()
         
         
         
