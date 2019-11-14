@@ -389,3 +389,10 @@ TypeError: 'module' object is not callable
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Thu Nov 14 2019 11:25:28.962 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 45
+  doente=Elemento(img=DOENTE)
+  ^
+IndentationError: unexpected indent
+'''},
