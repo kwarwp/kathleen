@@ -382,3 +382,10 @@ IndentationError: unexpected indent
     caes=Elemento(img=CAES)
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Thu Nov 14 2019 11:23:42.378 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 30
+  lixo=Elemento(img=LIXO)
+  ^
+IndentationError: unexpected indent
+'''},
