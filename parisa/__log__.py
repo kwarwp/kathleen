@@ -1289,3 +1289,10 @@ TypeError: string indices must be integers
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Thu Nov 14 2019 12:05:49.477 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 26
+  todos.norte.vai()  
+  ^
+IndentationError: unexpected indent
+'''},
