@@ -12,15 +12,15 @@ SALA3 = "https://i.imgur.com/KGfgpSwr.jpg"
 #Corredor da escola CENA 4
 SALA4 = "https://i.imgur.com/0xs8URf.jpg"
 #Quadra de esportes
-##SALA5 = "https://i.pinimg.com/originals/78/99/c9/7899c925ee95618ef0bd21f4b067175b.jpg"
-#SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-astrocentro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg"
+SALA5 = "https://i.pinimg.com/originals/78/99/c9/7899c925ee95618ef0bd21f4b067175b.jpg"
+SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-astrocentro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg"
 MENINO= "https://cdn.pixabay.com/photo/2017/07/07/03/21/child-2480290_960_720.png"
 LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
 #diretora neide RASCUNHO
 NEIDE="https://i.pinimg.com/originals/25/48/27/254827fb621ed6c9e50b401d92554810.png"
 class OI():
     def __init__(self):
-        self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4)
+        self.todos = todos = Sala( n= SALA1, s= SALA3, l= SALA2, o= SALA4, n1= SALA5, s1= SALA6)
         todos.norte.vai()
         #self.todos = todos = Sala( o= SALA4, s=SALA5, l=SALA6, n=SALA1)
         #todos.norte.vai()
