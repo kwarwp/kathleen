@@ -1530,3 +1530,10 @@ AttributeError: 'Sala' object has no attribute 'OESTE'
     self.todos.o.vai=self.todas
 AttributeError: 'Sala' object has no attribute 'o'
 '''},
+{'date': 'Sun Nov 17 2019 14:41:03.592 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 29
+  self.todos.oeste.vai=self.todas.sul.vai
+                      ^
+SyntaxError: keyword can't be an expression
+'''},
