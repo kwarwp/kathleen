@@ -13,5 +13,27 @@ PROTEINA = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mouse_chol
 MOLECULA = "https://images.vexels.com/media/users/3/159421/isolated/preview/e2739354640fee942f38f6283db269e6-c--lula-de-modelo-de-mol--cula-plana-by-vexels.png"
 GENE = "http://wiki.bacterialtakeover.com/images/2/20/Gene_strand.png"
 ATOMOS = "https://img2.gratispng.com/20181120/he/kisspng-vector-graphics-atomic-nucleus-atomsymbol-atom-icons-925-free-vector-icons-5bf4afc71916b8.7770408515427624391028.jpg"
+BANCADA = "https://cdn.pixabay.com/photo/2014/12/21/23/44/counter-575937_960_720.png"
 class yato ():
-   
+   def blibleotec (self):
+        bibleoteca= Cena(img=BIBLIOTECA)
+        sangue= Elemento(img=SANGUE)
+        cientista= Elemento(img=CIENTISTA)
+        sangue.entra(bibleoteca)
+        cientista.entra(bibleoteca)
+        bliblioteca.vai()
+   def centru (self)
+        centro= Cena(img=CENTROI)
+        cientista= Elemento(img=CIENTISTA)
+        seta= Elemento(img=SETA)
+        porta= Elemento(img=PORTA)
+        bancada= Elemento(img=BANCADA)
+        dna= Elemento(img=DNA)
+        proteina= Elemento(img=PROTEINA)
+        molecula= Elemento(img=MOLECULA)
+        gene= Elemento(img=GENE)
+        atomos= Elemento(img=ATOMOS)
+        cientista.entra(centro)
+        seta.entra(centro)
+        porta.entra(
+        
