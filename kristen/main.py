@@ -15,11 +15,33 @@ REMEDIO="https://png.pngtree.com/png-clipart/20190603/original/pngtree-medicine-
 GAVETA="http://clipart.coolclips.com/480/vectors/tf05276/CoolClips_vc047763.png"
 ESTANTE="https://png.pngtree.com/element_pic/17/08/05/a809ff54a922910ecaa487b955e5d535.jpg"
 QUADRO="https://img2.gratispng.com/20180131/yjw/kisspng-chess-window-square-picture-frame-pattern-maroon-border-frame-png-hd-5a721c5a89b177.262021501517427802564.jpg"
+QUADRO2="https://3.bp.blogspot.com/-l_N1GilZmaE/Wmu1nOjhybI/AAAAAAAAepk/ZrLoM5ihZXgh8_XYckqNar5WBQypyiNLQCLcBGAs/s1600/Quadro%2Btorto.PNG"
+PAPEL="http://1.bp.blogspot.com/-2ZRwuDRFsUE/UN26nlcbvYI/AAAAAAAAAaQ/5_I8JJscq4o/s1600/paper1.png"
+COFRINHO="https://images.tcdn.com.br/img/img_prod/448593/cofre_digital_bh_d23_hotel_grande_br_4680_1_20180420145844.png"
 
 class CARTA():
     casa=Cena (img=CASA)
+    zeze=Elemento (img=ZEZINHO)
+    rosa=Elemento (img=ROSALINDA)
+    zeze.entra (casa)
+    rosa.entra (casa)
+    quadro=Elemento (img=QUADRO)
+    quadro.entra (casa)
+    casa.vai()
+    
+    corredor=Cena (img=CORREDOR)
+    quadro2=Elemento (img=QUADRO2)
+    quadro2.entra(corredor)
+    corredor.vai()
+    
     cofre=Cena (img=COFRE)
+    gaveta=Elemento (img=GAVETA)
+    papel=Elemento (img=PAPEL)
+    gaveta.entra(cofre)
+    papel.entra (cofre)
+    cofre.vai()
+    
     estante=Cena (img=ESTANTE)
     casa=Cena (img=CASA)
-    corredor=Cena (img=CORREDOR)
+    
     
