@@ -5,7 +5,7 @@ from _spy.vitollino.main import INVENTARIO as inv
 #STYLE=["height"] = "600px"
 
 
-CHARLES=""
+CHARLES="https://thumbs.dreamstime.com/b/homem-novo-fan%C3%A1tico-estilo-da-rua-do-menino-da-intimida%C3%A7%C3%A3o-no-branco-png-dispon%C3%ADvel-68251163.jpg"
 LABORATORIO=""
 LABOTY=""
 AJUDANTE=""
@@ -13,6 +13,7 @@ POLICIA=""
 LIVRO=""
 FOLHA=""
 PRACA=""
+TECLADO=""
 class bruninha ():
     laboratorio=Cena(img=LABORATORIO)
     livro=Cena(img=LIVRO)
@@ -29,6 +30,7 @@ class bruninha ():
     charles=Elemento(img=CHARLES)
     ajudante=Elemento(img=AJUDANTE)
     policia=Elemento(img=POLICIA)
+    teclado=Elemento(img=TECLADO)
     folha=Elemento(img=FOLHA)
     charles.entra(laboratorio)
     
@@ -44,6 +46,14 @@ class bruninha ():
     policia.entra(laboratorio)
     
     policia=Texto(laboratorio, "NÂO MEXE EM NADA! RALA MERMÂO!")
+    folha.entra(praca)
+    
+    folha=Texto(praca, " UUU (Phe/F) FenilalaninaU(Phe/F) FenilalaninaUC")
+    
+    
+ 
+    
+    
     
     
     
