@@ -1628,3 +1628,10 @@ SyntaxError: invalid syntax
                     ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Nov 19 2019 14:31:24.208 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 23
+  self.todos = todos = Sala( n= SALA1, l= SALA2, s= SALA3, s= SALA4)
+                                                            ^
+SyntaxError: keyword argument repeated
+'''},
