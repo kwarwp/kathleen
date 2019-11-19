@@ -7,7 +7,7 @@ class terror():
     samara=Elemento(img=SAMARA)
     escadas=Cena(img=ESCADAS)
     samara.entra(escadas)
-    escadas.vai
+    escadas.vai()
 terror()
     
     
