@@ -1537,3 +1537,10 @@ AttributeError: 'Sala' object has no attribute 'o'
                       ^
 SyntaxError: keyword can't be an expression
 '''},
+{'date': 'Tue Nov 19 2019 11:29:29.413 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 27
+  self.todas=todas= Sala(s= SALA4, s= SALA5, l= SALA6, n= SALA1)
+                                    ^
+SyntaxError: keyword argument repeated
+'''},
