@@ -1600,3 +1600,10 @@ SyntaxError: invalid syntax
                   ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Nov 19 2019 14:10:12.678 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  SALA6 = astroce"https://s3-sa-east-1.amazonaws.com/uploads-ntro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg"
+                  ^
+SyntaxError: invalid syntax
+'''},
