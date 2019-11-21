@@ -15,7 +15,7 @@ SALA4 = "https://i.imgur.com/0xs8URf.jpg"
 SALA5 = "https://i.pinimg.com/originals/78/99/c9/7899c925ee95618ef0bd21f4b067175b.jpg"
 #desconhecida 
 SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-ntro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg"
-#BANHEIRO
+#banheiro
 SALA7 = "https://www.agenciamural.org.br/wp-content/uploads/2018/11/FOTO5.jpg"
 MENINO= "https://cdn.pixabay.com/photo/2017/07/07/03/21/child-2480290_960_720.png"
 LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
@@ -23,9 +23,9 @@ LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
 NEIDE="https://i.pinimg.com/originals/25/48/27/254827fb621ed6c9e50b401d92554810.png"
 class OI():
     def __init__(self):
-        self.todos = todos = Sala( n= SALA1, s= SALA2, l= SALA3, o= SALA4)
+        self.todos = todos = Sala( n= SALA1, l= SALA2, s= SALA3, o= SALA4)
                               
-        self.todas=todas= Sala(o= SALA4, s= SALA6, l= SALA5, n= SALA1)
+        self.todas=todas= Sala(o= SALA5, s= SALA6, l= SALA7, n= SALA1)
         
         self.todos.oeste.vai=self.todas.sul.vai
         #self.todas.todas.vai()
@@ -39,8 +39,8 @@ class OI():
         self.logo.vai=self.falalogo.vai
         
         self.neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
-        self. neide.entra(todos.sul)
-        self.falaneide= Texto(todos.sul, "Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nova vida acadêmica.")
+        self. neide.entra(todos.leste)
+        self.falaneide= Texto(todos.leste, "Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nova vida acadêmica.")
         self. neide.vai=self.falaneide.vai
         
         self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
@@ -49,16 +49,19 @@ class OI():
         self.menino.vai=self.falamenino.vai
         
         self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
-        self.menino.entra(todos.oeste)
+        self.menino.entra(todos.sul)
         self.todos.norte.vai()
         
+        self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
+        self.menino.entra(todos.oeste)
+        self.todos.oeste.vai()
         
         
-       # mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas", 
-        #"tenham ciência de que a , prática do bullying pode causar mal à saúde humana."),
-        #"Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão.") 
-       # mensagens.vai()
-       ##[ sala1, "Síntese de proteína ?" "Na síntese de proteína ocorre a tradução do código genético e a formação de proteínas"]
+    # mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas", 
+    #"tenham ciência de que a , prática do bullying pode causar mal à saúde humana."),
+    #"Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbárie, e, saber o limite de brincadeira e agressão.") 
+    # mensagens.vai()
+    #[ sala1, "Síntese de proteína ?" "Na síntese de proteína ocorre a tradução do código genético e a formação de proteínas"]
                   
                  
                   
