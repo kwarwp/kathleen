@@ -51,8 +51,8 @@ class OI():
         self.todos.norte.vai()
         
         self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
-        self.menino.entra(todos.oeste)
-        self.todos.oeste.vai()
+        self.menino.entra(todas.oeste)
+        self.todas.oeste.vai()
         
     # mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas", 
     #"tenham ciência de que a , prática do bullying pode causar mal à saúde humana."),
