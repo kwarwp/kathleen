@@ -27,7 +27,7 @@ class OI():
                               
         self.todas=todas= Sala(o= SALA4, s= SALA5, l= SALA6, n= SALA1)
         
-        self.todos.oeste.vai=self.todas.sul.vai
+        #self.todos.oeste.vai=self.todas.sul.vai
         #self.todas.todas.vai()
         #self.SALA4.direita=todas
         #todos.norte.vai()  
