@@ -23,9 +23,9 @@ LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
 NEIDE="https://i.pinimg.com/originals/25/48/27/254827fb621ed6c9e50b401d92554810.png"
 class OI():
     def __init__(self):
-        self.todos = todos = Sala( n= SALA1, l= SALA2, s= SALA3, o= SALA4)
+        self.todos = todos = Sala( n= SALA1, s= SALA2, l= SALA3, o= SALA4)
                               
-        self.todas=todas= Sala(o= SALA5, s= SALA6, l= SALA7, n= SALA1)
+        self.todas=todas= Sala(o= SALA4, s= SALA6, l= SALA5, n= SALA1)
         
         self.todos.oeste.vai=self.todas.sul.vai
         #self.todas.todas.vai()
@@ -39,8 +39,8 @@ class OI():
         self.logo.vai=self.falalogo.vai
         
         self.neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
-        self. neide.entra(todos.leste)
-        self.falaneide= Texto(todos.leste, "Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nova vida acadêmica.")
+        self. neide.entra(todos.sul)
+        self.falaneide= Texto(todos.sul, "Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nova vida acadêmica.")
         self. neide.vai=self.falaneide.vai
         
         self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
@@ -49,7 +49,7 @@ class OI():
         self.menino.vai=self.falamenino.vai
         
         self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
-        self.menino.entra(todos.sul)
+        self.menino.entra(todos.oeste)
         self.todos.norte.vai()
         
         
