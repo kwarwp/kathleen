@@ -23,9 +23,9 @@ LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
 NEIDE="https://i.pinimg.com/originals/25/48/27/254827fb621ed6c9e50b401d92554810.png"
 class OI():
     def __init__(self):
-        self.todos = todos = Sala( n= SALA1, l= SALA2, s= SALA3, o= SALA4)
+        self.todos = todos = Sala(n= SALA1, l= SALA2, s= SALA3, o= SALA4)
                               
-        self.todas=todas= Sala(o= SALA5, s= SALA6, l= SALA7, n= SALA1)
+        self.todas=todas= Sala(o= SALA4, s= SALA5, l= SALA6, n= SALA1)
         
         self.todos.oeste.vai=self.todas.sul.vai
         #self.todas.todas.vai()
