@@ -47,7 +47,7 @@ class OI():
         
         self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
         self.menino.entra(todos.sul)
-        self.todos.norte.vai()
+        self.todas.norte.vai()
         
         
         
