@@ -1635,3 +1635,10 @@ SyntaxError: invalid syntax
                                                             ^
 SyntaxError: keyword argument repeated
 '''},
+{'date': 'Thu Nov 21 2019 13:48:07.833 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 11
+  SALA3 = "https://i.imgur.comhttps://i.pinimg.com/originals/78/99/c9/7899c925ee95618ef0bd21f4b067175b.jpg"/KGfgpSwr.jpg"
+                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+'''},
