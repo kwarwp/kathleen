@@ -13,6 +13,7 @@ SALA3 = "https://i.imgur.com/KGfgpSwr.jpg"
 SALA4 = "https://i.imgur.com/0xs8URf.jpg"
 #Quadra de esportes
 SALA5 = "https://i.pinimg.com/originals/78/99/c9/7899c925ee95618ef0bd21f4b067175b.jpg"
+#desconhecida 
 SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-ntro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg"
 MENINO= "https://cdn.pixabay.com/photo/2017/07/07/03/21/child-2480290_960_720.png"
 LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
@@ -22,7 +23,7 @@ class OI():
     def __init__(self):
         self.todos = todos = Sala( n= SALA1, l= SALA2, s= SALA3, o= SALA4)
                               
-        self.todas=todas= Sala(o= SALA4, s= SALA5, l= SALA6, n= SALA1)
+        self.todas=todas= Sala(o= SALA5, s= SALA6, l= SALA7, n= SALA1)
         
         self.todos.oeste.vai=self.todas.sul.vai
         #self.todas.todas.vai()
@@ -47,7 +48,7 @@ class OI():
         
         self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
         self.menino.entra(todos.sul)
-        self.todas.norte.vai()
+        self.todos.norte.vai()
         
         
         
