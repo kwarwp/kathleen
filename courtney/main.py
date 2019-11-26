@@ -22,7 +22,6 @@ class yato ():
         sangue.entra(bibleoteca)
         cientista.entra(bibleoteca)
         bliblioteca.vai()
-   def centru (self)
         centro= Cena(img=CENTROI)
         cientista= Elemento(img=CIENTISTA)
         seta= Elemento(img=SETA)
@@ -35,5 +34,5 @@ class yato ():
         atomos= Elemento(img=ATOMOS)
         cientista.entra(centro)
         seta.entra(centro)
-        porta.entra(
+        porta.entra()
         
