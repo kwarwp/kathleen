@@ -19,6 +19,7 @@ class peixe ():
     huck.entra(morti)
     marte.direita=morti
     morti.esquerda=marte
+    barata.esquerda=mato
     morti.direita=mato    
     marte.vai()
 peixe()
