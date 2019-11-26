@@ -37,5 +37,5 @@ class yato ():
         seta.entra(centro)
         porta.entra(centro)
         centro.vai()
-yato.vai()
+yato()
         
