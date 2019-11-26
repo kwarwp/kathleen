@@ -15,14 +15,14 @@ GENE = "http://wiki.bacterialtakeover.com/images/2/20/Gene_strand.png"
 ATOMOS = "https://img2.gratispng.com/20181120/he/kisspng-vector-graphics-atomic-nucleus-atomsymbol-atom-icons-925-free-vector-icons-5bf4afc71916b8.7770408515427624391028.jpg"
 BANCADA = "https://cdn.pixabay.com/photo/2014/12/21/23/44/counter-575937_960_720.png"
 class yato ():
-   def blibleotec ():
+    def blibleotec ():
         bibleoteca= Cena(img=BIBLIOTECA)
         sangue= Elemento(img=SANGUE)
         cientista= Elemento(img=CIENTISTA)
         sangue.entra(bibleoteca)
         cientista.entra(bibleoteca)
         bliblioteca.vai()
-   def centru ():
+    def centru ():
         centro= Cena(img=CENTROI)
         cientista= Elemento(img=CIENTISTA)
         seta= Elemento(img=SETA)
