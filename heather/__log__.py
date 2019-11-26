@@ -27,3 +27,10 @@ SyntaxError: invalid syntax
                                                                     ^
 SyntaxError: non-keyword arg after keyword arg
 '''},
+{'date': 'Tue Nov 26 2019 11:39:00.147 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 13
+  laboratorio=Cena (img=LABORATORIO, tit="laboratorio" top=50, left)
+                                                        ^
+SyntaxError: invalid syntax
+'''},
