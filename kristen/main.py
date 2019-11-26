@@ -44,8 +44,7 @@ class CARTA():
     estante=Cena (img=ESTANTE)
     casa=Cena (img=CASA)
     
-    piu=Labirinto(N=casa, S=corredor, L=cofre ,O=estante)
-    piu.vai()
+    casa.direita=corredor
     
 CARTA()
     
