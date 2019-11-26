@@ -44,7 +44,7 @@ class CARTA():
     estante=Cena (img=ESTANTE)
     casa=Cena (img=CASA)
     
-    casa.direita=corredor
+    casa.vai()
     
 CARTA()
     
