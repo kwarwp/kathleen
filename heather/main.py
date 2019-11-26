@@ -9,14 +9,16 @@ LABORATORIO="http://blog.homyquimica.com.br/wp-content/uploads/2018/02/homy-capa
 PENA="https://gartic.com.br/imgs/mural/ca/calum/pena.png"
 ESTANTE="https://png.pngtree.com/element_pic/17/08/05/a809ff54a922910ecaa487b955e5d535.jpg"
 LIVRO="https://png.pngtree.com/element_pic/00/16/09/0357caa9ff68093.jpg"
-class SEILACARA()
-    laboratorio=Cena (img=LABORATORIO, tit="laboratorio", top=50, left)
+class SEILACARA():
+    laboratorio=Cena (img=LABORATORIO, tit="laboratorio"), (top=50, left)
     escada=Cena (img=ESCADA)
     ajudante=elemento (img=AJUDANTE)
     garca=elemento (img=GARCA)
     estante=elemento (img=ESTANTE)
-    ajudante.entra(escada)
-    estante.entra(labtoratorio)
+    ajudante.entra (escada)
+    estante.entra (laboratorio)
+    livro.entra (estante)
+    rede.entra (garca)
     
     
 
