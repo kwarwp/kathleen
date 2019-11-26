@@ -45,3 +45,7 @@ SyntaxError: non-keyword arg after keyword arg
 'error': '''
 Exception: <TypeError: module is undefined>
 '''},
+{'date': 'Tue Nov 26 2019 11:45:38.960 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: <TypeError: module is undefined>
+'''},
