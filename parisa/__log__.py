@@ -1667,3 +1667,10 @@ NameError: name 'SALA7' is not defined
            ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Tue Nov 26 2019 15:12:22.691 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 49
+  '''# self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
+  ^
+IndentationError: unexpected indent
+'''},
