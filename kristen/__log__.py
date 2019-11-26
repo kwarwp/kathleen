@@ -293,3 +293,10 @@ TypeError: __init__() got an unexpected keyword argument 'N'
     piu=Labirinto(N=casa, S=corredor, L=cofre ,O=estante)
 TypeError: __init__() got an unexpected keyword argument 'N'
 '''},
+{'date': 'Tue Nov 26 2019 10:42:24.597 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 34
+  class OVO()
+              ^
+SyntaxError: invalid syntax
+'''},
