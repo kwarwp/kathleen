@@ -237,3 +237,10 @@ SyntaxError: invalid syntax
                 ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Nov 26 2019 10:39:19.805 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 25
+  def centru (self)
+                    ^
+SyntaxError: invalid syntax
+'''},
