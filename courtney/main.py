@@ -35,5 +35,6 @@ class yato ():
         atomos= Elemento(img=ATOMOS)
         cientista.entra(centro)
         seta.entra(centro)
-        porta.entra()
+        porta.entra(centro)
+        centro.vai()
         
