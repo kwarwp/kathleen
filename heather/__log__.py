@@ -13,3 +13,10 @@ SyntaxError: invalid syntax
                     ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Nov 26 2019 11:38:26.248 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 12
+  class SEILACARA()
+                    ^
+SyntaxError: invalid syntax
+'''},
