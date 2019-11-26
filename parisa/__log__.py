@@ -1660,3 +1660,10 @@ SyntaxError: EOL while scanning string literal
     self.todas=todas= Sala(o= SALA5, s= SALA6, l= SALA7, n= SALA1)
 NameError: name 'SALA7' is not defined
 '''},
+{'date': 'Tue Nov 26 2019 14:07:58.513 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 22
+  BOTAO = "
+           ^
+SyntaxError: EOL while scanning string literal
+'''},
