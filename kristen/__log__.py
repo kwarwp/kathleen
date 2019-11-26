@@ -300,3 +300,10 @@ TypeError: __init__() got an unexpected keyword argument 'N'
               ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Nov 26 2019 10:42:36.697 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 34
+  corredor=Cena (img=CORREDOR)
+  ^
+IndentationError: unexpected indent
+'''},
