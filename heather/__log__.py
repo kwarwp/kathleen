@@ -41,3 +41,7 @@ SyntaxError: invalid syntax
                                                                      ^
 SyntaxError: non-keyword arg after keyword arg
 '''},
+{'date': 'Tue Nov 26 2019 11:39:30.368 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: <TypeError: module is undefined>
+'''},
