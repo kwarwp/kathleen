@@ -1954,3 +1954,10 @@ AttributeError: 'hey' object has no attribute 'vai'
                          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Nov 27 2019 19:02:18.961 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 83
+  def errou(self,ev=0)
+                       ^
+SyntaxError: invalid syntax
+'''},
