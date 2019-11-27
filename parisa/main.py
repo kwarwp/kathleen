@@ -55,6 +55,14 @@ class OI():
         self.c.entra(todos.sul)
         self.a.vai()
         
+        self.a=Elemento(img=A, style=dict(left=100, top=100, width=50, height="200px"),vai=self.errou)
+        self.b=Elemento(img=B, style=dict (left=300, top=100, width=50, height="200px",),vai=self.acertou)
+        self.c=Elemento(img=C,  style=dict(left=600, top=100, width=50, height="200px"),vai=self.errou)
+        self.a.entra(todas.sul)
+        self.b.entra(todas.sul)
+        self.c.entra(todas.sul)
+        self.a.vai()
+        
         
        
         
@@ -74,8 +82,7 @@ class cansada():
     def vai(self,ev=0):
         self.foi()
         Texto(self.todos.leste,"Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nova vida acadêmica.").vai()
-        """self.falaneide= Texto(todos.leste, "Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nova vida acadêmica.")
-        self.neide.vai=self.falaneide.vai"""
+        
         
         
 class  blabla():
