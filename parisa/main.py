@@ -61,9 +61,9 @@ class OI():
         
         
         
-        self.a=Elemento(img=A, style=dict(left=100, top=350, width=300, height="200px"),vai=self.errou)
-        self.b=Elemento(img=B, style=dict (left=300, top=350, width=300, height="200px",),vai=self.acertou)
-        self.c=Elemento(img=C,  style=dict(left=600, top=350, width=300, height="200px"),vai=self.errou)
+        self.a=Elemento(img=A, style=dict(left=100, top=100, width=50, height="200px"),vai=self.errou)
+        self.b=Elemento(img=B, style=dict (left=300, top=100, width=50, height="200px",),vai=self.acertou)
+        self.c=Elemento(img=C,  style=dict(left=600, top=100, width=50, height="200px"),vai=self.errou)
         self.a.entra(todos.sul)
         self.b.entra(todos.sul)
         self.c.entra(todos.sul)
