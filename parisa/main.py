@@ -21,8 +21,8 @@ LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
 NEIDE="https://i.pinimg.com/originals/25/48/27/254827fb621ed6c9e50b401d92554810.png"
 class OI():
     def __init__(self):
-        self.todos = todos = Sala(n= SALA1, l= SALA2, s= SALA3, o= SALA4)
-                              
+    
+        self.todos = todos = Sala(n= SALA1, l= SALA2, s= SALA3, o= SALA4)                      
         self.todas=todas= Sala(o= SALA4, s= SALA5, l= SALA6, n= SALA1)
         self.todos.oeste.vai=self.todas.sul.vai
         self.todas.leste.vai=self.todos.norte.vai
@@ -50,10 +50,18 @@ class OI():
         self.falamenino= Texto(todos.leste, "Muito obrigado, Senhora Neide")
         self.menino.vai=self.falamenino.vai
         
+        
         self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
         self.menino.entra(todos.sul)
         self.todos.norte.vai()
         
+        self.a=Elemento(img=A, style=dict(left=600, top=350, width=300, height="200px"))
+        self.b=Elemento(img=B, style=dict (left=600, top=350, width=300, height="200px"))
+        self.c=Elemento(img=C,  style=dict(left=600, top=350, width=300, height="200px"))
+    def quiz(self):
+        self.b.vai=acertou.sala4.vai
+        self.a.vai=errou.sala2.vai
+        self.c.vai=errou.sala2.vai
        
         
     # mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas", 
