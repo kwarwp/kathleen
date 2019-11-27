@@ -1792,3 +1792,10 @@ SyntaxError: non-keyword arg after keyword arg
                                                              ^
 SyntaxError: non-keyword arg after keyword arg
 '''},
+{'date': 'Wed Nov 27 2019 18:34:42.741 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 75
+  def acertou(self,ev=0):
+  ^
+IndentationError: unexpected indent
+'''},
