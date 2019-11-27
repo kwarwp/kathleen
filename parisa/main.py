@@ -30,22 +30,17 @@ class OI():
         self.todas=todas= Sala(o= SALA4, s= SALA5, l= SALA6, n= SALA1)
         self.todos.oeste.vai=self.todas.sul.vai
         self.todas.leste.vai=self.todos.norte.vai
-        self.todos.norte.vai
-        self.todas.oeste.vai
+        #self.todos.norte.vai
+        #self.todas.oeste.vai
         
-        #self.todos.oeste.vai=self.todas.sul.vai
-        #self.todas.todas.vai()
-        #self.SALA4.direita=todas
-        #todos.norte.vai()  
-        #self.todos = todos = Sala( o= SALA4, s=SALA5, l=SALA6, n=SALA1)
-        #todos.norte.vai()
-        self.logo = Elemento(img=LOGO, style=dict(left=370, top=200, width=450, height="250px"))
-        self.logo.entra(todos.norte)
-        self.falalogo=Texto(todos.norte,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbaridade, e saber o limite de brincadeira e agressão. ")
-        self.logo.vai=self.falalogo.vai
+        b=blabla(todos)
+        todos.sul.vai=b.vai
+        a=cansada(todos)
+        todos.leste.vai=a.vai
+        c=ajuda(todos)
+        todos.norte.vai=c.vai
         
-        
-        
+         
         self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
         self.menino.entra (todos.leste)
         self.falamenino= Texto(todos.leste, "Muito obrigado, Senhora Neide")
@@ -59,15 +54,16 @@ class OI():
         self.b.entra(todos.sul)
         self.c.entra(todos.sul)
         self.a.vai()
-        b=blabla(todos)
-        todos.sul.vai=b.vai
-        a=cansada(todos)
-        todos.leste.vai=a.vai
+        
+        
+       
         
     def acertou(self,ev=0):
         self.todos.oeste.vai()
     def errou(self,ev=0):
         self.todos.norte.vai()
+        
+        
 class cansada():
     def __init__(self,todos):
         self.foi,todos.leste.vai=todos.leste.vai,self.vai
@@ -82,7 +78,6 @@ class cansada():
         self.neide.vai=self.falaneide.vai"""
         
         
-        
 class  blabla():
      def __init__(self,todos):
         self.foi,todos.sul.vai=todos.sul.vai,self.vai
@@ -94,6 +89,21 @@ class  blabla():
         self.foi()
         Texto(self.todos.sul,"kkkkkkkk").vai()
         
+        
+class ajuda():
+    def __init__(self,todos):
+        self.foi,todos.norte.vai=todos.norte.vai,self.vai
+        self.todos=todos
+        self.logo = Elemento(img=LOGO, style=dict(left=370, top=200, width=450, height="250px"))
+        self.logo.entra(todos.norte)
+        
+        
+    def vai(self,ev=0):
+        self.foi()
+        Texto(self.todos.norte, "O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbaridade, e saber o limite de brincadeira e agressão. ").vai()
+        
+    
+    
                                
        
         
