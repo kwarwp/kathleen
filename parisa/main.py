@@ -24,6 +24,10 @@ class OI():
         self.todos = todos = Sala(n= SALA1, l= SALA2, s= SALA3, o= SALA4)
                               
         self.todas=todas= Sala(o= SALA4, s= SALA5, l= SALA6, n= SALA1)
+        self.todos.oeste.vai=self.todas.sul.vai
+        self.todas.leste.vai=self.todos.norte.vai
+        self.todos.norte.vai
+        self.todas.oeste.vai
         
         #self.todos.oeste.vai=self.todas.sul.vai
         #self.todas.todas.vai()
