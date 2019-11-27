@@ -61,7 +61,7 @@ class OI():
         self.a.vai()
         b=blabla(todos)
         todos.sul.vai=b.vai
-        a=canada(todos)
+        a=cansada(todos)
         todos.leste.vai=a.vai
         
     def acertou(self,ev=0):
