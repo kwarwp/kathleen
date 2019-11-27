@@ -1674,3 +1674,10 @@ SyntaxError: EOL while scanning string literal
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Nov 27 2019 16:05:51.699 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 61
+  def quiz
+           ^
+SyntaxError: invalid syntax
+'''},
