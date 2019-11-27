@@ -61,6 +61,8 @@ class OI():
         self.a.vai()
         b=blabla(todos)
         todos.sul.vai=b.vai
+        a=canada(todos)
+        todos.leste.vai=a.vai
         
     def acertou(self,ev=0):
         self.todos.oeste.vai()
