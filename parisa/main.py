@@ -44,10 +44,6 @@ class OI():
         self.falalogo=Texto(todos.norte,"O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbaridade, e saber o limite de brincadeira e agressão. ")
         self.logo.vai=self.falalogo.vai
         
-        self.neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
-        self. neide.entra(todos.leste)
-        self.falaneide= Texto(todos.leste, "Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nova vida acadêmica.")
-        self. neide.vai=self.falaneide.vai
         
         
         self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
@@ -70,6 +66,20 @@ class OI():
         self.todos.oeste.vai()
     def errou(self,ev=0):
         self.todos.norte.vai()
+class cansada():
+    def __init__(self,todos):
+        self.foi,todos.leste.vai=todos.leste.vai,self.vai
+        self.todos=todos
+        self.neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
+        self.neide.entra(todos.leste)
+        
+    def vai(self,ev=0):
+        self.foi()
+        Texto(self.todos.leste,"Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nova vida acadêmica.").vai()
+        """self.falaneide= Texto(todos.leste, "Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nova vida acadêmica.")
+        self.neide.vai=self.falaneide.vai"""
+        
+        
         
 class  blabla():
      def __init__(self,todos):
