@@ -53,13 +53,7 @@ class OI():
         self.menino.entra (todos.leste)
         self.falamenino= Texto(todos.leste, "Muito obrigado, Senhora Neide")
         self.menino.vai=self.falamenino.vai
-        
-        
-        self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
-        self.menino.entra(todos.sul)
-        self.todos.norte.vai()
-        
-        
+    
         
         self.a=Elemento(img=A, style=dict(left=100, top=100, width=50, height="200px"),vai=self.errou)
         self.b=Elemento(img=B, style=dict (left=300, top=100, width=50, height="200px",),vai=self.acertou)
@@ -68,11 +62,26 @@ class OI():
         self.b.entra(todos.sul)
         self.c.entra(todos.sul)
         self.a.vai()
+        b=blabla(todos)
+        todos.sul.vai=b.vai
         
     def acertou(self,ev=0):
         self.todos.oeste.vai()
     def errou(self,ev=0):
         self.todos.norte.vai()
+        
+class  blabla():
+     def __init__(self,todos):
+        self.foi,todos.sul.vai=todos.sul.vai,self.vai
+        self.todos=todos
+        self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
+        self.menino.entra(todos.sul)
+    
+     def vai(self,ev=0):
+        self.foi()
+        Texto(self.todos.sul,"kkkkkkkk").vai()
+        
+                               
        
         
     # mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas", 
