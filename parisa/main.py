@@ -26,19 +26,25 @@ C= "https://i.imgur.com/Brb4yHm.jpg"
 class OI():
     def __init__(self):
     
+    
+       
+        
+    
         self.todos = todos = Sala(n= SALA1, l= SALA2, s= SALA3, o= SALA4)                      
         self.todas=todas= Sala(o= SALA4, s= SALA5, l= SALA6, n= SALA1)
-        self.todos.oeste.vai=self.todas.sul.vai
-        self.todas.leste.vai=self.todos.norte.vai
-        #self.todos.norte.vai
-        #self.todas.oeste.vai
-        
+        d=hey(todas)
+        todas.sul.vai=d.vai
         b=blabla(todos)
         todos.sul.vai=b.vai
         a=cansada(todos)
         todos.leste.vai=a.vai
         c=ajuda(todos)
         todos.norte.vai=c.vai
+        self.todos.oeste.vai=self.todas.sul.vai
+        self.todas.leste.vai=self.todos.norte.vai
+        #self.todos.norte.vai
+        #self.todas.oeste.vai
+        
         
          
         self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
@@ -55,22 +61,39 @@ class OI():
         self.c.entra(todos.sul)
         self.a.vai()
         
-        self.a=Elemento(img=A, style=dict(left=100, top=100, width=50, height="200px"),vai=self.errou)
-        self.b=Elemento(img=B, style=dict (left=300, top=100, width=50, height="200px",),vai=self.acertou)
-        self.c=Elemento(img=C,  style=dict(left=600, top=100, width=50, height="200px"),vai=self.errou)
-        self.a.entra(todas.sul)
-        self.b.entra(todas.sul)
-        self.c.entra(todas.sul)
-        self.a.vai()
-        
-        
-       
-        
     def acertou(self,ev=0):
         self.todos.oeste.vai()
     def errou(self,ev=0):
         self.todos.norte.vai()
         
+class hey():
+    def __init__(self,todas):
+        self.foi,todas.sul.vai=todas.sul.vai,self.vai
+        self.todas=todas
+        self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
+        self.menino.entra(todas.sul)
+        self.a=Elemento(img=A, style=dict(left=100, top=100, width=50, height="200px"),vai=self.acertou)
+        self.b=Elemento(img=B, style=dict (left=300, top=100, width=50, height="200px",),vai=self.errou)
+        self.c=Elemento(img=C,  style=dict(left=600, top=100, width=50, height="200px"),vai=self.errou)
+        self.a.entra(todas.sul)
+        self.b.entra(todas.sul)
+        self.c.entra(todas.sul)
+        #self.a.vai()
+        
+        
+    def vai(self,ev=0):
+            self.foi()
+            Texto(self.todas.sul,"uuuuuu").vai()
+        
+    def acertou(self,ev=0):
+            self.todas.oeste.vai()
+            
+    def errou(self,ev=0):
+            self.todas.leste.vai()
+        
+       
+        
+   
         
 class cansada():
     def __init__(self,todos):
