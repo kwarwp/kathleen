@@ -1947,3 +1947,10 @@ AttributeError: 'hey' object has no attribute 'vai'
     todas.sul.vai=d.vai
 AttributeError: 'hey' object has no attribute 'vai'
 '''},
+{'date': 'Wed Nov 27 2019 19:01:23.598 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 80
+  def acertou(self,ev=0)
+                         ^
+SyntaxError: invalid syntax
+'''},
