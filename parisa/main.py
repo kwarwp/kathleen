@@ -19,6 +19,10 @@ MENINO= "https://cdn.pixabay.com/photo/2017/07/07/03/21/child-2480290_960_720.pn
 LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
 #diretora neide RASCUNHO
 NEIDE="https://i.pinimg.com/originals/25/48/27/254827fb621ed6c9e50b401d92554810.png"
+A= "https://i.imgur.com/BbqiLtF.jpg"
+B= "https://i.imgur.com/V02Plm4.jpg"
+C= "https://i.imgur.com/Brb4yHm.jpg"
+
 class OI():
     def __init__(self):
     
@@ -55,13 +59,20 @@ class OI():
         self.menino.entra(todos.sul)
         self.todos.norte.vai()
         
-        self.a=Elemento(img=A, style=dict(left=600, top=350, width=300, height="200px"))
-        self.b=Elemento(img=B, style=dict (left=600, top=350, width=300, height="200px"))
-        self.c=Elemento(img=C,  style=dict(left=600, top=350, width=300, height="200px"))
-    def quiz(self):
-        self.b.vai=acertou.sala4.vai
-        self.a.vai=errou.sala2.vai
-        self.c.vai=errou.sala2.vai
+        
+        
+        self.a=Elemento(img=A, style=dict(left=100, top=350, width=300, height="200px"),vai=self.errou)
+        self.b=Elemento(img=B, style=dict (left=300, top=350, width=300, height="200px",),vai=self.acertou)
+        self.c=Elemento(img=C,  style=dict(left=600, top=350, width=300, height="200px"),vai=self.errou)
+        self.a.entra(todos.sul)
+        self.b.entra(todos.sul)
+        self.c.entra(todos.sul)
+        self.a.vai()
+        
+    def acertou(self,ev=0):
+        self.todos.oeste.vai()
+    def errou(self,ev=0):
+        self.todos.norte.vai()
        
         
     # mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas", 
