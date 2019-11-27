@@ -1799,3 +1799,10 @@ SyntaxError: non-keyword arg after keyword arg
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Nov 27 2019 18:35:28.932 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 67
+  def __init__(self,todas)
+                           ^
+SyntaxError: invalid syntax
+'''},
