@@ -49,6 +49,7 @@ class OI():
         self.falaneide= Texto(todos.leste, "Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nova vida acadêmica.")
         self. neide.vai=self.falaneide.vai
         
+        
         self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
         self.menino.entra (todos.leste)
         self.falamenino= Texto(todos.leste, "Muito obrigado, Senhora Neide")
