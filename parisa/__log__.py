@@ -1771,3 +1771,10 @@ NameError: name 'canada' is not defined
     a=canada(todos)
 NameError: name 'canada' is not defined
 '''},
+{'date': 'Wed Nov 27 2019 18:26:07.646 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 103
+  self.menino=Elemento(img=MENINO, style=dict(left=600,top,350,width300,height="200px"))
+                                                          ^
+SyntaxError: non-keyword arg after keyword arg
+'''},
