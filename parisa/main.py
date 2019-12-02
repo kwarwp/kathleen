@@ -46,7 +46,8 @@ class OI():
         #self.todas.oeste.vai
         
         
-         
+        self.botao = Elemento (img = "https://i.imgur.com/hDAafpT.png", tit="Jogar",
+        style=dict(left=220, top=400, width=120, heigth=120))
         self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
         self.menino.entra (todos.leste)
         self.falamenino= Texto(todos.leste, "Muito obrigado, Senhora Neide")
