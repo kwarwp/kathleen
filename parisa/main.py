@@ -16,7 +16,7 @@ SALA5 = "https://i.pinimg.com/originals/78/99/c9/7899c925ee95618ef0bd21f4b067175
 #desconhecida 
 SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-ntro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg"
 MENINO= "https://cdn.pixabay.com/photo/2017/07/07/03/21/child-2480290_960_720.png"
-PLAY= " https://i.imgur.com/G9QfpN5.png"
+PLAY= "https://i.imgur.com/G9QfpN5.png"
 #diretora neide RASCUNHO
 NEIDE=" https://i.imgur.com/ATlnIzM.png"
 A= "https://i.imgur.com/frA6jk8.png"
@@ -46,9 +46,7 @@ class OI():
         #self.todas.oeste.vai
         
         
-        self.play = Elemento (img = "https://i.imgur.com/hDAafpT.png", tit="Jogar",
-        style=dict(left=220, top=400, width=120, heigth=120))
-        
+      
         self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
         self.menino.entra (todos.leste)
         self.falamenino= Texto(todos.leste, "Muito obrigado, Senhora Neide")
@@ -126,8 +124,10 @@ class ajuda():
     def __init__(self,todos):
         self.foi,todos.norte.vai=todos.norte.vai,self.vai
         self.todos=todos
-        self.play = Elemento(img=PLAY, style=dict(left=370, top=300, width=400, height="200px"))
+        self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=400, height="200px"))
         self.play.entra(todos.norte)
+         # self.play = Elemento (img = " https://i.imgur.com/G9QfpN5.png", tit="Jogar",
+        #style=dict(left=220, top=400, width=120, heigth=120))
         
         
     def vai(self,ev=0):
