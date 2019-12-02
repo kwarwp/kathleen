@@ -23,6 +23,7 @@ A= "https://i.imgur.com/frA6jk8.png"
 B= " https://i.imgur.com/KwIY4yn.png"
 C= "https://i.imgur.com/Brb4yHm.jpg"
 SETINHA= "https://media.giphy.com/media/hqfzJ6el5q5GoHoYO4/giphy.gif"
+SETAD ="https://www.imagensanimadas.com/data/media/111/seta-imagem-animada-0540.gif"
 class OI():
     def __init__(self):
     
@@ -104,7 +105,7 @@ class cansada():
         
         self.setinha=Elemento(img= SETINHA)
         self.setinha.entra(todos.leste)
-        self.play.vai=self.todos.norte.vai
+        self.setinha.vai=self.todos.norte.vai
         
     def vai(self,ev=0):
         self.foi()
