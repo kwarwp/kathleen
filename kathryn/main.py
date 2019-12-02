@@ -4,7 +4,7 @@ from _spy.vitollino.main import INVENTARIO as invi
 CIENTISTA = "https://img2.gratispng.com/20180515/ree/kisspng-mad-scientist-famous-scientists-clip-art-5afaa2c000e336.8963581315263751040036.jpg"
 SANGUE = "https://dbdzm869oupei.cloudfront.net/img/sticker/preview/14126.png"
 BIBLIOTECA = "https://daequfpr.files.wordpress.com/2012/04/biblioteca3.jpg"
-CENTROI = "https://www.itforum365.com.br/wp-content/uploads/2017/08/prescriptive-soc.png"
+CENTRO = "https://www.itforum365.com.br/wp-content/uploads/2017/08/prescriptive-soc.png"
 SETA = "https://image.flaticon.com/icons/png/512/2026/2026737.png"
 PORTA = "https://cdn.pixabay.com/photo/2014/12/21/23/45/door-575962_960_720.png"
 FRAGMENTO = "https://png.pngtree.com/png-clipart/20190117/ourlarge/pngtree-c4d-purple-decoration-triangle-block-png-image_426001.jpg"
@@ -21,5 +21,26 @@ class yato():
     sangue.entra (biblioteca)
     cientista.entra (biblioteca)
     biblioteca.vai()
-
+    
+    centro=Cena (img=CENTRO)
+    seta=Elemento (img=SETA)
+    porta=Elemento (img=PORTA)
+    fragmento=Elemento (img=FRAGMENTO)
+    dna=Elemento (img=DNA)
+    proteina=Elemento (img=PROTEINA)
+    molecula=Elemento (img=MOLECULA)
+    gene=Elemento (img=GENE)
+    atomos=Elemento (img=ATOMOS)
+    bancada=Elemento (img=BANCADA)
+    seta.entra(centro)
+    porta.entra(centro)
+    fragmento.entra(centro)
+    dna.entra(centro)
+    proteina.entra(centro
+    molecula.entra(centro)
+    gene.entra(centro)
+    atomos.entra(centro)
+    bancada.entra(centro)
+    centro.vai()
+    
 yato()
