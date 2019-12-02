@@ -22,3 +22,4 @@ class yato ():
         sangue.entra(bibleoteca)
         cientista.entra(bibleoteca)
         bliblioteca.vai()
+yato()        
