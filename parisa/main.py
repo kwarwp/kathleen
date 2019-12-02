@@ -16,7 +16,7 @@ SALA5 = "https://i.pinimg.com/originals/78/99/c9/7899c925ee95618ef0bd21f4b067175
 #desconhecida 
 SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-ntro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg"
 MENINO= "https://cdn.pixabay.com/photo/2017/07/07/03/21/child-2480290_960_720.png"
-LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
+LOGO= "https://i.imgur.com/LVHCQaD.png"
 #diretora neide RASCUNHO
 NEIDE=" https://i.imgur.com/ATlnIzM.png"
 A= "https://i.imgur.com/frA6jk8.png"
