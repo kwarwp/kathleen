@@ -36,7 +36,7 @@ class yato():
     porta.entra(centro)
     fragmento.entra(centro)
     dna.entra(centro)
-    proteina.entra(centro
+    proteina.entra(centro)
     molecula.entra(centro)
     gene.entra(centro)
     atomos.entra(centro)
