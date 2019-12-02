@@ -128,7 +128,7 @@ class ajuda():
         self.play.entra(todos.norte)
          # self.play = Elemento (img = " https://i.imgur.com/G9QfpN5.png", tit="Jogar",
         #style=dict(left=220, top=400, width=120, heigth=120))
-         self.botao.vai=self.sala1.vai
+        #self.play.vai=self.todos.norte.vai
         
     def vai(self,ev=0):
         self.foi()
