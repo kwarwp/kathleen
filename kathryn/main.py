@@ -20,4 +20,5 @@ class yato():
     cientista=Elemento (img=CIENTISTA)
     sangue.entra (biblioteca)
     cientista.entra (biblioteca)
+    biblioteca.vai()
 yato()
