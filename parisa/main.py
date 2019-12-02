@@ -104,6 +104,7 @@ class cansada():
         
         self.setinha=Elemento(img= SETINHA)
         self.setinha.entra(todos.leste)
+        self.play.vai=self.todos.norte.vai
         
     def vai(self,ev=0):
         self.foi()
