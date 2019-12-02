@@ -125,7 +125,7 @@ class ajuda():
         self.foi,todos.norte.vai=todos.norte.vai,self.vai
         self.todos=todos
         self.play = Elemento(img=PLAY, style=dict(left=370, top=300, width=450, height="250px"))
-        self.logo.entra(todos.norte)
+        self.play.entra(todos.norte)
         
         
     def vai(self,ev=0):
