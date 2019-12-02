@@ -8,7 +8,7 @@ SALA1 = "https://www.loskatchorros.com.br/forum/uploads/monthly_2017_08/maxresde
 #fachada da escola CENA 1
 SALA2 = "https://i.imgur.com/klmWAtd.png"
 #Sala de aula CENA 2
-SALA3 = "https://i.imgur.com/KGfgpSwr.jpg"
+SALA3 = "https://i.imgur.com/51la4f1.jpg"
 #Corredor da escola CENA 4
 SALA4 = "https://i.imgur.com/0xs8URf.jpg"
 #Quadra de esportes
@@ -18,9 +18,9 @@ SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-ntro/blog/wp-content/uploads
 MENINO= "https://cdn.pixabay.com/photo/2017/07/07/03/21/child-2480290_960_720.png"
 LOGO= "http://supygirls.pythonanywhere.com/image/camisasuperpython.png"
 #diretora neide RASCUNHO
-NEIDE="https://i.pinimg.com/originals/25/48/27/254827fb621ed6c9e50b401d92554810.png"
-A= "https://i.imgur.com/BbqiLtF.jpg"
-B= "https://i.imgur.com/V02Plm4.jpg"
+NEIDE=" https://i.imgur.com/ATlnIzM.png"
+A= "https://i.imgur.com/frA6jk8.png"
+B= " https://i.imgur.com/KwIY4yn.png"
 C= "https://i.imgur.com/Brb4yHm.jpg"
 
 class OI():
