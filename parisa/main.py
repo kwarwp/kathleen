@@ -4,7 +4,7 @@ from _spy.vittolino.main import INVENTARIO as inv
 STYLE["width"] = 1150
 STYLE["height"] = "600px"
 #inicio
-SALA1 = "https://www.loskatchorros.com.br/forum/uploads/monthly_2017_08/maxresdefault.jpg.3845d9d72470fe4e52aa779cf96871b5.jpg"
+SALA1 = "https://i.imgur.com/RGO9pjB.jpg"
 #fachada da escola CENA 1
 SALA2 = "https://i.imgur.com/klmWAtd.png"
 #Sala de aula CENA 2
