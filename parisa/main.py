@@ -124,11 +124,11 @@ class ajuda():
     def __init__(self,todos):
         self.foi,todos.norte.vai=todos.norte.vai,self.vai
         self.todos=todos
-        self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=400, height="200px"))
+        self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="200px"))
         self.play.entra(todos.norte)
          # self.play = Elemento (img = " https://i.imgur.com/G9QfpN5.png", tit="Jogar",
         #style=dict(left=220, top=400, width=120, heigth=120))
-        
+         self.botao.vai=self.sala1.vai
         
     def vai(self,ev=0):
         self.foi()
