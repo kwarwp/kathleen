@@ -40,7 +40,7 @@ class leni():
     portao=Cena(img=PORTAO)
     pracinha=Cena(img=PRACA)
     
-    haha=Labirinto(N= casa,S= biblioteca,O= laboratorio,L= porta)
+    haha=Labirinto(N=casa,S=biblioteca,O=laboratorio,L=porta)
     hehe=Labirinto(L=porta,S=tunel,O=portao,N=casa)
     
     doente=Elemento(img=DOENTE)
