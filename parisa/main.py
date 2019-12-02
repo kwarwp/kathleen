@@ -15,14 +15,14 @@ SALA4 = "https://i.imgur.com/0xs8URf.jpg"
 SALA5 = "https://i.pinimg.com/originals/78/99/c9/7899c925ee95618ef0bd21f4b067175b.jpg"
 #desconhecida 
 SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-ntro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg"
-MENINO= "https://cdn.pixabay.com/photo/2017/07/07/03/21/child-2480290_960_720.png"
+#MENINO= "https://cdn.pixabay.com/photo/2017/07/07/03/21/child-2480290_960_720.png"
 PLAY= "https://i.imgur.com/G9QfpN5.png"
 #diretora neide RASCUNHO
 NEIDE=" https://i.imgur.com/ATlnIzM.png"
 A= "https://i.imgur.com/frA6jk8.png"
 B= " https://i.imgur.com/KwIY4yn.png"
 C= "https://i.imgur.com/Brb4yHm.jpg"
-
+SETINHA= "https://media.giphy.com/media/hqfzJ6el5q5GoHoYO4/giphy.gif"
 class OI():
     def __init__(self):
     
@@ -47,10 +47,10 @@ class OI():
         
         
       
-        self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
-        self.menino.entra (todos.leste)
-        self.falamenino= Texto(todos.leste, "Muito obrigado, Senhora Neide")
-        self.menino.vai=self.falamenino.vai
+        #self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
+        #self.menino.entra (todos.leste)
+        #self.falamenino= Texto(todos.leste, "Muito obrigado, Senhora Neide")
+        #self.menino.vai=self.falamenino.vai
     
         
         self.a=Elemento(img=A, style=dict(left=100, top=100, width=50, height="200px"),vai=self.errou)
@@ -70,8 +70,8 @@ class hey():
     def __init__(self,todas):
         self.foi,todas.sul.vai=todas.sul.vai,self.vai
         self.todas=todas
-        self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
-        self.menino.entra(todas.sul)
+        #self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
+       # self.menino.entra(todas.sul)
         self.a=Elemento(img=A, style=dict(left=100, top=100, width=50, height="200px"),vai=self.acertou)
         self.b=Elemento(img=B, style=dict (left=300, top=100, width=50, height="200px",),vai=self.errou)
         self.c=Elemento(img=C,  style=dict(left=600, top=100, width=50, height="200px"),vai=self.errou)
@@ -102,9 +102,12 @@ class cansada():
         self.neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
         self.neide.entra(todos.leste)
         
+        self.setinha=Elemento(img= SETINHA)
+        self.setinha.entra(todos.leste)
+        
     def vai(self,ev=0):
         self.foi()
-        Texto(self.todos.leste,"Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nova vida acadêmica.").vai()
+        Texto(self.todos.leste,"Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nova vida acadêmica. Se você estiver pronto aperte na setinha a sua direita").vai()
         
         
         
@@ -112,8 +115,8 @@ class  blabla():
      def __init__(self,todos):
         self.foi,todos.sul.vai=todos.sul.vai,self.vai
         self.todos=todos
-        self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
-        self.menino.entra(todos.sul)
+        #self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
+        #self.menino.entra(todos.sul)
     
      def vai(self,ev=0):
         self.foi()
@@ -126,9 +129,10 @@ class ajuda():
         self.todos=todos
         self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="200px"))
         self.play.entra(todos.norte)
+        self.play.vai=self.todos.norte.vai
          # self.play = Elemento (img = " https://i.imgur.com/G9QfpN5.png", tit="Jogar",
         #style=dict(left=220, top=400, width=120, heigth=120))
-        #self.play.vai=self.todos.norte.vai
+        self.play.vai=self.todos.leste.vai
         
     def vai(self,ev=0):
         self.foi()
