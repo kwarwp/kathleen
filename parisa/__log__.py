@@ -2157,3 +2157,10 @@ NameError: name 'MENINO' is not defined
     self.play.vai=self.todos.norte.vai
 AttributeError: 'cansada' object has no attribute 'play'
 '''},
+{'date': 'Tue Dec 03 2019 14:56:02.882 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 111
+  self.setad.entra.(todos.leste)
+                    ^
+SyntaxError: invalid syntax
+'''},
