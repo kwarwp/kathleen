@@ -132,7 +132,7 @@ class ajuda():
         self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="200px"))
         self.play.entra(todos.norte)
         self.play.vai=self.todos.norte.vai
-         # self.play = Elemento (img = " https://i.imgur.com/G9QfpN5.png", tit="Jogar",
+         # self.play = Elemento (img = "Â https://i.imgur.com/G9QfpN5.png", tit="Jogar",
         #style=dict(left=220, top=400, width=120, heigth=120))
         self.play.vai=self.todos.leste.vai
         
