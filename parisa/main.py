@@ -122,7 +122,7 @@ class  blabla():
     
      def vai(self,ev=0):
         self.foi()
-        Texto(self.todos.sul,"kkkkkkkk").vai()
+        Texto(self.todos.sul,"Estamos aqui na sala de aula e voce tera que fazer sua escolha: Qual deles sofre bullying ?").vai()
         
         
 class ajuda():
@@ -132,7 +132,7 @@ class ajuda():
         self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="200px"))
         self.play.entra(todos.norte)
         self.play.vai=self.todos.norte.vai
-         # self.play = Elemento (img = "Â https://i.imgur.com/G9QfpN5.png", tit="Jogar",
+         # self.play = Elemento (img = "ÂÂ https://i.imgur.com/G9QfpN5.png", tit="Jogar",
         #style=dict(left=220, top=400, width=120, heigth=120))
         self.play.vai=self.todos.leste.vai
         
