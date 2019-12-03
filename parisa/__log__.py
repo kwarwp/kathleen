@@ -2164,3 +2164,10 @@ AttributeError: 'cansada' object has no attribute 'play'
                     ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Dec 03 2019 14:57:29.80 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 110
+  self.setad= Elemento(img="https://www.imagensanimadas.com/data/media/111/seta-imagem-animada-0540.gif" ,style=dict(left=1000, top=350, width=100, height="100px")")
+                                                                                                                                                                     ^
+SyntaxError: EOL while scanning string literal
+'''},
