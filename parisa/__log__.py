@@ -2205,3 +2205,10 @@ SyntaxError: invalid syntax
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Dec 04 2019 08:45:26.950 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 122
+  self.setad=Elemento(img=SETAD, tit "Proxima cena", 
+                                      ^
+SyntaxError: invalid syntax
+'''},
