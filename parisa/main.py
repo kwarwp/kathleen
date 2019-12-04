@@ -96,7 +96,7 @@ class hey():
         
     def vai(self,ev=0):
             self.foi()
-            Texto(self.todas.sul,"uuuuuu").vai()
+            Texto(self.todas.sul,"Parabéns. 'O preconceito da raça é injusto e causa grande sofrimento às pessoas.-Voltaire' Assim como qualquer outro tipo de preconceito!!!!  Agora nossos alunos estão na aula de educação fisíca e você terá que descobrir quem infelizmente tem sofrido Bullying, não apenas nessa aula. ").vai()
         
     def acertou(self,ev=0):
             self.todas.oeste.vai()
@@ -141,7 +141,7 @@ class  blabla():
     
      def vai(self,ev=0):
         self.foi()
-        Texto(self.todos.sul,"Estamos aqui na sala de aula e você tera que fazer sua escolha: Qual deles sofre bullying ? Cada personagem está contando sua história. Passe o mouse em cima de cada um e conheça mais sobre o dia a dia deles.").vai()
+        Texto(self.todos.sul,"Esse aqui é o nosso laboratório de ciência. E você terá que fazer uma escolha: Qual deles sofre bullying ? Cada aluno está contando sua história. Passe o mouse em cima de cada um e conheça mais sobre o dia a dia deles.").vai()
         
         
 class ajuda():
