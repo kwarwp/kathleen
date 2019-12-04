@@ -55,7 +55,7 @@ class OI():
     
         
         self.a=Elemento(img=A, tit= "Olá, eu sou Rosa. Tenho 13 anos. Preciso contar algo terrível que aconteceu. A maquiagem que eu tanto queria acabou no shopping da cidade e nunca que eu irei me submeter a ir na lojinha do interior. Minha vida é uma merda!!!", 
-        style=dict(left=100, top=300, width=300, height="200px"),vai=self.errou)
+        style=dict(left=50, top=300, width=400, height="200px"),vai=self.errou)
         
         self.b=Elemento(img=B, tit= "Olá, eu sou a Dani. Tenho 14 anos. Estou aqui para te contar sobre algo que infelizmente me doi muito. O preconceito e a discriminação muitas vezes resultam em situações em que pessoas são humilhadas, agredidas e acusadas injustamente simplesmente pelo fato de fazerem parte de algum grupo social específico. A afirmação é de uma pesquisa da Fundação Instituto de Pesquisa Econômicas (Fipe) que publicou em junho, em parceria com o Inep, um estudo sobre preconceito e discriminação no ambiente escolar. De acordo com a pesquisa, as práticas discriminatórias têm como principais vítimas os alunos, especialmente negros, pobres e homossexuais, com médias de 19%, 18% e 17% respectivamente para o índice percentual de conhecimento de situações de bullying nas escolas. - Observatório da Educação. 'http://www.observatoriodaeducacao.org.br/index.php/entrevistas/56-entrevistas/817-criancas-negras-estao-entre-as-principais-vitimas-de-bullying'" ,
         style=dict (left=300, top=300, width=300, height="200px",),vai=self.acertou)
@@ -79,14 +79,14 @@ class hey():
         self.todas=todas
         #self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
         # self.menino.entra(todas.sul)
-        self.c=Elemento(img= "https://i.imgur.com/lQDHDC4.png", tit="Oiiii, meu nome é Toni. Eu tenho 13 anos e estou tão triste. Meus amigos tem me chamado de coisas horriveis e isso me deixa triste. - O trabalho foi baseado nos números da Pesquisa Nacional de Saúde do Escolar (PeNSE) de 2012, que entrevistou 110 mil alunos, representando um universo de mais de três milhões de crianças. O estudo traçou o perfil antropométrico dos estudantes a partir da percepção deles sobre o próprio corpo, numa escala de características como âmuito magroâ, âmagroâ, ânormalâ, âgordoâ e âmuito gordoâ. Após comparar as respostas das entrevistas, a pesquisa chegou à conclusão que os estereótipos âmuito magroâ, âgordoâ e âmuito gordoâ são os alvos preferidos de perseguições: 11,3%, 12,1% e 23,7% das crianças inseridas nestas categorias, respectivamente, responderam sofrer bullying com frequência- 'https://oglobo.globo.com/sociedade/educacao/alunos-acima-do-peso-sao-mais-vitimas-de-bullying-na-escola-12375170'"     ,
+        self.c=Elemento(img= "https://i.imgur.com/lQDHDC4.png", tit="Oiiii, meu nome é Toni. Eu tenho 13 anos e estou tão triste. Meus amigos tem me chamado de coisas horriveis e isso me deixa triste. - O trabalho foi baseado nos números da Pesquisa Nacional de Saúde do Escolar (PeNSE) de 2012, que entrevistou 110 mil alunos, representando um universo de mais de três milhões de crianças. O estudo traçou o perfil antropométrico dos estudantes a partir da percepção deles sobre o próprio corpo, numa escala de características como “muito magro”, “magro”, “normal”, “gordo” e “muito gordo”. Após comparar as respostas das entrevistas, a pesquisa chegou à conclusão que os estereótipos “muito magro”, “gordo” e “muito gordo” são os alvos preferidos de perseguições: 11,3%, 12,1% e 23,7% das crianças inseridas nestas categorias, respectivamente, responderam sofrer bullying com frequência- 'https://oglobo.globo.com/sociedade/educacao/alunos-acima-do-peso-sao-mais-vitimas-de-bullying-na-escola-12375170'",   
         style=dict(left=50, top=350, width=400, height="200px"),vai=self.acertou)
         
         self.b=Elemento(img=B, tit= "Dani aqui, pessoaaalll! Vocês acreditam que a professora hoje me obrigou a fazer aquele esporte nojento???? Futebol, eca! É coisa de menino. Fora que eu comprei um short lindissmo rosa e adivinham??? Não combinou com esse uniforme." ,
-        style=dict (left=300, top=350, width=300, height="200px",),vai=self.errou)
+        style=dict (left=400, top=350, width=300, height="200px",),vai=self.errou)
 
         self.a=Elemento(img= "https://i.imgur.com/KaEaDQk.png", tit = "Fala aêê. Meu nome é Rodrigo e hoje eu estou suavee na nave. Dia de futebooool e de zoar o Toni. AQUELE BALEIA DE ÓCULOS ALI KKKKKKK",
-        style=dict(left=600, top=350, width=400, height="200px"),vai=self.errou)
+        style=dict(left=700, top=350, width=400, height="200px"),vai=self.errou)
 
         self.a.entra(todas.sul)
         self.b.entra(todas.sul)
@@ -104,10 +104,7 @@ class hey():
     def errou(self,ev=0):
             self.todas.leste.vai()
         
-       
-        
-   
-        
+
 class cansada():
     def __init__(self,todos):
         self.foi,todos.leste.vai=todos.leste.vai,self.vai
@@ -115,10 +112,20 @@ class cansada():
         self.neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
         self.neide.entra(todos.leste)
         
-        self.setinha=Elemento(img= SETINHA)
+        self.setinha=Elemento(img= SETINHA, tit = "Voltar para início")
         self.setinha.entra(todos.leste)
         self.setinha.vai=self.todos.norte.vai
         
+        self.setad=Elemento(img=SETAD, tit= "Proxima cena", 
+        style=dict(left=1090, top=350, width=80, height="100px"))
+        self.setad.entra(todos.leste)
+        self.setad.vai=self.todos.sul.vai
+        
+        self.bola=Elemento(img = "https://4.bp.blogspot.com/-5tI9f8dEANo/WFJvsXn1pvI/AAAAAAAAX2I/Cbx902UhDIM_cOm-p3JHfKKtTnEJ6QKvgCLcB/s320/Gifs%2Banimados%2BBola%2Bde%2BFutebol%2Bakigifs%2B14.gif",
+        style=dict(left=1070, top=350, width=80, height="100px"))
+        self.bola.entra(todas.sul)
+        self.bola.vai
+    
     def vai(self,ev=0):
         self.foi()
         Texto(self.todos.leste,"Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nova vida acadêmica. Se você estiver pronto aperte na setinha a sua direita").vai()
@@ -144,7 +151,7 @@ class ajuda():
         self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="200px"))
         self.play.entra(todos.norte)
         self.play.vai=self.todos.norte.vai
-         # self.play = Elemento (img = "ÂÂÂÂÂ https://i.imgur.com/G9QfpN5.png", tit="Jogar",
+         # self.play = Elemento (img = "ÂÂÂÂ https://i.imgur.com/G9QfpN5.png", tit="Jogar",
         #style=dict(left=220, top=400, width=120, heigth=120))
         self.play.vai=self.todos.leste.vai
         
