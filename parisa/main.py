@@ -54,9 +54,10 @@ class OI():
         #self.menino.vai=self.falamenino.vai
     
         
-        self.a=Elemento(img=A, style=dict(left=100, top=100, width=50, height="200px"),vai=self.errou)
-        self.b=Elemento(img=B, style=dict (left=300, top=100, width=50, height="200px",),vai=self.acertou)
-        self.c=Elemento(img=C,  style=dict(left=600, top=100, width=50, height="200px"),vai=self.errou)
+        self.a=Elemento(img=A, tit= "Olá, eu sou Rosa. Tenho 13 anos. Preciso contar algo terrível que aconteceu. A maquiagem que eu tanto queria acabou no shopping da cidade e nunca que eu irei me submeter a ir na lojinha do interior. Minha vida é uma merda!!!",  style=dict(left=100, top=300, width=200, height="200px"),vai=self.errou)
+        self.b=Elemento(img=B, tit= "Olá, eu sou a Dani. Tenho 14 anos. Estou aqui para te contar sobre algo que infelizmente me doi muito. O preconceito e a discriminação muitas vezes resultam em situações em que pessoas são humilhadas, agredidas e acusadas injustamente simplesmente pelo fato de fazerem parte de algum grupo social específico. A afirmação é de uma pesquisa da Fundação Instituto de Pesquisa Econômicas (Fipe) que publicou em junho, em parceria com o Inep, um estudo sobre preconceito e discriminação no ambiente escolar. De acordo com a pesquisa, as práticas discriminatórias têm como principais vítimas os alunos, especialmente negros, pobres e homossexuais, com médias de 19%, 18% e 17% respectivamente para o índice percentual de conhecimento de situações de bullying nas escolas. - Observatório da Educação. 'http://www.observatoriodaeducacao.org.br/index.php/entrevistas/56-entrevistas/817-criancas-negras-estao-entre-as-principais-vitimas-de-bullying'" ,
+        style=dict (left=300, top=300, width=200, height="200px",),vai=self.acertou)
+        self.c=Elemento(img= "https://i.imgur.com/yuFIURj.png",  style=dict(left=600, top=300, width=200, height="200px"),vai=self.errou)
         self.a.entra(todos.sul)
         self.b.entra(todos.sul)
         self.c.entra(todos.sul)
@@ -132,7 +133,7 @@ class ajuda():
         self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="200px"))
         self.play.entra(todos.norte)
         self.play.vai=self.todos.norte.vai
-         # self.play = Elemento (img = "ÂÂÂ https://i.imgur.com/G9QfpN5.png", tit="Jogar",
+         # self.play = Elemento (img = "ÂÂÂÂ https://i.imgur.com/G9QfpN5.png", tit="Jogar",
         #style=dict(left=220, top=400, width=120, heigth=120))
         self.play.vai=self.todos.leste.vai
         
