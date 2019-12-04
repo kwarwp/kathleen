@@ -82,10 +82,10 @@ class hey():
         self.c=Elemento(img= "https://i.imgur.com/lQDHDC4.png", tit="Oiiii, meu nome é Toni. Eu tenho 13 anos e estou tão triste. Meus amigos tem me chamado de coisas horriveis e isso me deixa triste. - O trabalho foi baseado nos números da Pesquisa Nacional de Saúde do Escolar (PeNSE) de 2012, que entrevistou 110 mil alunos, representando um universo de mais de três milhões de crianças. O estudo traçou o perfil antropométrico dos estudantes a partir da percepção deles sobre o próprio corpo, numa escala de características como “muito magro”, “magro”, “normal”, “gordo” e “muito gordo”. Após comparar as respostas das entrevistas, a pesquisa chegou à conclusão que os estereótipos “muito magro”, “gordo” e “muito gordo” são os alvos preferidos de perseguições: 11,3%, 12,1% e 23,7% das crianças inseridas nestas categorias, respectivamente, responderam sofrer bullying com frequência- 'https://oglobo.globo.com/sociedade/educacao/alunos-acima-do-peso-sao-mais-vitimas-de-bullying-na-escola-12375170'"     ,
         .style=dict(left=50, top=350, width=400, height="200px"),vai=self.acertou)
         
-        self.b=Elemento(img=B, tit= "Dani aqui, pessoaaalll! Vocês acreditam que a professora hoje me obrigou a fazer aquele esporte nojento???? Futebol, eca! É coisa de menino." ,
+        self.b=Elemento(img=B, tit= "Dani aqui, pessoaaalll! Vocês acreditam que a professora hoje me obrigou a fazer aquele esporte nojento???? Futebol, eca! É coisa de menino. Fora que eu comprei um short lindissmo rosa e adivinham??? Não combinou com esse uniforme." ,
         style=dict (left=300, top=350, width=300, height="200px",),vai=self.errou)
 
-        self.a=Elemento(img=A, tit = "Já nos vimos antes, né??. Agora eu realmente desisto. Você acredita que eu comprei um short lindo, maravilhoso e rosa para colocar na educação fisica de hoje e adivinha?? Não combinou com esse uniforme!!",
+        self.a=Elemento(img= "https://i.imgur.com/KaEaDQk.png", tit = "Fala aêê. Meu nome é Rodrigo e hoje eu estou suavee na nave. Dia de futebooool e de zoar o Toni. AQUELE BALEIA DE ÓCULOS ALI KKKKKKK",
         style=dict(left=600, top=350, width=400, height="200px"),vai=self.errou)
 
         self.a.entra(todas.sul)
