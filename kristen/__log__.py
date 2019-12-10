@@ -351,3 +351,10 @@ IndentationError: expected an indented block
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Tue Dec 10 2019 11:02:40.908 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 47
+  casa.vai()
+  ^
+IndentationError: unexpected indent
+'''},
