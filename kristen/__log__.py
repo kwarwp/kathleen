@@ -330,3 +330,10 @@ NameError: name 'OVO' is not defined
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Tue Dec 10 2019 11:01:11.208 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 24
+  casa=Cena (img=CASA)
+  ^
+IndentationError: expected an indented block
+'''},
