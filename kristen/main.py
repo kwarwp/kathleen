@@ -24,9 +24,9 @@ class CARTA():
     casa=Cena (img=CASA)
     zeze=Elemento (img=ZEZINHO)
     rosa=Elemento (img=ROSALINDA)
+    quadro=Elemento (img=QUADRO)
     zeze.entra (casa)
     rosa.entra (casa)
-    quadro=Elemento (img=QUADRO)
     quadro.entra (casa)
     casa.vai()
     
@@ -44,8 +44,7 @@ class CARTA():
     
     estante=Cena (img=ESTANTE)
     casa=Cena (img=CASA)
-    
-    casa.vai()
+     casa.vai()
     
 CARTA()
     
