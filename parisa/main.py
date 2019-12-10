@@ -27,10 +27,6 @@ SETAD ="https://www.imagensanimadas.com/data/media/111/seta-imagem-animada-0540.
 class OI():
     def __init__(self):
     
-    
-       
-        
-    
         self.todos = todos = Sala(n= SALA1, l= SALA2, s= SALA3, o= SALA4)                      
         self.todas=todas= Sala(o= SALA4, s= SALA5, l= SALA6, n= SALA1)
         d=hey(todas)
@@ -46,8 +42,6 @@ class OI():
         #self.todos.norte.vai
         #self.todas.oeste.vai
         
-        
-      
         #self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
         #self.menino.entra (todos.leste)
         #self.falamenino= Texto(todos.leste, "Muito obrigado, Senhora Neide")
@@ -79,7 +73,7 @@ class hey():
         self.todas=todas
         #self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
         # self.menino.entra(todas.sul)
-        self.c=Elemento(img= "https://i.imgur.com/lQDHDC4.png", tit="Oiiii, meu nome é Toni. Eu tenho 13 anos e estou tão triste. Meus amigos tem me chamado de coisas horriveis e isso me deixa triste. - O trabalho foi baseado nos números da Pesquisa Nacional de Saúde do Escolar (PeNSE) de 2012, que entrevistou 110 mil alunos, representando um universo de mais de três milhões de crianças. O estudo traçou o perfil antropométrico dos estudantes a partir da percepção deles sobre o próprio corpo, numa escala de características como “muito magro”, “magro”, “normal”, “gordo” e “muito gordo”. Após comparar as respostas das entrevistas, a pesquisa chegou à conclusão que os estereótipos “muito magro”, “gordo” e “muito gordo” são os alvos preferidos de perseguições: 11,3%, 12,1% e 23,7% das crianças inseridas nestas categorias, respectivamente, responderam sofrer bullying com frequência- 'https://oglobo.globo.com/sociedade/educacao/alunos-acima-do-peso-sao-mais-vitimas-de-bullying-na-escola-12375170'",   
+        self.c=Elemento(img= "https://i.imgur.com/lQDHDC4.png", tit="Oiiii, meu nome é Toni. Eu tenho 13 anos e estou tão triste. Meus amigos tem me chamado de coisas horriveis e isso me deixa triste. - O trabalho foi baseado nos números da Pesquisa Nacional de Saúde do Escolar (PeNSE) de 2012, que entrevistou 110 mil alunos, representando um universo de mais de três milhões de crianças. O estudo traçou o perfil antropométrico dos estudantes a partir da percepção deles sobre o próprio corpo, numa escala de características como âmuito magroâ, âmagroâ, ânormalâ, âgordoâ e âmuito gordoâ. Após comparar as respostas das entrevistas, a pesquisa chegou à conclusão que os estereótipos âmuito magroâ, âgordoâ e âmuito gordoâ são os alvos preferidos de perseguições: 11,3%, 12,1% e 23,7% das crianças inseridas nestas categorias, respectivamente, responderam sofrer bullying com frequência- 'https://oglobo.globo.com/sociedade/educacao/alunos-acima-do-peso-sao-mais-vitimas-de-bullying-na-escola-12375170'",   
         style=dict(left=50, top=350, width=400, height="200px"),vai=self.acertou)
         
         self.b=Elemento(img=B, tit= "Dani aqui, pessoaaalll! Vocês acreditam que a professora hoje me obrigou a fazer aquele esporte nojento???? Futebol, eca! É coisa de menino. Fora que eu comprei um short lindissmo rosa e adivinham??? Não combinou com esse uniforme." ,
@@ -151,7 +145,7 @@ class ajuda():
         self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="200px"))
         self.play.entra(todos.norte)
         self.play.vai=self.todos.norte.vai
-         # self.play = Elemento (img = "ÂÂÂÂ https://i.imgur.com/G9QfpN5.png", tit="Jogar",
+         # self.play = Elemento (img = "ÂÂÂÂÂ https://i.imgur.com/G9QfpN5.png", tit="Jogar",
         #style=dict(left=220, top=400, width=120, heigth=120))
         self.play.vai=self.todos.leste.vai
         
@@ -161,8 +155,6 @@ class ajuda():
         
     
     
-                               
-       
         
     # mensagens= Codigo(cena=todos.norte, topo="", codigo="O intuito do jogo é fazer com que as pessoas", 
     #"tenham ciência de que a , prática do bullying pode causar mal à saúde humana."),
