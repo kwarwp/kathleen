@@ -12,7 +12,7 @@ SALA3 = "https://i.imgur.com/51la4f1.jpg"
 #Corredor da escola CENA 4
 SALA4 = "https://i.imgur.com/0xs8URf.jpg"
 #Quadra de esportes
-SALA5 = "https://i.pinimg.com/originals/78/99/c9/7899c925ee95618ef0bd21f4b067175b.jpg"
+SALA5 = "https://i.imgur.com/FBbMoQM.jpg"
 #desconhecida 
 SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-ntro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg"
 #MENINO= "https://cdn.pixabay.com/photo/2017/07/07/03/21/child-2480290_960_720.png"
