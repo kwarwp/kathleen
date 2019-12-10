@@ -20,7 +20,7 @@ PAPEL="http://1.bp.blogspot.com/-2ZRwuDRFsUE/UN26nlcbvYI/AAAAAAAAAaQ/5_I8JJscq4o
 COFRINHO="https://images.tcdn.com.br/img/img_prod/448593/cofre_digital_bh_d23_hotel_grande_br_4680_1_20180420145844.png"
 
 class CARTA():
-    def __init__(self):
+   # def __init__(self):
     casa=Cena (img=CASA)
     zeze=Elemento (img=ZEZINHO)
     rosa=Elemento (img=ROSALINDA)
@@ -44,7 +44,10 @@ class CARTA():
     
     estante=Cena (img=ESTANTE)
     casa=Cena (img=CASA)
-     casa.vai()
+    
+    casa=Labirinto(N=casa, S=corredor,L=cofre, O=estante)
+    
+    casa.vai()
     
 CARTA()
     
