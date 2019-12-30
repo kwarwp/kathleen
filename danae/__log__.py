@@ -201,3 +201,10 @@ NameError: name 'Elementos' is not defined
     setinhas= Elementos(img=SETASFLORESCENTES)
 NameError: name 'Elementos' is not defined
 '''},
+{'date': 'Mon Dec 30 2019 13:15:25.657 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 13
+  FRAGMENTO=""r
+               ^
+SyntaxError: invalid syntax
+'''},
