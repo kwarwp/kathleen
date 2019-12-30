@@ -222,3 +222,10 @@ SyntaxError: invalid syntax
                                                                                                                                                          ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Mon Dec 30 2019 13:16:36.891 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 14
+  SETASFLORESCENTES="https://img1.gratispng.com/20180721/ywy/kisspng-computer-icons-arrow-clip-art-three-arrows-5b52c0d67c4084.5997144015321499745089.jpg
+                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+'''},
