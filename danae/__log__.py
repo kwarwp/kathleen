@@ -215,3 +215,10 @@ SyntaxError: invalid syntax
                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Dec 30 2019 13:15:40.857 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 64
+  SETASFLORESCENTES="https://img1.gratispng.com/20180721/ywy/kisspng-computer-icons-arrow-clip-art-three-arrows-5b52c0d67c4084.5997144015321499745089.jpg
+                                                                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+'''},
