@@ -38,7 +38,7 @@ class Porta():
     def __init__(self):
         dragger=dict(Aninha=self.entra_porta)
         self.porta=Elemento(img=PORTA,tit="portela", drop=dragger, style=dict(
-         left=200,top=280, width=55,height="150px"))
+         left=170,top=260, width=55,height="150px"))
     def entra (self,lugar):
         self.porta.entra(lugar)
     def entra_porta(self,evento,nome):
