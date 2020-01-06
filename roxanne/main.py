@@ -27,7 +27,7 @@ class doidera():
 class Personagens():
     def __init__(self,imagem = ANA_MARIA, nome ="Aninha"):
         self.ana_maria= Elemento(img=imagem, tit=nome, drag=True, style=dict(
-            left=100, top=10, width=60, height="60px")) 
+            left=150,top=330,width=300,heigth="250px"))
         #dr_zukman=Elemento(img=DR_ZUKMAN, style=dict(
         #left=200, top=10, width=60, height="60px")) 
     def some(self):
@@ -38,7 +38,7 @@ class Porta():
     def __init__(self):
         dragger=dict(Aninha=self.entra_porta)
         self.porta=Elemento(img=PORTA,tit="portela", drop=dragger, style=dict(
-            left=10, top=10, width=60, height="60px"))
+         left=200,top=280, width=55,height="150px"))
     def entra (self,lugar):
         self.porta.entra(lugar)
     def entra_porta(self,evento,nome):
