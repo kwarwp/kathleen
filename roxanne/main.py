@@ -57,6 +57,33 @@ PERSONAGEM=Personagens()
 Cenas()
 #doidera()
 
+class eitcha():
+    def __init__(self):
+    
+        self.c=Elemento(img= "https://i.imgur.com/lQDHDC4.png", tit="Oiiii, meu nome é Toni. Eu tenho 13 anos e estou tão triste. Meus amigos tem me chamado de coisas horriveis e isso me deixa triste. - O trabalho foi baseado nos números da Pesquisa Nacional de Saúde do Escolar (PeNSE) de 2012, que entrevistou 110 mil alunos, representando um universo de mais de três milhões de crianças. O estudo traçou o perfil antropométrico dos estudantes a partir da percepção deles sobre o próprio corpo, numa escala de características como âÂÂmuito magroâÂÂ, âÂÂmagroâÂÂ, âÂÂnormalâÂÂ, âÂÂgordoâÂÂ e âÂÂmuito gordoâÂÂ. Após comparar as respostas das entrevistas, a pesquisa chegou à conclusão que os estereótipos âÂÂmuito magroâÂÂ, âÂÂgordoâÂÂ e âÂÂmuito gordoâÂÂ são os alvos preferidos de perseguições: 11,3%, 12,1% e 23,7% das crianças inseridas nestas categorias, respectivamente, responderam sofrer bullying com frequência- 'https://oglobo.globo.com/sociedade/educacao/alunos-acima-do-peso-sao-mais-vitimas-de-bullying-na-escola-12375170'",   
+        style=dict(left=50, top=350, width=400, height="200px"),vai=self.acertou)
+        
+        self.b=Elemento(img=B, tit= "Dani aqui, pessoaaalll! Vocês acreditam que a professora hoje me obrigou a fazer aquele esporte nojento???? Futebol, eca! É coisa de menino. Fora que eu comprei um short lindissmo rosa e adivinham??? Não combinou com esse uniforme." ,
+        style=dict (left=400, top=350, width=300, height="200px",),vai=self.errou)
+
+        self.a=Elemento(img= "https://i.imgur.com/KaEaDQk.png", tit = "Fala aêê. Meu nome é Rodrigo e hoje eu estou suavee na nave. Dia de futebooool e de zoar o Toni. AQUELE BALEIA DE ÓCULOS ALI KKKKKKK",
+        style=dict(left=700, top=350, width=400, height="200px"),vai=self.errou)
+
+        self.a.entra(congresso.oeste)
+        self.b.entra(congresso.oeste)
+        self.c.entra(congresso.oeste)
+        
+    def vai(self,ev=0):
+            self.foi()
+            Texto(self.congresso.oeste, "O preconceito da raça é injusto e causa grande sofrimento às pessoas.-Voltaire' Assim como qualquer outro tipo de preconceito!!!!  Agora nossos alunos estão na aula de educação fisíca e você terá que descobrir quem infelizmente tem sofrido Bullying, não apenas nessa aula. ").vai()
+        
+    def acertou(self,ev=0):
+            self.congresso.oeste.vai()
+            
+    def errou(self,ev=0):
+            self.congresso.oeste.vai()
+        
+
     
     
 
