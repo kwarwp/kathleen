@@ -165,3 +165,10 @@ SyntaxError: invalid syntax
                         ^
 SyntaxError: non-keyword arg after keyword arg
 '''},
+{'date': 'Mon Jan 06 2020 20:58:19.271 GMt-0200 (Horário de Verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 26
+  LETICIA = "https://i.imgur.com/Oo1sn9s.png
+                                            ^
+SyntaxError: EOL while scanning string literal
+'''},
