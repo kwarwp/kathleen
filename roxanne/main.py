@@ -20,6 +20,14 @@ SALA3= "https://i.imgur.com/VCzMJ7t.jpg"
 SALA4= "http://lorempixel.com/800/600/city/4"
 PERSONAGEM = None
 
+''' Ana Paula = "https://i.imgur.com/qvuwHvs.png"
+    Alan = "https://i.imgur.com/bO9jojz.png"
+    Gabi = "https://i.imgur.com/MUrxyGb.png"
+    Carlo = "https://i.imgur.com/94lhgKo.png"
+    Tássia = "https://i.imgur.com/Q5PcxvC.png"
+    Leticia = "https://i.imgur.com/Oo1sn9s.png"'''
+    
+
 class doidera():
     def __init__(self):
         #laboratorio= Cena(img=LABORATORIO)
@@ -60,7 +68,7 @@ Cenas()
 class eitcha():
     def __init__(self):
     
-        self.c=Elemento(img= "https://i.imgur.com/lQDHDC4.png", tit="Oiiii, meu nome é Toni. Eu tenho 13 anos e estou tão triste. Meus amigos tem me chamado de coisas horriveis e isso me deixa triste. - O trabalho foi baseado nos números da Pesquisa Nacional de Saúde do Escolar (PeNSE) de 2012, que entrevistou 110 mil alunos, representando um universo de mais de três milhões de crianças. O estudo traçou o perfil antropométrico dos estudantes a partir da percepção deles sobre o próprio corpo, numa escala de características como âÂÂmuito magroâÂÂ, âÂÂmagroâÂÂ, âÂÂnormalâÂÂ, âÂÂgordoâÂÂ e âÂÂmuito gordoâÂÂ. Após comparar as respostas das entrevistas, a pesquisa chegou à conclusão que os estereótipos âÂÂmuito magroâÂÂ, âÂÂgordoâÂÂ e âÂÂmuito gordoâÂÂ são os alvos preferidos de perseguições: 11,3%, 12,1% e 23,7% das crianças inseridas nestas categorias, respectivamente, responderam sofrer bullying com frequência- 'https://oglobo.globo.com/sociedade/educacao/alunos-acima-do-peso-sao-mais-vitimas-de-bullying-na-escola-12375170'",   
+        self.c=Elemento(img= "https://i.imgur.com/lQDHDC4.png", tit="Oiiii, meu nome é Toni. Eu tenho 13 anos e estou tão triste. Meus amigos tem me chamado de coisas horriveis e isso me deixa triste. - O trabalho foi baseado nos números da Pesquisa Nacional de Saúde do Escolar (PeNSE) de 2012, que entrevistou 110 mil alunos, representando um universo de mais de três milhões de crianças. O estudo traçou o perfil antropométrico dos estudantes a partir da percepção deles sobre o próprio corpo, numa escala de características como âÂÂÂÂmuito magroâÂÂÂÂ, âÂÂÂÂmagroâÂÂÂÂ, âÂÂÂÂnormalâÂÂÂÂ, âÂÂÂÂgordoâÂÂÂÂ e âÂÂÂÂmuito gordoâÂÂÂÂ. Após comparar as respostas das entrevistas, a pesquisa chegou à conclusão que os estereótipos âÂÂÂÂmuito magroâÂÂÂÂ, âÂÂÂÂgordoâÂÂÂÂ e âÂÂÂÂmuito gordoâÂÂÂÂ são os alvos preferidos de perseguições: 11,3%, 12,1% e 23,7% das crianças inseridas nestas categorias, respectivamente, responderam sofrer bullying com frequência- 'https://oglobo.globo.com/sociedade/educacao/alunos-acima-do-peso-sao-mais-vitimas-de-bullying-na-escola-12375170'",   
         style=dict(left=50, top=350, width=400, height="200px"),vai=self.acertou)
         
         self.b=Elemento(img=B, tit= "Dani aqui, pessoaaalll! Vocês acreditam que a professora hoje me obrigou a fazer aquele esporte nojento???? Futebol, eca! É coisa de menino. Fora que eu comprei um short lindissmo rosa e adivinham??? Não combinou com esse uniforme." ,
