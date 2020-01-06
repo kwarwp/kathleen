@@ -7,6 +7,7 @@ STYLE["height"] = "600px"
 
 
 LABORATORIO = "http://lorempixel.com/800/600/city"
+PAPEIS = "https://i.imgur.com/qqpUJWF.jpg"
 ANA_MARIA = "http://lorempixel.com/800/600/people/1"
 DR_ZUKMAN = "http://lorempixel.com/800/600/people/2"
 PORTA = "http://lorempixel.com/800/600/city/5"
@@ -15,7 +16,7 @@ COFRE = "http://lorempixel.com/800/600/city"
 PAPEIS = "http://lorempixel.com/800/600/city"
 SALA1= "https://i.imgur.com/HROYxV1.jpg"
 SALA2= "http://lorempixel.com/800/600/city/2"
-SALA3= "http://lorempixel.com/800/600/city/3"
+SALA3= "https://i.imgur.com/VCzMJ7t.jpg"
 SALA4= "http://lorempixel.com/800/600/city/4"
 PERSONAGEM = None
 
