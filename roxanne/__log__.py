@@ -179,3 +179,10 @@ SyntaxError: EOL while scanning string literal
                                             ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Mon Jan 06 2020 21:50:18.959 GMt-0200 (Horário de Verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 77
+  self.c=Elemento(img= "https://i.imgur.com/MUrxyGb.png", tit="Oiiii, meu nome é Gabi. 
+                                                                                       ^
+SyntaxError: EOL while scanning string literal
+'''},
