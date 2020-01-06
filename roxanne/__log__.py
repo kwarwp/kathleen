@@ -158,3 +158,10 @@ SyntaxError: invalid syntax
                                                                                                                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Mon Jan 06 2020 19:40:22.55 GMt-0200 (Horário de Verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 30
+  left=400,top=200,width,350,heigth="400px"))
+                        ^
+SyntaxError: non-keyword arg after keyword arg
+'''},
