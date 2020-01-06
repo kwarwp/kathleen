@@ -144,3 +144,10 @@ AttributeError: 'Porta' object has no attribute 'entra_porta'
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Mon Jan 06 2020 19:23:57.251 GMt-0200 (Horário de Verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 29
+  self.ana_maria= Elemento(img=imagem, tit=nome, drag=True, style=dict(
+                                                                                                      ^
+SyntaxError: invalid syntax
+'''},
