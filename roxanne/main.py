@@ -23,13 +23,19 @@ ALAN = "https://i.imgur.com/bO9jojz.png"
 GABI = "https://i.imgur.com/MUrxyGb.png"
 CARLO = "https://i.imgur.com/94lhgKo.png"
 TASSIA = "https://i.imgur.com/Q5PcxvC.png"
-LETICIA = "https://i.imgur.com/Oo1sn9s.png
+LETICIA = "https://i.imgur.com/Oo1sn9s.png"
     
 
 class doidera():
     def __init__(self):
         #laboratorio= Cena(img=LABORATORIO)
         pass
+        
+        d=Personagens(congresso)
+        congresso.norte.vai=d.vai
+        c=MENDEL(congress0)
+        congresso.oeste.vai=c.vai
+        
 class Personagens():
     def __init__(self,imagem = ANA_MARIA, nome ="Ola, eu sou a Ana Paula é um prazer estar com vocês, sou mestra e professorA DE BIOLOGIA e estou aqui para ajudar vocês nos conceitos de genéticas e nas provas que terão, aprendendo de uma maneira divertida"):
         self.ana_maria= Elemento(img=imagem, tit=nome, drag=True, style=dict(
@@ -63,16 +69,18 @@ PERSONAGEM=Personagens()
 Cenas()
 #doidera()
 
-class eitcha():
+class MENDEL():
     def __init__(self):
+        self.foi,congresso.oeste.vai=congresso.oeste.vai,self.vai
+        self.congresso=congresso
     
-        self.c=Elemento(img= "https://i.imgur.com/lQDHDC4.png", tit="Oiiii, meu nome é Toni. Eu tenho 13 anos e estou tão triste. Meus amigos tem me chamado de coisas horriveis e isso me deixa triste. - O trabalho foi baseado nos números da Pesquisa Nacional de Saúde do Escolar (PeNSE) de 2012, que entrevistou 110 mil alunos, representando um universo de mais de três milhões de crianças. O estudo traçou o perfil antropométrico dos estudantes a partir da percepção deles sobre o próprio corpo, numa escala de características como âÂÂÂÂÂÂmuito magroâÂÂÂÂÂÂ, âÂÂÂÂÂÂmagroâÂÂÂÂÂÂ, âÂÂÂÂÂÂnormalâÂÂÂÂÂÂ, âÂÂÂÂÂÂgordoâÂÂÂÂÂÂ e âÂÂÂÂÂÂmuito gordoâÂÂÂÂÂÂ. Após comparar as respostas das entrevistas, a pesquisa chegou à conclusão que os estereótipos âÂÂÂÂÂÂmuito magroâÂÂÂÂÂÂ, âÂÂÂÂÂÂgordoâÂÂÂÂÂÂ e âÂÂÂÂÂÂmuito gordoâÂÂÂÂÂÂ são os alvos preferidos de perseguições: 11,3%, 12,1% e 23,7% das crianças inseridas nestas categorias, respectivamente, responderam sofrer bullying com frequência- 'https://oglobo.globo.com/sociedade/educacao/alunos-acima-do-peso-sao-mais-vitimas-de-bullying-na-escola-12375170'",   
+        self.c=Elemento(img= "https://i.imgur.com/MUrxyGb.png", tit="Oiiii, meu nome é Gabi", 
         style=dict(left=50, top=350, width=400, height="200px"),vai=self.acertou)
         
         self.b=Elemento(img=B, tit= "Dani aqui, pessoaaalll! Vocês acreditam que a professora hoje me obrigou a fazer aquele esporte nojento???? Futebol, eca! É coisa de menino. Fora que eu comprei um short lindissmo rosa e adivinham??? Não combinou com esse uniforme." ,
         style=dict (left=400, top=350, width=300, height="200px",),vai=self.errou)
 
-        self.a=Elemento(img= "https://i.imgur.com/KaEaDQk.png", tit = "Fala aêê. Meu nome é Rodrigo e hoje eu estou suavee na nave. Dia de futebooool e de zoar o Toni. AQUELE BALEIA DE ÓCULOS ALI KKKKKKK",
+        self.a=Elemento(img= "https://i.imgur.com/bO9jojz.png", tit = "Coé lek. Meu nome é Alan",
         style=dict(left=700, top=350, width=400, height="200px"),vai=self.errou)
 
         self.a.entra(congresso.oeste)
