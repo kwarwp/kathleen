@@ -114,13 +114,14 @@ class Mendel():
         
     def vai(self,ev=0):
             self.foi()
-            Texto(self.congresso.oeste, "A lei de Mendel é uma das leis mais antigas e clássica que existe sobre genética e seus princípios  estão relacionados à transmissão hereditária das características de um organismo a seus filhos . Agora com seus conhecimento nos ajude a descobrir quem está mais certo").vai()
+            Texto(self.aqui, "A lei de Mendel é uma das leis mais antigas e clássica que existe sobre genética e seus princípios  estão relacionados à transmissão hereditária das características de um organismo a seus filhos . Agora com seus conhecimento nos ajude a descobrir quem está mais certo").vai()
         
     def acertou(self,ev=0):
-            self.congresso.oeste.vai()
+            Texto(self.aqui, "Obrigado por me ensinar isso").vai()
             
     def errou(self,ev=0):
-            self.congresso.oeste.vai()
+            Texto(self.aqui, "Talvez tenhamos que estudar mais", foi=self.vai).vai()
+            #self.vai()
             
             
 class Mutassaum():
@@ -144,13 +145,14 @@ class Mutassaum():
         
     def vai(self,ev=0):
             self.foi()
-            Texto(self.congresso.sul," A mutação na enzima tirozinase que transforma o aminoácido tirozina em pigmento da pele, a melanina. Esta doença ocorre em animais e nas plantas e é hereditária. A partir dessa mensagem e do conhecimento que tem ajude a descobrir quem está correto sobre a afirmação ").vai()
+            Texto(self.aqui," A mutação na enzima tirozinase que transforma o aminoácido tirozina em pigmento da pele, a melanina. Esta doença ocorre em animais e nas plantas e é hereditária. A partir dessa mensagem e do conhecimento que tem ajude a descobrir quem está correto sobre a afirmação ").vai()
         
     def acertou(self,ev=0):
-            self.congresso.sul.vai()
+            Texto(self.aqui, "Obrigado por me ensinar isso").vai()
             
     def errou(self,ev=0):
-            self.congresso.sul.vai()
+            Texto(self.aqui, "Talvez tenhamos que estudar mais", foi=self.vai).vai()
+            #self.vai()
             
             
 class Borboletas():
@@ -174,13 +176,14 @@ class Borboletas():
         
     def vai(self,ev=0):
             self.foi()
-            Texto(self.congresso.leste," As borboletas  são conhecidas por suas cores e por sua vida dividia em 4 estágios:: ovo, larva, pupa e imago (Adulto) e por esse conhecimento prévio diga-nos quais dos estudantes estão corretos ").vai()
+            Texto(self.aqui," As borboletas  são conhecidas por suas cores e por sua vida dividia em 4 estágios:: ovo, larva, pupa e imago (Adulto) e por esse conhecimento prévio diga-nos quais dos estudantes estão corretos ").vai()
         
     def acertou(self,ev=0):
-            self.congresso.leste.vai()
+            Texto(self.aqui, "Obrigado por me ensinar isso").vai()
             
     def errou(self,ev=0):
-            self.congresso.leste.vai()
+            Texto(self.aqui, "Talvez tenhamos que estudar mais", foi=self.vai).vai()
+            #self.vai()
 
 if __name__ == "__main__":
     TakeFioCruz()
