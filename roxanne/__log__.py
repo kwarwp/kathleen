@@ -193,3 +193,10 @@ SyntaxError: EOL while scanning string literal
                ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Jan 07 2020 00:35:58.94 GMt-0200 (Horário de Verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 101
+  def vai(self,ev=0):
+  ^
+IndentationError: unexpected indent
+'''},
