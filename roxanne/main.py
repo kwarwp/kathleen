@@ -17,7 +17,7 @@ PAPEIS = "http://lorempixel.com/800/600/city"
 SALA1= "https://i.imgur.com/HROYxV1.jpg"
 SALA2= "https://i.imgur.com/I5WMU7Y.jpg"
 SALA3= "https://i.imgur.com/VCzMJ7t.jpg"
-SALA4= "http://lorempixel.com/800/600/city/4"
+SALA4= "https://i.imgur.com/Sh5AGVz.jpg"
 PERSONAGEM = None
 ALAN = "https://i.imgur.com/bO9jojz.png"
 GABI = "https://i.imgur.com/MUrxyGb.png"
@@ -80,7 +80,7 @@ class MENDEL():
         self.b=Elemento(img=B, tit= "Dani aqui, pessoaaalll! Vocês acreditam que a professora hoje me obrigou a fazer aquele esporte nojento???? Futebol, eca! É coisa de menino. Fora que eu comprei um short lindissmo rosa e adivinham??? Não combinou com esse uniforme." ,
         style=dict (left=400, top=350, width=300, height="200px",),vai=self.errou)
 
-        self.a=Elemento(img= "https://i.imgur.com/bO9jojz.png", tit = "Coé lek. Meu nome é Alan",
+        self.a=Elemento(img= "https://i.imgur.com/bO9jojz.png", tit = "Coé lek. Meu nome é Alan e eu sei que se eu tenho várias tatuagens meus futuros filhos nasceram tatuados",
         style=dict(left=700, top=350, width=400, height="200px"),vai=self.errou)
 
         self.a.entra(congresso.oeste)
@@ -89,7 +89,7 @@ class MENDEL():
         
     def vai(self,ev=0):
             self.foi()
-            Texto(self.congresso.oeste, "O preconceito da raça é injusto e causa grande sofrimento às pessoas.-Voltaire' Assim como qualquer outro tipo de preconceito!!!!  Agora nossos alunos estão na aula de educação fisíca e você terá que descobrir quem infelizmente tem sofrido Bullying, não apenas nessa aula. ").vai()
+            Texto(self.congresso.oeste, "A lei de Mendel é uma das leis mais antigas e clássica que existe sobre genética e seus princípios  estão relacionados à transmissão hereditária das características de um organismo a seus filhos ").vai()
         
     def acertou(self,ev=0):
             self.congresso.oeste.vai()
