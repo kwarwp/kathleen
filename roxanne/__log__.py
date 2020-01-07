@@ -254,3 +254,10 @@ NameError: name 'congresso' is not defined
     c=mendel(congress0)
 NameError: name 'congress0' is not defined
 '''},
+{'date': 'Tue Jan 07 2020 01:27:11.564 GMt-0200 (Horário de Verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 88
+  self.gabi.vai=self.congresso sul
+                                ^
+SyntaxError: invalid syntax
+'''},
