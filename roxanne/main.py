@@ -33,15 +33,15 @@ class TakeFioCruz():  #  Nome significativo da classe e use CamelCase, a primeir
         self.congresso= congresso = Sala(n=SALA1,l=SALA2,o= SALA3, s=SALA4)  # monta a sala para o TakeFioCruz
         d=Personagens()  # não usa o (congresso)
         a=Cenas(congresso, d)
-        congresso.norte.vai=a.vai
+        # congresso.norte.vai=a.vai
         c=Mendel(congresso)
-        congresso.oeste.vai=c.vai
+        # congresso.oeste.vai=c.vai
         #congresso.norte.vai=d.vai
         #return
         b=Mutassaum(congresso)
-        congresso.sul.vai=b.vai
+        # congresso.sul.vai=b.vai
         e=Borboletas(congresso)
-        congressol.leste.vai=e.vai
+        # congresso.leste.vai=e.vai
         
         #self.congresso.norte.vai=self.congresso.leste.vai
         #self.congresso.oeste.vai=self.congresso.sul.vai
@@ -71,6 +71,7 @@ class Porta():
 class Cenas():
     def __init__(self, congresso, personagem):  # tem que passar o congresso e personagem aqui
         self.aqui = aqui = congresso.norte
+        self.foi, self.aqui.vai = self.aqui.vai, self.vai
         self.personagem = personagem
         # self.congresso= congresso = Sala(n=SALA1,l=SALA2,o= SALA3, s=SALA4) foi para o TakeFioCruz
         self,personagem.entra(aqui)
@@ -81,7 +82,7 @@ class Cenas():
         self,personagem.some()
         
     def vai(self,ev=0):
-        self.aqui.vai()
+        self.foi()
         nome ="Ola, eu sou a Ana Paula é um prazer estar com vocês, sou mestra e professorA DE BIOLOGIA"\
         "e estou aqui para ajudar vocês nos conceitos de genéticas"\
         "e nas provas que terão, aprendendo de uma maneira divertida"
@@ -93,11 +94,11 @@ class Cenas():
 class Mendel():
     def __init__(self, congresso):  # tem que passar o congresso aqui
         # self.foi,congresso.oeste.vai=congresso.SALA3.vai,self.vai
-        self.congresso=congresso
+        self.aqui = aqui = congresso.oeste
+        self.foi, self.aqui.vai = self.aqui.vai, self.vai
     
         self.c=Elemento(img=GABI, tit="Oiiii, meu nome é Gabi e estou estudando sobre cruzamento de genes e vi que se uma pessoa te AA e outra Aa então seus futuros filhos serão 50% AA e 50% Aa",
         style=dict(left=50, top=350, width=400, height="200px"),vai=self.acertou)
-       
         
         self.b=Elemento(img= "https://i.imgur.com/Q5PcxvC.png", tit= "Aqui é a Tássia e vamos agilizando porque eu não tenho tempo,pois o tempo é evolução e eu preciso me modificar para me adaptar" ,
         style=dict (left=400, top=350, width=300, height="200px",),vai=self.errou)
@@ -112,7 +113,7 @@ class Mendel():
         
         
     def vai(self,ev=0):
-            self.congresso.oeste.vai()
+            self.foi()
             Texto(self.congresso.oeste, "A lei de Mendel é uma das leis mais antigas e clássica que existe sobre genética e seus princípios  estão relacionados à transmissão hereditária das características de um organismo a seus filhos . Agora com seus conhecimento nos ajude a descobrir quem está mais certo").vai()
         
     def acertou(self,ev=0):
@@ -125,7 +126,8 @@ class Mendel():
 class Mutassaum():
     def __init__(self, congresso):  # tem que passar o congresso aqui
         #self.foi,congresso.sul.vai=congresso.SALA4.vai,self.vai
-        self.congresso=congresso
+        self.aqui = aqui = congresso.sul
+        self.foi, self.aqui.vai = self.aqui.vai, self.vai
     
         self.c=Elemento(img= "https://i.imgur.com/bO9jojz.png", tit="Como vocês já me conhecem e percebi que quando duas pessoas se conhecem elas começam a se adaptar umas as outras fazendo com que seu DNA mude por transmissão de pensamento", 
         style=dict(left=50, top=350, width=400, height="200px"),vai=self.errou)
@@ -141,7 +143,7 @@ class Mutassaum():
         self.c.entra(congresso.sul)
         
     def vai(self,ev=0):
-            self.congresso.sul.vai()
+            self.foi()
             Texto(self.congresso.sul," A mutação na enzima tirozinase que transforma o aminoácido tirozina em pigmento da pele, a melanina. Esta doença ocorre em animais e nas plantas e é hereditária. A partir dessa mensagem e do conhecimento que tem ajude a descobrir quem está correto sobre a afirmação ").vai()
         
     def acertou(self,ev=0):
@@ -154,7 +156,8 @@ class Mutassaum():
 class Borboletas():
     def __init__(self, congresso):  # tem que passar o congresso aqui
         #self.foi,congresso.sul.vai=congresso.SALA2.vai,self.vai
-        self.congresso=congresso
+        self.aqui = aqui = congresso.leste
+        self.foi, self.aqui.vai = self.aqui.vai, self.vai
     
         self.c=Elemento(img= "https://i.imgur.com/MUrxyGb.png", tit="Tassia sou eu e digo que as borboletas são adaptadas ao ambiente, quanto mais poluído o ambiente mais cinza", 
         style=dict(left=50, top=350, width=400, height="200px"),vai=self.errou)
@@ -170,7 +173,7 @@ class Borboletas():
         self.c.entra(congresso.leste)
         
     def vai(self,ev=0):
-            self.congresso.leste.vai()
+            self.foi()
             Texto(self.congresso.leste," As borboletas  são conhecidas por suas cores e por sua vida dividia em 4 estágios:: ovo, larva, pupa e imago (Adulto) e por esse conhecimento prévio diga-nos quais dos estudantes estão corretos ").vai()
         
     def acertou(self,ev=0):
