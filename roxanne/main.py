@@ -100,7 +100,7 @@ class mendel():
         
     def vai(self,ev=0):
             self.foi()
-            Texto(self.congresso.oeste, "A lei de Mendel é uma das leis mais antigas e clássica que existe sobre genética e seus princípios  estão relacionados à transmissão hereditária das características de um organismo a seus filhos ").vai()
+            self.Texto(self.congresso.oeste, "A lei de Mendel é uma das leis mais antigas e clássica que existe sobre genética e seus princípios  estão relacionados à transmissão hereditária das características de um organismo a seus filhos ").vai()
         
     def acertou(self,ev=0):
             self.congresso.oeste.vai()
@@ -129,7 +129,7 @@ class mutassaum():
         
     def vai(self,ev=0):
             self.foi()
-            Texto(self.congresso.sul," Mutação ").vai()
+            Texto(self.congresso.sul," A mutação na enzima tirozinase que transforma o aminoácido tirozina em pigmento da pele, a melanina. Esta doença ocorre em animais e nas plantas e é hereditária. ").vai()
         
     def acertou(self,ev=0):
             self.congresso.sul.vai()
