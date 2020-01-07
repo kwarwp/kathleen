@@ -71,7 +71,7 @@ Cenas()
 
 class MENDEL():
     def __init__(self):
-        self.foi,congresso.oeste.vai=congresso.oeste.vai,self.vai
+        self.foi,congresso.oeste.vai=congresso.SALA3.vai,self.vai
         self.congresso=congresso
     
         self.c=Elemento(img= "https://i.imgur.com/MUrxyGb.png", tit="Oiiii, meu nome é Gabi", 
