@@ -33,8 +33,10 @@ class doidera():
         
         d=Personagens(congresso)
         congresso.norte.vai=d.vai
-        c=MENDEL(congress0)
+        c=mendel(congress0)
         congresso.oeste.vai=c.vai
+        b=mutassaum(congresso)
+        congresso.sul.vai=b.vai
         
 class Personagens():
     def __init__(self,imagem = ANA_MARIA, nome ="Ola, eu sou a Ana Paula é um prazer estar com vocês, sou mestra e professorA DE BIOLOGIA e estou aqui para ajudar vocês nos conceitos de genéticas e nas provas que terão, aprendendo de uma maneira divertida"):
@@ -69,7 +71,7 @@ PERSONAGEM=Personagens()
 Cenas()
 #doidera()
 
-class MENDEL():
+class mendel():
     def __init__(self):
         self.foi,congresso.oeste.vai=congresso.SALA3.vai,self.vai
         self.congresso=congresso
@@ -77,7 +79,7 @@ class MENDEL():
         self.c=Elemento(img= "https://i.imgur.com/MUrxyGb.png", tit="Oiiii, meu nome é Gabi", 
         style=dict(left=50, top=350, width=400, height="200px"),vai=self.acertou)
         
-        self.b=Elemento(img=B, tit= "Dani aqui, pessoaaalll! Vocês acreditam que a professora hoje me obrigou a fazer aquele esporte nojento???? Futebol, eca! É coisa de menino. Fora que eu comprei um short lindissmo rosa e adivinham??? Não combinou com esse uniforme." ,
+        self.b=Elemento(img= "https://i.imgur.com/Q5PcxvC.png", tit= "Aqui é a Tássia e vamos agilizando porque eu não tenho tempo,pois o tempo é evolução e eu preciso me modificar para me adaptar" ,
         style=dict (left=400, top=350, width=300, height="200px",),vai=self.errou)
 
         self.a=Elemento(img= "https://i.imgur.com/bO9jojz.png", tit = "Coé lek. Meu nome é Alan e eu sei que se eu tenho várias tatuagens meus futuros filhos nasceram tatuados",
@@ -96,7 +98,35 @@ class MENDEL():
             
     def errou(self,ev=0):
             self.congresso.oeste.vai()
+            
+            
+class mutassaum():
+    def __init__(self):
+        self.foi,congresso.sul.vai=congresso.SALA4.vai,self.vai
+        self.congresso=congresso
+    
+        self.c=Elemento(img= "https://i.imgur.com/MUrxyGb.png", tit="Oiiii, meu nome é Gabi", 
+        style=dict(left=50, top=350, width=400, height="200px"),vai=self.acertou)
         
+        self.b=Elemento(img=B, tit= "Dani aqui, pessoaaalll! Vocês acreditam que a professora hoje me obrigou a fazer aquele esporte nojento???? Futebol, eca! É coisa de menino. Fora que eu comprei um short lindissmo rosa e adivinham??? Não combinou com esse uniforme." ,
+        style=dict (left=400, top=350, width=300, height="200px",),vai=self.errou)
+
+        self.a=Elemento(img= "https://i.imgur.com/bO9jojz.png", tit = "Coé lek. Meu nome é Alan e eu sei que se eu tenho várias tatuagens meus futuros filhos nasceram tatuados",
+        style=dict(left=700, top=350, width=400, height="200px"),vai=self.errou)
+
+        self.a.entra(congresso.sul)
+        self.b.entra(congresso.sul)
+        self.c.entra(congresso.sul)
+        
+    def vai(self,ev=0):
+            self.foi()
+            Texto(self.congresso.sul," Mutação ").vai()
+        
+    def acertou(self,ev=0):
+            self.congresso.sul.vai()
+            
+    def errou(self,ev=0):
+            self.congresso.sul.vai()
 
     
     
