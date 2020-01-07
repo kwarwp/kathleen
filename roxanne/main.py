@@ -30,7 +30,8 @@ class doidera():
     def __init__(self):
         #laboratorio= Cena(img=LABORATORIO)
         pass
-        
+        a=Cenas(congresso)
+        congresso.norte.vai=a.vai
         d=Personagens(congresso)
         congresso.norte.vai=d.vai
         c=mendel(congress0)
