@@ -186,3 +186,10 @@ SyntaxError: EOL while scanning string literal
                                                                                        ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Mon Jan 06 2020 22:42:24.694 GMt-0200 (Horário de Verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 92
+  self.a.vai():
+               ^
+SyntaxError: invalid syntax
+'''},
