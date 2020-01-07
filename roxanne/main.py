@@ -38,11 +38,13 @@ class doidera():
         congresso.oeste.vai=c.vai
         b=mutassaum(congresso)
         congresso.sul.vai=b.vai
+        self.congresso.norte.vai=self.congresso.leste.vai
+        self.congresso.oeste.vai=self.congresso.sul.vai
         
 class Personagens():
     def __init__(self,imagem = ANA_MARIA, nome ="Ola, eu sou a Ana Paula é um prazer estar com vocês, sou mestra e professorA DE BIOLOGIA e estou aqui para ajudar vocês nos conceitos de genéticas e nas provas que terão, aprendendo de uma maneira divertida"):
         self.ana_maria= Elemento(img=imagem, tit=nome, drag=True, style=dict(
-            left=150,top=330,width=300,heigth="250px"))
+            left=150,top=330,width=200,heigth="1000px"))
         #dr_zukman=Elemento(img=DR_ZUKMAN, style=dict(
         #left=200, top=10, width=60, height="60px")) 
     def some(self):
