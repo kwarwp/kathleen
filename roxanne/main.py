@@ -15,7 +15,7 @@ HOSPITAL = "http://lorempixel.com/800/600/city"
 COFRE = "http://lorempixel.com/800/600/city"
 PAPEIS = "http://lorempixel.com/800/600/city"
 SALA1= "https://i.imgur.com/HROYxV1.jpg"
-SALA2= "https://i.imgur.com/I5WMU7Y.jpg"
+SALA2= "http://www.fiocruz.br/ioc/media/insetosdentro_02.jpg"
 SALA3= "https://i.imgur.com/VCzMJ7t.jpg"
 SALA4= "https://i.imgur.com/Sh5AGVz.jpg"
 PERSONAGEM = None
@@ -89,6 +89,8 @@ class mendel():
         self.a.entra(congresso.oeste)
         self.b.entra(congresso.oeste)
         self.c.entra(congresso.oeste)
+        self.a.vai()
+        
         
     def vai(self,ev=0):
             self.foi()
