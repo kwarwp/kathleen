@@ -46,6 +46,7 @@ class doidera():
         
 class Personagens():
     def __init__(self,imagem = ANA_MARIA, nome ="Ola, eu sou a Ana Paula é um prazer estar com vocês, sou mestra e professorA DE BIOLOGIA e estou aqui para ajudar vocês nos conceitos de genéticas e nas provas que terão, aprendendo de uma maneira divertida"):
+        nome= "Aninha"
         self.ana_maria= Elemento(img=imagem, tit=nome, drag=True, style=dict(
             left=150,top=330,width=200,heigth="1000px"))
         #dr_zukman=Elemento(img=DR_ZUKMAN, style=dict(
