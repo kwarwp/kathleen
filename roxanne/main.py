@@ -26,27 +26,29 @@ TASSIA = "https://i.imgur.com/Q5PcxvC.png"
 LETICIA = "https://i.imgur.com/Oo1sn9s.png"
     
 
-class doidera():
+class TakeFioCruz():  #  Nome significativo da classe e use CamelCase, a primeira letra das palavras em maiusculo (PEP8)
     def __init__(self):
         #laboratorio= Cena(img=LABORATORIO)
         pass
-        c=mendel(congress0)
-        congresso.oeste.vai=c.vai
-        a=Cenas(congresso)
+        self.congresso= congresso = Sala(n=SALA1,l=SALA2,o= SALA3, s=SALA4)  # monta a sala para o TakeFioCruz
+        d=Personagens()  # não usa o (congresso)
+        a=Cenas(congresso, d)
         congresso.norte.vai=a.vai
-        d=Personagens(congresso)
-        congresso.norte.vai=d.vai
-        b=mutassaum(congresso)
+        c=Mendel(congresso)
+        congresso.oeste.vai=c.vai
+        #congresso.norte.vai=d.vai
+        #return
+        b=Mutassaum(congresso)
         congresso.sul.vai=b.vai
-        e=borboletas(congresso)
+        e=Borboletas(congresso)
         congressol.leste.vai=e.vai
         
-        self.congresso.norte.vai=self.congresso.leste.vai
-        self.congresso.oeste.vai=self.congresso.sul.vai
+        #self.congresso.norte.vai=self.congresso.leste.vai
+        #self.congresso.oeste.vai=self.congresso.sul.vai
         
 class Personagens():
     def __init__(self,imagem = ANA_MARIA, nome ="Ola, eu sou a Ana Paula é um prazer estar com vocês, sou mestra e professorA DE BIOLOGIA e estou aqui para ajudar vocês nos conceitos de genéticas e nas provas que terão, aprendendo de uma maneira divertida"):
-        nome= "Aninha"
+        nome= "Aninha" # -XXX- O nome, isto é o tit do elemento tem que ser Aninha porque foi o que usou no dropper
         self.ana_maria= Elemento(img=imagem, tit=nome, drag=True, style=dict(
             left=150,top=330,width=200,heigth="1000px"))
         #dr_zukman=Elemento(img=DR_ZUKMAN, style=dict(
@@ -55,32 +57,42 @@ class Personagens():
         self.ana_maria.entra(Cena())
     def entra(self,lugar):
         self.ana_maria.entra(lugar)
+
 class Porta(): 
-    def __init__(self):
+    def __init__(self, personagem):  # tem que passar o personagem aqui
+        self.personagem = personagem
         dragger=dict(Aninha=self.entra_porta)
         self.porta=Elemento(img=PORTA,tit="portela", drop=dragger, style=dict(
          left=170,top=260, width=55,height="150px"))
     def entra (self,lugar):
         self.porta.entra(lugar)
     def entra_porta(self,evento,nome):
-        PERSONAGEM.some()
+        self.personagem.some()
 class Cenas():
-    def __init__(self): 
-
-        self.congresso= congresso = Sala(n=SALA1,l=SALA2,o= SALA3, s=SALA4)
-        PERSONAGEM.entra(congresso.norte)
+    def __init__(self, congresso, personagem):  # tem que passar o congresso e personagem aqui
+        self.aqui = aqui = congresso.norte
+        self.personagem = personagem
+        # self.congresso= congresso = Sala(n=SALA1,l=SALA2,o= SALA3, s=SALA4) foi para o TakeFioCruz
+        self,personagem.entra(aqui)
         # dr_zukman.entra(congresso.norte)
-        Porta().entra(congresso.norte)
-        congresso.norte.vai()
+        Porta(self.personagem).entra(aqui)
+        self.vai()
     def entra_porta(self,evento,nome):
-        PERSONAGEM.some()
-PERSONAGEM=Personagens()
-Cenas()
+        self,personagem.some()
+        
+    def vai(self,ev=0):
+        self.aqui.vai()
+        nome ="Ola, eu sou a Ana Paula é um prazer estar com vocês, sou mestra e professorA DE BIOLOGIA"\
+        "e estou aqui para ajudar vocês nos conceitos de genéticas"\
+        "e nas provas que terão, aprendendo de uma maneira divertida"
+        Texto(self.aqui, nome).vai()
+# PERSONAGEM=Personagens()
+# Cenas()
 #doidera()
 
-class mendel():
-    def __init__(self):
-        self.foi,congresso.oeste.vai=congresso.SALA3.vai,self.vai
+class Mendel():
+    def __init__(self, congresso):  # tem que passar o congresso aqui
+        # self.foi,congresso.oeste.vai=congresso.SALA3.vai,self.vai
         self.congresso=congresso
     
         self.c=Elemento(img=GABI, tit="Oiiii, meu nome é Gabi e estou estudando sobre cruzamento de genes e vi que se uma pessoa te AA e outra Aa então seus futuros filhos serão 50% AA e 50% Aa",
@@ -96,11 +108,11 @@ class mendel():
         self.a.entra(congresso.oeste)
         self.b.entra(congresso.oeste)
         self.c.entra(congresso.oeste)
-        self.a.vai()
+        # self.a.vai()
         
         
     def vai(self,ev=0):
-            self.foi()
+            self.congresso.oeste.vai()
             Texto(self.congresso.oeste, "A lei de Mendel é uma das leis mais antigas e clássica que existe sobre genética e seus princípios  estão relacionados à transmissão hereditária das características de um organismo a seus filhos . Agora com seus conhecimento nos ajude a descobrir quem está mais certo").vai()
         
     def acertou(self,ev=0):
@@ -110,9 +122,9 @@ class mendel():
             self.congresso.oeste.vai()
             
             
-class mutassaum():
-    def __init__(self):
-        self.foi,congresso.sul.vai=congresso.SALA4.vai,self.vai
+class Mutassaum():
+    def __init__(self, congresso):  # tem que passar o congresso aqui
+        #self.foi,congresso.sul.vai=congresso.SALA4.vai,self.vai
         self.congresso=congresso
     
         self.c=Elemento(img= "https://i.imgur.com/bO9jojz.png", tit="Como vocês já me conhecem e percebi que quando duas pessoas se conhecem elas começam a se adaptar umas as outras fazendo com que seu DNA mude por transmissão de pensamento", 
@@ -129,7 +141,7 @@ class mutassaum():
         self.c.entra(congresso.sul)
         
     def vai(self,ev=0):
-            self.foi()
+            self.congresso.sul.vai()
             Texto(self.congresso.sul," A mutação na enzima tirozinase que transforma o aminoácido tirozina em pigmento da pele, a melanina. Esta doença ocorre em animais e nas plantas e é hereditária. A partir dessa mensagem e do conhecimento que tem ajude a descobrir quem está correto sobre a afirmação ").vai()
         
     def acertou(self,ev=0):
@@ -139,9 +151,9 @@ class mutassaum():
             self.congresso.sul.vai()
             
             
-class borboletas():
-    def __init__(self):
-        self.foi,congresso.sul.vai=congresso.SALA2.vai,self.vai
+class Borboletas():
+    def __init__(self, congresso):  # tem que passar o congresso aqui
+        #self.foi,congresso.sul.vai=congresso.SALA2.vai,self.vai
         self.congresso=congresso
     
         self.c=Elemento(img= "https://i.imgur.com/MUrxyGb.png", tit="Tassia sou eu e digo que as borboletas são adaptadas ao ambiente, quanto mais poluído o ambiente mais cinza", 
@@ -158,7 +170,7 @@ class borboletas():
         self.c.entra(congresso.leste)
         
     def vai(self,ev=0):
-            self.foi()
+            self.congresso.leste.vai()
             Texto(self.congresso.leste," As borboletas  são conhecidas por suas cores e por sua vida dividia em 4 estágios:: ovo, larva, pupa e imago (Adulto) e por esse conhecimento prévio diga-nos quais dos estudantes estão corretos ").vai()
         
     def acertou(self,ev=0):
@@ -167,6 +179,6 @@ class borboletas():
     def errou(self,ev=0):
             self.congresso.leste.vai()
 
-    
-    
+if __name__ == "__main__":
+    TakeFioCruz()
 
