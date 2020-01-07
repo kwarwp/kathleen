@@ -114,7 +114,7 @@ class mutassaum():
         self.foi,congresso.sul.vai=congresso.SALA4.vai,self.vai
         self.congresso=congresso
     
-        self.c=Elemento(img= "https://i.imgur.com/MUrxyGb.png", tit="Oiiii, meu nome é Gabi", 
+        self.c=Elemento(img= "https://i.imgur.com/bO9jojz.png", tit="Como vocês já me conhecem e percebi que quando duas pessoas se conhecem elas começam a se adaptar umas as outras fazendo com que seu DNA mude por transmissão de pensamento", 
         style=dict(left=50, top=350, width=400, height="200px"),vai=self.errou)
         
         self.b=Elemento(img="https://i.imgur.com/94lhgKo.png", tit= "OIe eu sou o Carlo e sei que quando um ser vivo(seres humanos, plantas etc) fica exposto a radiação ou algum produto químico por muito tempo pode ocorre mutação no DNA da pessoa fazendo com que  a pessoa tenha alguma doença ou passe para os seus filho" ,
