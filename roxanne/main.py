@@ -143,14 +143,14 @@ class borboletas():
         self.foi,congresso.sul.vai=congresso.SALA2.vai,self.vai
         self.congresso=congresso
     
-        self.c=Elemento(img= "https://i.imgur.com/MUrxyGb.png", tit="Oiiii, meu nome é Gabi", 
-        style=dict(left=50, top=350, width=400, height="200px"),vai=self.acertou)
+        self.c=Elemento(img= "https://i.imgur.com/MUrxyGb.png", tit="Tassia sou eu e digo que as borboletas são adaptadas ao ambiente, quanto mais poluído o ambiente mais cinza", 
+        style=dict(left=50, top=350, width=400, height="200px"),vai=self.errou)
         
-        self.b=Elemento(img=B, tit= "Dani aqui, pessoaaalll! Vocês acreditam que a professora hoje me obrigou a fazer aquele esporte nojento???? Futebol, eca! É coisa de menino. Fora que eu comprei um short lindissmo rosa e adivinham??? Não combinou com esse uniforme." ,
+        self.b=Elemento(img="https://i.imgur.com/Oo1sn9s.png", tit= "As borboletas dos países frios são menos coloridas do que o Brasil pois não pegam sol." ,
         style=dict (left=400, top=350, width=300, height="200px",),vai=self.errou)
 
-        self.a=Elemento(img= "https://i.imgur.com/bO9jojz.png", tit = "Coé lek. Meu nome é Alan e eu sei que se eu tenho várias tatuagens meus futuros filhos nasceram tatuados",
-        style=dict(left=700, top=350, width=400, height="200px"),vai=self.errou)
+        self.a=Elemento(img= "https://i.imgur.com/bO9jojz.png", tit = "descobri que as borboletas podem sofrer mutações sobre alguma dessas fases e não chegar até o ultimo estágio ou morrer antes mesmo de completar a vida adulta",
+        style=dict(left=700, top=350, width=400, height="200px"),vai=self.acertou)
 
         self.a.entra(congresso.leste)
         self.b.entra(congresso.leste)
