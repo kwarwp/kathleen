@@ -26,12 +26,15 @@ TASSIA = "https://i.imgur.com/Q5PcxvC.png"
 LETICIA = "https://i.imgur.com/Oo1sn9s.png"
     
 
-class TakeFioCruz():  #  Nome significativo da classe e use CamelCase, a primeira letra das palavras em maiusculo (PEP8)
+class TakeFioCruz():  #  -XXX-  Nome significativo da classe e use CamelCase, a primeira letra das palavras em maiusculo (PEP8)
+    """
+        Esta classe é chamada para montar as cenas e personagens do take Visitando a FioCruz
+    """
     def __init__(self):
         #laboratorio= Cena(img=LABORATORIO)
         pass
-        self.congresso= congresso = Sala(n=SALA1,l=SALA2,o= SALA3, s=SALA4)  # monta a sala para o TakeFioCruz
-        d=Personagens()  # não usa o (congresso)
+        self.congresso= congresso = Sala(n=SALA1,l=SALA2,o= SALA3, s=SALA4)  #  -XXX- monta a sala para o TakeFioCruz
+        d=Personagens()  #  -XXX-  não usa o (congresso)
         a=Cenas(congresso, d)
         # congresso.norte.vai=a.vai
         c=Mendel(congresso)
@@ -50,7 +53,7 @@ class Personagens():
     def __init__(self,imagem = ANA_MARIA, nome ="Ola, eu sou a Ana Paula é um prazer estar com vocês, sou mestra e professorA DE BIOLOGIA e estou aqui para ajudar vocês nos conceitos de genéticas e nas provas que terão, aprendendo de uma maneira divertida"):
         nome= "Aninha" # -XXX- O nome, isto é o tit do elemento tem que ser Aninha porque foi o que usou no dropper
         self.ana_maria= Elemento(img=imagem, tit=nome, drag=True, style=dict(
-            left=150,top=330,width=200,heigth="1000px"))
+            left=250,top=330,width=200,heigth="1000px"))
         #dr_zukman=Elemento(img=DR_ZUKMAN, style=dict(
         #left=200, top=10, width=60, height="60px")) 
     def some(self):
@@ -59,7 +62,7 @@ class Personagens():
         self.ana_maria.entra(lugar)
 
 class Porta(): 
-    def __init__(self, personagem):  # tem que passar o personagem aqui
+    def __init__(self, personagem):  #  -XXX- tem que passar o personagem aqui
         self.personagem = personagem
         dragger=dict(Aninha=self.entra_porta)
         self.porta=Elemento(img=PORTA,tit="portela", drop=dragger, style=dict(
@@ -69,7 +72,7 @@ class Porta():
     def entra_porta(self,evento,nome):
         self.personagem.some()
 class Cenas():
-    def __init__(self, congresso, personagem):  # tem que passar o congresso e personagem aqui
+    def __init__(self, congresso, personagem):  #  -XXX- tem que passar o congresso e personagem aqui
         self.aqui = aqui = congresso.norte
         self.foi, self.aqui.vai = self.aqui.vai, self.vai
         self.personagem = personagem
@@ -87,12 +90,14 @@ class Cenas():
         "e estou aqui para ajudar vocês nos conceitos de genéticas"\
         "e nas provas que terão, aprendendo de uma maneira divertida"
         Texto(self.aqui, nome).vai()
+        
+# -XXX- Não inicie o programa assim, veja o final do código
 # PERSONAGEM=Personagens()
 # Cenas()
 #doidera()
 
 class Mendel():
-    def __init__(self, congresso):  # tem que passar o congresso aqui
+    def __init__(self, congresso):  #  -XXX- tem que passar o congresso aqui
         # self.foi,congresso.oeste.vai=congresso.SALA3.vai,self.vai
         self.aqui = aqui = congresso.oeste
         self.foi, self.aqui.vai = self.aqui.vai, self.vai
@@ -124,9 +129,9 @@ class Mendel():
             #self.vai()
             
             
-class Mutassaum():
+class Mutassaum():  # -XXX- A grafia correta é Mutação, mas ententi que não fica legal neste editor, apesar de o Python aceitar
     def __init__(self, congresso):  # tem que passar o congresso aqui
-        #self.foi,congresso.sul.vai=congresso.SALA4.vai,self.vai
+        #self.foi,congresso.sul.vai=congresso.SALA4.vai,self.vai -XXX- o certo seria congresso.sul.vai, optei por algo uniforme
         self.aqui = aqui = congresso.sul
         self.foi, self.aqui.vai = self.aqui.vai, self.vai
     
@@ -185,6 +190,8 @@ class Borboletas():
             Texto(self.aqui, "Talvez tenhamos que estudar mais", foi=self.vai).vai()
             #self.vai()
 
+
+# -XXX- devemos sempre executar a classe principal com o teste __name__ == "__main__" para podermos dividir o jogo em módulos
 if __name__ == "__main__":
     TakeFioCruz()
 
