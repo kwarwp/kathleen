@@ -100,7 +100,7 @@ class mendel():
         
     def vai(self,ev=0):
             self.foi()
-            Texto(self.congresso.oeste, "A lei de Mendel é uma das leis mais antigas e clássica que existe sobre genética e seus princípios  estão relacionados à transmissão hereditária das características de um organismo a seus filhos ").vai()
+            Texto(self.congresso.oeste, "A lei de Mendel é uma das leis mais antigas e clássica que existe sobre genética e seus princípios  estão relacionados à transmissão hereditária das características de um organismo a seus filhos . Agora com seus conhecimento nos ajude a descobrir quem está mais certo").vai()
         
     def acertou(self,ev=0):
             self.congresso.oeste.vai()
@@ -129,7 +129,7 @@ class mutassaum():
         
     def vai(self,ev=0):
             self.foi()
-            Texto(self.congresso.sul," A mutação na enzima tirozinase que transforma o aminoácido tirozina em pigmento da pele, a melanina. Esta doença ocorre em animais e nas plantas e é hereditária. ").vai()
+            Texto(self.congresso.sul," A mutação na enzima tirozinase que transforma o aminoácido tirozina em pigmento da pele, a melanina. Esta doença ocorre em animais e nas plantas e é hereditária. A partir dessa mensagem e do conhecimento que tem ajude a descobrir quem está correto sobre a afirmação ").vai()
         
     def acertou(self,ev=0):
             self.congresso.sul.vai()
@@ -158,7 +158,7 @@ class borboletas():
         
     def vai(self,ev=0):
             self.foi()
-            Texto(self.congresso.leste," Mutação ").vai()
+            Texto(self.congresso.leste," As borboletas  são conhecidas por suas cores e por sua vida dividia em 4 estágios:: ovo, larva, pupa e imago (Adulto) e por esse conhecimento prévio diga-nos quais dos estudantes estão corretos ").vai()
         
     def acertou(self,ev=0):
             self.congresso.leste.vai()
