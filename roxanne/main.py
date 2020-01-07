@@ -82,9 +82,9 @@ class mendel():
         self.foi,congresso.oeste.vai=congresso.SALA3.vai,self.vai
         self.congresso=congresso
     
-        self.c=Elemento(img= "https://i.imgur.com/MUrxyGb.png", tit="Oiiii, meu nome é Gabi e estou estudando sobre cruzamento de genes e vi que se uma pessoa te AA e outra Aa então seus futuros filhos serão 50% AA e 50% Aa",
+        self.c=Elemento(img=GABI, tit="Oiiii, meu nome é Gabi e estou estudando sobre cruzamento de genes e vi que se uma pessoa te AA e outra Aa então seus futuros filhos serão 50% AA e 50% Aa",
         style=dict(left=50, top=350, width=400, height="200px"),vai=self.acertou)
-        
+       
         
         self.b=Elemento(img= "https://i.imgur.com/Q5PcxvC.png", tit= "Aqui é a Tássia e vamos agilizando porque eu não tenho tempo,pois o tempo é evolução e eu preciso me modificar para me adaptar" ,
         style=dict (left=400, top=350, width=300, height="200px",),vai=self.errou)
