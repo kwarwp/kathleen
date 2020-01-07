@@ -115,12 +115,12 @@ class mutassaum():
         self.congresso=congresso
     
         self.c=Elemento(img= "https://i.imgur.com/MUrxyGb.png", tit="Oiiii, meu nome é Gabi", 
-        style=dict(left=50, top=350, width=400, height="200px"),vai=self.acertou)
+        style=dict(left=50, top=350, width=400, height="200px"),vai=self.errou)
         
-        self.b=Elemento(img=B, tit= "Dani aqui, pessoaaalll! Vocês acreditam que a professora hoje me obrigou a fazer aquele esporte nojento???? Futebol, eca! É coisa de menino. Fora que eu comprei um short lindissmo rosa e adivinham??? Não combinou com esse uniforme." ,
-        style=dict (left=400, top=350, width=300, height="200px",),vai=self.errou)
+        self.b=Elemento(img="https://i.imgur.com/94lhgKo.png", tit= "OIe eu sou o Carlo e sei que quando um ser vivo(seres humanos, plantas etc) fica exposto a radiação ou algum produto químico por muito tempo pode ocorre mutação no DNA da pessoa fazendo com que  a pessoa tenha alguma doença ou passe para os seus filho" ,
+        style=dict (left=400, top=350, width=300, height="200px",),vai=self.acertou)
 
-        self.a=Elemento(img= "https://i.imgur.com/bO9jojz.png", tit = "Coé lek. Meu nome é Alan e eu sei que se eu tenho várias tatuagens meus futuros filhos nasceram tatuados",
+        self.a=Elemento(img= "https://i.imgur.com/Oo1sn9s.png", tit = "OIii sou a Letícia e descobri que quando se come maçã estragada isso pode modificar seu DNA pelas proteínas e enzimas que soltam no seu estômago passam para o sangue e vão até o núcleo das células alterando a sintese de proteínas do corpo",
         style=dict(left=700, top=350, width=400, height="200px"),vai=self.errou)
 
         self.a.entra(congresso.sul)
