@@ -12,7 +12,8 @@ TELEFONE = "https://i.imgur.com/AWK5NzD.gif"
 QUADRO1 = "https://i.imgur.com/9w6CDLX.png"
 QUADRO2 = "https://i.imgur.com/z4pQgRU.png"
 QUADRO3 = "https://i.imgur.com/z0WhOdq.png"
-COFRE = ""
+COFRE1 = "https://i.imgur.com/hZCpFQZ.jpg"
+COFRE2 = "https://i.imgur.com/iazvG8L.png"
 
 
 
