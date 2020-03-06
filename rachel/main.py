@@ -7,6 +7,7 @@ MORTI="https://i.pinimg.com/originals/57/79/e9/5779e9e8c85f594eae72c8f5b6ba0d23.
 HUCK="http://www.pngall.com/wp-content/uploads/2016/03/Avengers-Hulk-PNG.png"
 MATO="https://pngimage.net/wp-content/uploads/2018/06/mato-png-2.png"
 BARATA="https://pngimage.net/wp-content/uploads/2018/05/barata-voadora-png-1-280x200.png"
+BRUXA=
 class peixe ():
     marte=Cena(img=MARTE)
     morti=Cena(img=MORTI)
@@ -22,4 +23,5 @@ class peixe ():
     barata.esquerda=mato
     morti.direita=mato    
     marte.vai()
+    
 peixe()
