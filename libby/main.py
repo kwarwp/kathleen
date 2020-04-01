@@ -14,8 +14,8 @@ SALA3= "img oeste BIBLIOTECA"
 SALA4= "img sul LAB_INFORMATICA"
 class HAHA():
     def __init__(self): 
-        anamaria=Elemento(img=ANA_MARIA)
-        drzuckman= Elemento(img=DR_ZUCKMAN)
+        ana_maria=Elemento(img=ANA_MARIA)
+        dr_zuckman= Elemento(img=DR_ZUCKMAN)
         cofre= Elemento(img=COFRE)
         laboratorio= Cena(img=LABORATORIO)
         hospital= Cena(img=HOSPITAL)
