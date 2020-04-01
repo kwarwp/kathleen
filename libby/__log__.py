@@ -547,3 +547,10 @@ TypeError: 'module' object is not callable
   ^
 IndentationError: unexpected indent
 '''},
+{'date': 'Wed Apr 01 2020 03:18:08.688 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  anamaria=Elemento(img=ANA_MARIA)
+  ^
+IndentationError: expected an indented block
+'''},
