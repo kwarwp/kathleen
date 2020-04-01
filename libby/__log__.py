@@ -540,3 +540,10 @@ TypeError: 'module' object is not callable
     anamaria=Elemento(img=ANA_MARIA)
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Wed Apr 01 2020 03:16:36.277 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 19
+  drzuckman= Elemento(img=DR_ZUCKMAN)
+  ^
+IndentationError: unexpected indent
+'''},
