@@ -15,16 +15,16 @@ SALA4= "img sul LAB_INFORMATICA"
 class HAHA():
     def __init__(self): 
     
-    anamaria=Elemento(img=ANA_MARIA)
-    drzuckman= Elemento(img=DR_ZUCKMAN)
-    cofre= Elemento(img=COFRE)
-    laboratorio= Cena(img=LABORATORIO)
-    hospital= Cena(img=HOSPITAL)
-    biblioteca= Cena(img=BIBLIOTECA)
-    labinformatica= Cena(img=LAB_INFORMATICA)
-    hehe= LABIRINTO (norte= SALA1,leste= SALA2,oeste= SALA3,sul= SALA4)
-    ana_maria.entra(hehe.norte)
-    dr_zuckman.entra(hehe.norte)
-    hehe.norte.vai()
+        anamaria=Elemento(img=ANA_MARIA)
+        drzuckman= Elemento(img=DR_ZUCKMAN)
+        cofre= Elemento(img=COFRE)
+        laboratorio= Cena(img=LABORATORIO)
+        hospital= Cena(img=HOSPITAL)
+        biblioteca= Cena(img=BIBLIOTECA)
+        labinformatica= Cena(img=LAB_INFORMATICA)
+        hehe= LABIRINTO (norte= SALA1,leste= SALA2,oeste= SALA3,sul= SALA4)
+        ana_maria.entra(hehe.norte)
+        dr_zuckman.entra(hehe.norte)
+        hehe.norte.vai()
 
 HAHA()
