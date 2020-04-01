@@ -41,12 +41,10 @@ class leni():
     pracinha=Cena(img=PRACA)
     haha=Labirinto(N=casa,S=biblioteca,O=laboratorio,L=porta)
     hehe=Labirinto(L=porta,S=tunel,O=portao,N=casa)
-    
     doente=Elemento(img=DOENTE)
     doente.entra (casa)
     faladoente=Texto(casa,"o que aconteceu?")
     doente.vai=faladoente.vai
-    
     ajudante=Elemento(img=AJUDANTE)
     ajudante.entra(N.casa)
     falaajudante=Texto(casa,"O cientista foi sequetrado e roubaram as escrituras e seu compuatdor")
