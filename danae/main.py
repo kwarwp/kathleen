@@ -11,7 +11,6 @@ HOSPITAL="https://midiastm.gazetaonline.com.br/_midias/jpg/2019/09/05/fernando_m
 class leni():
     cientista= Elemento(img=CIENTISTA)
     ajudante= Elemento(img=AJUDANTE)
-    caixinha= Elemento(img=CAIXADEMUSICA)
     laboratorio= Cena(img=LABORATORIO)
     jardim= Cena(img=JARDIM)
     hospital= Cena(img=HOSPITAL)
