@@ -89,3 +89,10 @@ NameError: name 'cena' is not defined
     		hotel=cena(img=HOTEL)
 NameError: name 'cena' is not defined
 '''},
+{'date': 'Tue Jul 14 2020 22:28:47.39 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  self.oswaldin = Elemento(img=)
+                                ^
+SyntaxError: invalid syntax
+'''},
