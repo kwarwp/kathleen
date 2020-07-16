@@ -53,3 +53,7 @@ Exception: <TypeError: module is undefined>
 'error': '''
 Exception: <TypeError: module is undefined>
 '''},
+{'date': 'Thu Jul 16 2020 13:46:28.707 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+Exception: <TypeError: Cannot read property 'charAt' of undefined>
+'''},
