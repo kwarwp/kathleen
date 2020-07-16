@@ -225,3 +225,10 @@ TypeError: 'module' object is not callable
     cena = Cena( img = "https://i.imgur.com/S5tAUe8.png")
 TypeError: 'module' object is not callable
 '''},
+{'date': 'Thu Jul 16 2020 13:57:00.887 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 11
+  personagem_mulher_maravilha = Elemento(img = "https://i.imgur.com/fK906ve.png",style=dict(left=40, top=350, width=500, height="200px")) )
+                                                                                                                                         ^
+SyntaxError: invalid syntax
+'''},
