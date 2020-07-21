@@ -610,3 +610,10 @@ NameError: name 'BARATA' is not defined
     barata=Elemento(img=BARATA)
 NameError: name 'BARATA' is not defined
 '''},
+{'date': 'Mon Jul 20 2020 23:28:25.745 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 10
+  BRUXA=
+         ^
+SyntaxError: invalid syntax
+'''},
