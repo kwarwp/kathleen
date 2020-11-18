@@ -624,3 +624,10 @@ SyntaxError: invalid syntax
          ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Nov 18 2020 19:17:27.649 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 10
+  BRUXA=
+         ^
+SyntaxError: invalid syntax
+'''},
