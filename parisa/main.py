@@ -1,6 +1,6 @@
 # kathleen.parisa.main.py
 from _spy.vitollino.main import Cena, Elemento, Labirinto, Texto, Codigo, Sala, STYLE
-from _spy.vittolino.main import INVENTARIO as inv
+#from _spy.vittolino.main import INVENTARIO as inv
 STYLE["width"] = 1150
 STYLE["height"] = "600px"
 #inicio
