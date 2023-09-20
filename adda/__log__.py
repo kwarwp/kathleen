@@ -103,3 +103,10 @@ SyntaxError: invalid syntax
                                 ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Sep 20 2023 15:14:55.420 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 16
+  self.oswaldin = Elemento(img=)
+                                ^
+SyntaxError: invalid syntax
+'''},
