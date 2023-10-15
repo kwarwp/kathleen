@@ -635,3 +635,10 @@ IndentationError: expected an indented block
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Sun Oct 15 2023 11:59:59.87 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  self.npc=Elemento(img="https://i.imgur.com/GbnwrWN.png") 
+  ^
+IndentationError: expected an indented block
+'''},
