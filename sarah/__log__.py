@@ -361,3 +361,10 @@ SyntaxError: invalid syntax
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Sun Oct 15 2023 11:40:29.351 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 11
+  inicio=Cena(img=INICIO)
+  ^
+IndentationError: expected an indented block
+'''},
