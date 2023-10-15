@@ -354,3 +354,10 @@ NameError: name 'STYLE' is not defined
                                                     ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Sun Oct 15 2023 11:38:21.217 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 10
+  self.todos = todos = Sala(n= SALA1, l= SALA2, s= SALA3, o= SALA4)
+  ^
+IndentationError: expected an indented block
+'''},
