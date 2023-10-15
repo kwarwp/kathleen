@@ -5,11 +5,11 @@ STYLE["width"] = 1150
 STYLE["height"] = "600px"
 INICIO = "https://i.imgur.com/vFALZ8K.jpg"
 class terror():
-	def __init__(self):
+	#def __init__(self):
     npc=Elemento(img="https://i.imgur.com/GbnwrWN.png") 
-    self.inicio=Cena(img=INICIO)
-    self.npc.entra(inicio)
-    Texto(self,inicio, "NPC: Acabamos de receber uma mensagem da NASA informando que um dos satélites no espaço detectou um objeto no interior de um núcleo de gelo na região antártica")
+    inicio=Cena(img=INICIO)
+    npc.entra(inicio)
+    Texto(inicio, "NPC: Acabamos de receber uma mensagem da NASA informando que um dos satélites no espaço detectou um objeto no interior de um núcleo de gelo na região antártica").vai()
     inicio.vai()
 terror()
     
