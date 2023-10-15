@@ -7,7 +7,7 @@ INICIO="https://imgur.com/yJuD0vq"
 
 class vai():
     inicio=Cena(img=INICIO)
-    npc=Elemento(img="https://imgur.com/GbnwrWN", tit"NPC: Acabamos de receber uma mensagem da NASA informando que um dos satélites no espaço detectou um objeto no interior de um núcleo de gelo na região antártica.")
+    npc=Elemento(img="https://imgur.com/GbnwrWN", tit="NPC: Acabamos de receber uma mensagem da NASA informando que um dos satélites no espaço detectou um objeto no interior de um núcleo de gelo na região antártica.")
     npc.entra(inicio)
     inicio.vai()
 vai()    
