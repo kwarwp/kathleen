@@ -475,3 +475,25 @@ AttributeError: 'str' object has no attribute 'nome'
                                                                                                                                                                                                   ^
 SyntaxError: EOL while scanning string literal
 '''},
+{'date': 'Sun Oct 15 2023 11:49:16.268 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''Traceback (most recent call last):
+  module _core.main line 180
+    dialog.action(lambda *_: self.start()
+  module _core.supygirls_factory line 135
+    self.act(self, lambda *_: self.hide() or extra()) if self.act else None
+  module _core.supygirls_factory line 310
+    return self._first_response(lambda: self._executa_acao(), self.extra, self.error)
+  module _core.supygirls_factory line 282
+    traceback.print_exc(file=sys.stderr)
+  module _core.supygirls_factory line 299
+    exec(self.code, glob)  # dict(__name__="__main__"))
+  module <module> line 5
+    class terror():
+  module <module> line 7
+    inicio=Cena(img=INICIO , tit = "NPC: Acabamos de receber uma mensagem da NASA informando que um dos satélites no espaço detectou um objeto no interior de um núcleo de gelo na região antártica", style=dict(left=700, top=350, width=400, height="200px"))
+  module _spy.vitollino.main line 1096
+    Cena.c(**kwargs)
+  module _spy.vitollino.main line 1139
+    imagem, kwargs = (imagem, {}) if isinstance(imagem, str) \
+KeyError: img
+'''},
