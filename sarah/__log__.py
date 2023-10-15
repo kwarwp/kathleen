@@ -600,3 +600,10 @@ AttributeError: 'GUI' object has no attribute 'inicio'
     Texto(self.cena.inicio, "NPC: Acabamos de receber uma mensagem da NASA informando que um dos satélites no espaço detectou um objeto no interior de um núcleo de gelo na região antártica")
 AttributeError: 'GUI' object has no attribute 'cena'
 '''},
+{'date': 'Sun Oct 15 2023 11:57:02.353 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 9
+  self.npc=Elemento(img="https://i.imgur.com/GbnwrWN.png") 
+  ^
+IndentationError: expected an indented block
+'''},
