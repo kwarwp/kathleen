@@ -347,3 +347,10 @@ NameError: name 'aula' is not defined
     STYLE["width"] = 1150
 NameError: name 'STYLE' is not defined
 '''},
+{'date': 'Sun Oct 15 2023 11:35:47.513 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 10
+  npc=Elemento(img="https://imgur.com/GbnwrWN", tit"NPC: Acabamos de receber uma mensagem da NASA informando que um dos satélites no espaço detectou um objeto no interior de um núcleo de gelo na região antártica.")
+                                                    ^
+SyntaxError: invalid syntax
+'''},
