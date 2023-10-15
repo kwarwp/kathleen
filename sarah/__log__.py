@@ -497,3 +497,10 @@ SyntaxError: EOL while scanning string literal
     imagem, kwargs = (imagem, {}) if isinstance(imagem, str) \
 KeyError: img
 '''},
+{'date': 'Sun Oct 15 2023 11:49:43.667 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 6
+  npc=Elemento(img="https://i.imgur.com/GbnwrWN.png" , tit = "NPC: Acabamos de receber uma mensagem da NASA informando que um dos satélites no espaço detectou um objeto no interior de um núcleo de gelo na região antártica", style=dict(left=700, top=350, width=400, height="200px")))
+                                                                                                                                                                                                                                                                                         ^
+SyntaxError: invalid syntax
+'''},
