@@ -468,3 +468,10 @@ AttributeError: 'str' object has no attribute 'nome'
     self.scorer.update(valor=cena.nome, move=self.xy,
 AttributeError: 'str' object has no attribute 'nome'
 '''},
+{'date': 'Sun Oct 15 2023 11:47:37.966 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 7
+  inicio=Cena(img=INICIO , tit = "NPC: Acabamos de receber uma mensagem da NASA informando que um dos satélites no espaço detectou um objeto no interior de um núcleo de gelo na região antártica.
+                                                                                                                                                                                                  ^
+SyntaxError: EOL while scanning string literal
+'''},
