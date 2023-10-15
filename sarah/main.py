@@ -1,11 +1,13 @@
 # kathleen.sarah.main.py
-from _spy.vitollino.main import Cena, Elemento
+from _spy.vitollino.main import Cena, Elemento, Labirinto, Texto, Codigo, Sala, STYLE
 from _spy.vitollino.main import INVENTARIO as inv
-PISTA="https://cdn.aquelamaquina.pt/images/2018-10/img_944x629$2018_10_23_13_20_29_124325.png"
-CARRO="https://www.pnglot.com/pngfile/detail/143-1438797_carro-png-imagenes-de-carros-png.png"
-class yuri():
-    pista=Cena(img=PISTA)
-    carro=Elemento(img=CARRO)
-    carro.entra(pista)
-    pista.vai()
-yuri()    
+STYLE["width"] = 1150
+STYLE["height"] = "600px"
+INICIO="https://imgur.com/yJuD0vq"
+
+class vai():
+    inicio=Cena(img=INICIO)
+    npc=Elemento(img="https://imgur.com/GbnwrWN", tit"NPC: Acabamos de receber uma mensagem da NASA informando que um dos satélites no espaço detectou um objeto no interior de um núcleo de gelo na região antártica.")
+    npc.entra(inicio)
+    inicio.vai()
+vai()    
