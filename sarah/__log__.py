@@ -722,3 +722,10 @@ NameError: name 'inicio' is not defined
   ^
 IndentationError: expected an indented block
 '''},
+{'date': 'Mon Oct 16 2023 19:35:06.909 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  self.joao = joao = Sala(n= INICIO1, l= INICIO2, s= INICIO3, o= INICIO4)                      
+  ^
+IndentationError: expected an indented block
+'''},
