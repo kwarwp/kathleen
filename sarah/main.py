@@ -10,6 +10,9 @@ class terror():
     inicio=Cena(img=INICIO)
     npc.entra(inicio)
     Texto(inicio, "NPC: Acabamos de receber uma mensagem da NASA informando que um dos satélites no espaço detectou um objeto no interior de um núcleo de gelo na região antártica").vai()
+    
     inicio.vai()
 terror()
-    
+class oi():
+    Texto(inicio, "Sua missão é encontrá-lo! Mas antes você precisará fazer algumas escolhas.").vai()
+oi()
