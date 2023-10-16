@@ -715,3 +715,10 @@ NameError: name 'inicio' is not defined
     Texto(inicio, "Sua missão é encontrá-lo! Mas antes você precisará fazer algumas escolhas.").vai()
 NameError: name 'inicio' is not defined
 '''},
+{'date': 'Mon Oct 16 2023 19:34:22.985 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 18
+  self.joao = joao = Sala(n= INICIO1, l= INICIO2, s= INICIO3, o= INICIO4)                      
+  ^
+IndentationError: expected an indented block
+'''},
