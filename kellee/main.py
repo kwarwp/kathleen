@@ -74,13 +74,13 @@ class hey():
         self.todas=todas
         #self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
         # self.menino.entra(todas.sul)
-        self.c=Elemento(img= "https://i.imgur.com/MRYFB9o.png" ,tit="HCL", style=dict(left=50, top=350, width=400, height="300px"),vai=self.acertou)
+        self.c=Elemento(img= "https://i.imgur.com/MRYFB9o.png" ,tit="HCL", style=dict(left=50, top=200, width=400, height="300px"),vai=self.acertou)
         
         self.b=Elemento(img= "https://i.imgur.com/1JI8RPi.png", tit= "Leite" ,
-        style=dict (left=400, top=350, width=300, height="200px",),vai=self.errou)
+        style=dict (left=400, top=220, width=300, height="200px",),vai=self.errou)
 
         self.a=Elemento(img= "https://i.imgur.com/FUyf2pz.png", tit = "Água",
-        style=dict(left=700, top=350, width=400, height="200px"),vai=self.errou)
+        style=dict(left=700, top=200, width=400, height="200px"),vai=self.errou)
 
         self.a.entra(todas.sul)
         self.b.entra(todas.sul)
@@ -148,7 +148,7 @@ class ajuda():
         self.paciente= Elemento ( img= PACIENTE, tit="Por que em jejum, dra?", style=dict(left=870, top=120, width=300, height="500px"))
         self.paciente.entra(todos.norte)
         
-        self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="300px"))
+        self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=200, width=300, height="200px"))
         self.play.entra(todos.norte)
         self.play.vai=self.todos.norte.vai
          # self.play = Elemento (img = "ÂÂÂÂÂÂ https://i.imgur.com/G9QfpN5.png", tit="Jogar",
