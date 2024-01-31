@@ -876,3 +876,10 @@ AttributeError: 'ajuda' object has no attribute 'dr'
     self.dr.entra
 AttributeError: 'ajuda' object has no attribute 'dr'
 '''},
+{'date': 'Wed Jan 31 2024 20:03:16.375 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 119
+  self.bola=Elemento(img = "https://4.bp.blogspot.com/-5tI9f8dEANo/WFJvsXn1pvI/AAAAAAAAX2I/Cbx902UhDIM_cOm-p3JHfKKtTnEJ6QKvgCLcB/s320/Gifs%2Banimados%2BBola%2Bde%2BFutebol%2Bakigifs%2B14.gif",
+  ^
+IndentationError: unexpected indent
+'''},
