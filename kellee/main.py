@@ -153,7 +153,7 @@ class ajuda():
         self.play.vai=self.todos.norte.vai
          # self.play = Elemento (img = "ÂÂÂÂÂÂ https://i.imgur.com/G9QfpN5.png", tit="Jogar",
         #style=dict(left=220, top=400, width=120, heigth=120))
-        self.play.vai=self.todos.leste.vai
+        self.play.vai=self.todos.sul.vai
         
     def vai(self,ev=0):
         self.foi()
