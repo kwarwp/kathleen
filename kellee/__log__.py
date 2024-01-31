@@ -473,3 +473,10 @@ SyntaxError: invalid syntax
                                                               ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Wed Jan 31 2024 19:24:22.294 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 77
+  self.c=Elemento(img= "https://i.imgur.com/MRYFB9o.png" ,tit"HCL", style=dict(left=50, top=350, width=400, height="200px"),vai=self.acertou)
+                                                              ^
+SyntaxError: invalid syntax
+'''},
