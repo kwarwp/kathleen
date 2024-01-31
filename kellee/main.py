@@ -136,7 +136,7 @@ class  blabla():
     
      def vai(self,ev=0):
         self.foi()
-        Texto(self.todos.sul,"Qual das vidrarias você acha que seria ideal?").vai()
+        Texto(self.todos.sul,"Para provar ao paciente sobre o uso do remédio em jejum podemos fazer um experimento. Eles são uma maneira prática de aprender e testar seus conhecimentos.Quando um medicamento é ingerido, ele vai para o estômago e parte de seu princípio ativo já é absorvida, entrando na corrente sanguínea. Para demonstrar ao paciente que o medicamento Omeprazol é melhor absorvido em jejum, devemos realizar um experimento simulando a composição existente no estômago. Qual das vidrarias você acha que seria ideal?").vai()
         
         
 class ajuda():
