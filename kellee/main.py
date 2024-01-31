@@ -4,9 +4,9 @@ from _spy.vitollino.main import Cena, Elemento, Labirinto, Texto, Codigo, Sala, 
 STYLE["width"] = 1150
 STYLE["height"] = "600px"
 #inicio
-SALA1 = "https://i.imgur.com/RGO9pjB.jpg"
+SALA1 = "https://i.imgur.com/5cKwnkv.jpg"
 #fachada da escola CENA 1
-SALA2 = "https://i.imgur.com/FBbMoQM.jpg"
+SALA2 = "https://i.imgur.com/5cKwnkv.jpg"
 #Sala de aula CENA 2
 SALA3 = "https://i.imgur.com/tiJmoBA.jpeg"
 #Corredor da escola CENA 4
@@ -18,12 +18,12 @@ SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-ntro/blog/wp-content/uploads
 #MENINO= "https://cdn.pixabay.com/photo/2017/07/07/03/21/child-2480290_960_720.png"
 PLAY= "https://i.imgur.com/G9QfpN5.png"
 #diretora neide RASCUNHO
-NEIDE=" https://i.imgur.com/ATlnIzM.png"
+#NEIDE=" https://i.imgur.com/ATlnIzM.png"
 A= "https://i.imgur.com/ADYjJ5F.png"
 B= "https://i.imgur.com/x9jVvbX.png"
 C= "https://i.imgur.com/74k0IOK.png"
 SETINHA= "https://media.giphy.com/media/hqfzJ6el5q5GoHoYO4/giphy.gif"
-SETAD ="https://www.imagensanimadas.com/data/media/111/seta-imagem-animada-0540.gif"
+SETAD ="https://i.imgur.com/DtFfAjo.gif"
 class OI():
     def __init__(self):
     
@@ -48,7 +48,7 @@ class OI():
         #self.menino.vai=self.falamenino.vai
     
         
-        self.a=Elemento(img=A, tit= "Olá, eu sou Rosa. Tenho 13 anos. Preciso contar algo terrível que aconteceu. A maquiagem que eu tanto queria acabou no shopping da cidade e nunca que eu irei me submeter a ir na lojinha do interior. Minha vida é uma merda!!!", 
+        self.a=Elemento(img=A,
         style=dict(left=50, top=300, width=400, height="200px"),vai=self.errou)
         
         self.b=Elemento(img=B, tit= "Olá, eu sou a Dani. Tenho 14 anos. Estou aqui para te contar sobre algo que infelizmente me doi muito. O preconceito e a discriminação muitas vezes resultam em situações em que pessoas são humilhadas, agredidas e acusadas injustamente simplesmente pelo fato de fazerem parte de algum grupo social específico. A afirmação é de uma pesquisa da Fundação Instituto de Pesquisa Econômicas (Fipe) que publicou em junho, em parceria com o Inep, um estudo sobre preconceito e discriminação no ambiente escolar. De acordo com a pesquisa, as práticas discriminatórias têm como principais vítimas os alunos, especialmente negros, pobres e homossexuais, com médias de 19%, 18% e 17% respectivamente para o índice percentual de conhecimento de situações de bullying nas escolas. - Observatório da Educação. 'http://www.observatoriodaeducacao.org.br/index.php/entrevistas/56-entrevistas/817-criancas-negras-estao-entre-as-principais-vitimas-de-bullying'" ,
@@ -103,8 +103,8 @@ class cansada():
     def __init__(self,todos):
         self.foi,todos.leste.vai=todos.leste.vai,self.vai
         self.todos=todos
-        self.neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
-        self.neide.entra(todos.leste)
+        #self.neide=Elemento(img=NEIDE, style=dict(left=100, top=350, width=300, height="200px"))
+        #self.neide.entra(todos.leste)
         
         self.setinha=Elemento(img= SETINHA, tit = "Voltar para início")
         self.setinha.entra(todos.leste)
@@ -122,7 +122,7 @@ class cansada():
     
     def vai(self,ev=0):
         self.foi()
-        Texto(self.todos.leste,"Seja bem vindo! Esse é o Colégio _______ e estamos contentes em recebe-lo, espero que se adapte a sua nova vida acadêmica. Se você estiver pronto aperte na setinha a sua direita").vai()
+        Texto(self.todos.leste,"Os experimentos são uma maneira prática de aprender e testar seus conhecimentos. Vamos lá!").vai()
         
         
         
@@ -135,7 +135,7 @@ class  blabla():
     
      def vai(self,ev=0):
         self.foi()
-        Texto(self.todos.sul,"Esse aqui é o nosso laboratório de ciência. E você terá que fazer uma escolha: Qual deles sofre bullying ? Cada aluno está contando sua história. Passe o mouse em cima de cada um e conheça mais sobre o dia a dia deles.").vai()
+        Texto(self.todos.sul,"Qual das vidrarias você acha que seria ideal?").vai()
         
         
 class ajuda():
