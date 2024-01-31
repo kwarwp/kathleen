@@ -145,7 +145,7 @@ class ajuda():
         self.todos=todos
         self.dra= Elemento ( img=NEIDE, tit="Para o alívio dos sintomas você vai precisar tomar um omeprazol ao acordar em jejum.", style=dict(left=100, top=300, width=300, height="200px"))
         self.dra.entra(todos.norte)
-        self.paciente= Elemento ( img= PACIENTE, tit="Por que em jejum, dra?", style=dict(left=870, top=10, width=300, height="500px"))
+        self.paciente= Elemento ( img= PACIENTE, tit="Por que em jejum, dra?", style=dict(left=870, top=60, width=300, height="500px"))
         self.paciente.entra(todos.norte)
         
         self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="200px"))
@@ -157,7 +157,7 @@ class ajuda():
         
     def vai(self,ev=0):
         self.foi()
-        Texto(self.todos.norte, "O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbaridade, e saber o limite de brincadeira e agressão. ").vai()
+        #Texto(self.todos.norte, "O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbaridade, e saber o limite de brincadeira e agressão. ").vai()
         self.dr.entra
     
     
