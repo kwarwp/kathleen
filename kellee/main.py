@@ -12,11 +12,11 @@ SALA3 = "https://i.imgur.com/tiJmoBA.jpeg"
 #Corredor da escola CENA 4
 SALA4 = "https://i.imgur.com/tiJmoBA.jpeg"
 #Quadra de esportes
-SALA5 = "https://i.imgur.com/B2CtFTa.jpg"
+SALA5 = "https://i.imgur.com/tiJmoBA.jpeg"
 #desconhecida 
 SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-ntro/blog/wp-content/uploads/2017/04/06121758/sonhar-com-mar.jpg"
 #MENINO= "https://cdn.pixabay.com/photo/2017/07/07/03/21/child-2480290_960_720.png"
-PLAY= "https://i.imgur.com/aVH9hm5.png"
+PLAY= "https://i.imgur.com/MR8kdEs.png"
 #diretora neide RASCUNHO
 NEIDE=" https://i.imgur.com/ATlnIzM.png"
 PACIENTE="https://i.imgur.com/mcBVqNT.png"
@@ -74,7 +74,7 @@ class hey():
         self.todas=todas
         #self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
         # self.menino.entra(todas.sul)
-        self.c=Elemento(img= "https://i.imgur.com/MRYFB9o.png" ,tit="HCL", style=dict(left=50, top=350, width=400, height="200px"),vai=self.acertou)
+        self.c=Elemento(img= "https://i.imgur.com/MRYFB9o.png" ,tit="HCL", style=dict(left=50, top=350, width=400, height="100px"),vai=self.acertou)
         
         self.b=Elemento(img= "https://i.imgur.com/1JI8RPi.png", tit= "Leite" ,
         style=dict (left=400, top=350, width=300, height="200px",),vai=self.errou)
@@ -148,7 +148,7 @@ class ajuda():
         self.paciente= Elemento ( img= PACIENTE, tit="Por que em jejum, dra?", style=dict(left=870, top=120, width=300, height="500px"))
         self.paciente.entra(todos.norte)
         
-        self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="200px"))
+        self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="500px"))
         self.play.entra(todos.norte)
         self.play.vai=self.todos.norte.vai
          # self.play = Elemento (img = "ÂÂÂÂÂÂ https://i.imgur.com/G9QfpN5.png", tit="Jogar",
