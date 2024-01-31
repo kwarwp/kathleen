@@ -123,7 +123,7 @@ class cansada():
     
     def vai(self,ev=0):
         self.foi()
-        Texto(self.todos.leste,"Para provar ao, podemos fazer um experimento. Os experimentos são uma maneira prática de aprender e testar seus conhecimentos. Vamos lá!").vai()
+        Texto(self.todos.leste,"Para provar ao paciente sobre o uso do remédio em jejum podemos fazer um experimento. Eles são uma maneira prática de aprender e testar seus conhecimentos. Quando um medicamento é ingerido, ele vai para o estômago e parte de seu princípio ativo já é absorvida, entrando na corrente sanguínea. Para demonstrar ao paciente que o medicamento Omeprazol é melhor absorvido em jejum, devemos realizar um experimento simulando a composição existente no estômago.").vai()
         
         
         
@@ -145,7 +145,7 @@ class ajuda():
         self.todos=todos
         self.dra= Elemento ( img=NEIDE, tit="Para o alívio dos sintomas você vai precisar tomar um omeprazol ao acordar em jejum.", style=dict(left=100, top=300, width=300, height="200px"))
         self.dra.entra(todos.norte)
-        self.paciente= Elemento ( img= PACIENTE, tit="Por que em jejum, dra?", style=dict(left=870, top=500, width=300, height="500px"))
+        self.paciente= Elemento ( img= PACIENTE, tit="Por que em jejum, dra?", style=dict(left=870, top=10, width=300, height="500px"))
         self.paciente.entra(todos.norte)
         
         self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="200px"))
