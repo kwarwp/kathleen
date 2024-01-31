@@ -142,7 +142,7 @@ class ajuda():
     def __init__(self,todos):
         self.foi,todos.norte.vai=todos.norte.vai,self.vai
         self.todos=todos
-        self.dra= Elemento ( img=NEIDE, tit="Para o alívio dos sintomas você vai precisar tomar um omeprazol ao acordar em jejum.", style=dict(left=370, top=300, width=300, height="200px"))
+        self.dra= Elemento ( img=NEIDE, tit="Para o alívio dos sintomas você vai precisar tomar um omeprazol ao acordar em jejum.", style=dict(left=100, top=300, width=300, height="200px"))
         self.dra.entra(todos.norte)
         self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="200px"))
         self.play.entra(todos.norte)
