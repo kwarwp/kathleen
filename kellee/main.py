@@ -1,3 +1,4 @@
+
 from _spy.vitollino.main import Cena, Elemento, Labirinto, Texto, Codigo, Sala, STYLE
 #from _spy.vittolino.main import INVENTARIO as inv
 STYLE["width"] = 1150
@@ -5,9 +6,9 @@ STYLE["height"] = "600px"
 #inicio
 SALA1 = "https://i.imgur.com/RGO9pjB.jpg"
 #fachada da escola CENA 1
-SALA2 = "https://i.imgur.com/klmWAtd.png"
+SALA2 = "https://i.imgur.com/FBbMoQM.jpg"
 #Sala de aula CENA 2
-SALA3 = "https://i.imgur.com/51la4f1.jpg"
+SALA3 = "https://i.imgur.com/tiJmoBA.jpeg"
 #Corredor da escola CENA 4
 SALA4 = "https://i.imgur.com/FBbMoQM.jpg"
 #Quadra de esportes
@@ -18,9 +19,9 @@ SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-ntro/blog/wp-content/uploads
 PLAY= "https://i.imgur.com/G9QfpN5.png"
 #diretora neide RASCUNHO
 NEIDE=" https://i.imgur.com/ATlnIzM.png"
-A= "https://i.imgur.com/frA6jk8.png"
-B= " https://i.imgur.com/KwIY4yn.png"
-C= "https://i.imgur.com/Brb4yHm.jpg"
+A= "https://i.imgur.com/ADYjJ5F.png"
+B= "https://i.imgur.com/x9jVvbX.png"
+C= "https://i.imgur.com/74k0IOK.png"
 SETINHA= "https://media.giphy.com/media/hqfzJ6el5q5GoHoYO4/giphy.gif"
 SETAD ="https://www.imagensanimadas.com/data/media/111/seta-imagem-animada-0540.gif"
 class OI():
@@ -53,7 +54,7 @@ class OI():
         self.b=Elemento(img=B, tit= "Olá, eu sou a Dani. Tenho 14 anos. Estou aqui para te contar sobre algo que infelizmente me doi muito. O preconceito e a discriminação muitas vezes resultam em situações em que pessoas são humilhadas, agredidas e acusadas injustamente simplesmente pelo fato de fazerem parte de algum grupo social específico. A afirmação é de uma pesquisa da Fundação Instituto de Pesquisa Econômicas (Fipe) que publicou em junho, em parceria com o Inep, um estudo sobre preconceito e discriminação no ambiente escolar. De acordo com a pesquisa, as práticas discriminatórias têm como principais vítimas os alunos, especialmente negros, pobres e homossexuais, com médias de 19%, 18% e 17% respectivamente para o índice percentual de conhecimento de situações de bullying nas escolas. - Observatório da Educação. 'http://www.observatoriodaeducacao.org.br/index.php/entrevistas/56-entrevistas/817-criancas-negras-estao-entre-as-principais-vitimas-de-bullying'" ,
         style=dict (left=300, top=300, width=300, height="200px",),vai=self.acertou)
         
-        self.c=Elemento(img= "https://i.imgur.com/yuFIURj.png", tit= "Olá, eu sou Pablo. Tenho 15 anos e hoje aconteceu uma tragédia. Meu pai não depositou o valor todo da minha mesada. Não consegui comprar o relógio que eu tanto queria. Aff, pai tóxico", 
+        self.c=Elemento(img= "https://i.imgur.com/74k0IOK.png", tit= "Olá, eu sou Pablo. Tenho 15 anos e hoje aconteceu uma tragédia. Meu pai não depositou o valor todo da minha mesada. Não consegui comprar o relógio que eu tanto queria. Aff, pai tóxico", 
         style=dict(left=600, top=300, width=200, height="200px"),vai=self.errou)
         
         self.a.entra(todos.sul)
