@@ -19,6 +19,7 @@ SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-ntro/blog/wp-content/uploads
 PLAY= "https://i.imgur.com/G9QfpN5.png"
 #diretora neide RASCUNHO
 NEIDE=" https://i.imgur.com/ATlnIzM.png"
+PACI ="https://i.imgur.com/mcBVqNT.png"
 A= "https://i.imgur.com/ADYjJ5F.png"
 B= "https://i.imgur.com/x9jVvbX.png"
 C= "https://i.imgur.com/74k0IOK.png"
@@ -144,7 +145,7 @@ class ajuda():
         self.todos=todos
         self.dra= Elemento ( img=NEIDE, tit="Para o alívio dos sintomas você vai precisar tomar um omeprazol ao acordar em jejum.", style=dict(left=100, top=300, width=300, height="200px"))
         self.dra.entra(todos.norte)
-        self.paci= Elemento ( img= "https://i.imgur.com/mcBVqNT.png", tit="Por que em jejum, dra?", style=dict(left=470, top=300, width=300, height="200px"))
+        self.paci= Elemento ( img= PACI, tit="Por que em jejum, dra?", style=dict(left=470, top=300, width=300, height="200px"))
         self.paci.entra(todos.norte)
         
         self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="200px"))
