@@ -74,7 +74,7 @@ class hey():
         self.todas=todas
         #self.menino = Elemento(img=MENINO, style=dict(left=600, top=350, width=300, height="200px"))
         # self.menino.entra(todas.sul)
-        self.c=Elemento(img= "https://i.imgur.com/MRYFB9o.png" tit"HCL",   
+        self.c=Elemento(img= "https://i.imgur.com/MRYFB9o.png" ,tit"HCL",   
         style=dict(left=50, top=350, width=400, height="200px"),vai=self.acertou)
         
         self.b=Elemento(img= "https://i.imgur.com/1JI8RPi.png", tit= "Leite" ,
