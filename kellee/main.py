@@ -18,7 +18,7 @@ SALA6 = "https://s3-sa-east-1.amazonaws.com/uploads-ntro/blog/wp-content/uploads
 #MENINO= "https://cdn.pixabay.com/photo/2017/07/07/03/21/child-2480290_960_720.png"
 PLAY= "https://i.imgur.com/G9QfpN5.png"
 #diretora neide RASCUNHO
-#NEIDE=" https://i.imgur.com/ATlnIzM.png"
+NEIDE=" https://i.imgur.com/ATlnIzM.png"
 A= "https://i.imgur.com/ADYjJ5F.png"
 B= "https://i.imgur.com/x9jVvbX.png"
 C= "https://i.imgur.com/74k0IOK.png"
@@ -48,13 +48,13 @@ class OI():
         #self.menino.vai=self.falamenino.vai
     
         
-        self.a=Elemento(img=A,
+        self.a=Elemento(img=A,tit= "Balão de fundo redondo",
         style=dict(left=50, top=300, width=400, height="200px"),vai=self.errou)
         
-        self.b=Elemento(img=B, tit= "Olá, eu sou a Dani. Tenho 14 anos. Estou aqui para te contar sobre algo que infelizmente me doi muito. O preconceito e a discriminação muitas vezes resultam em situações em que pessoas são humilhadas, agredidas e acusadas injustamente simplesmente pelo fato de fazerem parte de algum grupo social específico. A afirmação é de uma pesquisa da Fundação Instituto de Pesquisa Econômicas (Fipe) que publicou em junho, em parceria com o Inep, um estudo sobre preconceito e discriminação no ambiente escolar. De acordo com a pesquisa, as práticas discriminatórias têm como principais vítimas os alunos, especialmente negros, pobres e homossexuais, com médias de 19%, 18% e 17% respectivamente para o índice percentual de conhecimento de situações de bullying nas escolas. - Observatório da Educação. 'http://www.observatoriodaeducacao.org.br/index.php/entrevistas/56-entrevistas/817-criancas-negras-estao-entre-as-principais-vitimas-de-bullying'" ,
+        self.b=Elemento(img=B, tit= "Becker" ,
         style=dict (left=300, top=300, width=300, height="200px",),vai=self.acertou)
         
-        self.c=Elemento(img= "https://i.imgur.com/74k0IOK.png", tit= "Olá, eu sou Pablo. Tenho 15 anos e hoje aconteceu uma tragédia. Meu pai não depositou o valor todo da minha mesada. Não consegui comprar o relógio que eu tanto queria. Aff, pai tóxico", 
+        self.c=Elemento(img= "https://i.imgur.com/uqUIEXJ.png", tit= "Placa de Petri", 
         style=dict(left=600, top=300, width=200, height="200px"),vai=self.errou)
         
         self.a.entra(todos.sul)
@@ -90,7 +90,7 @@ class hey():
         
     def vai(self,ev=0):
             self.foi()
-            Texto(self.todas.sul,"Parabéns. 'O preconceito da raça é injusto e causa grande sofrimento às pessoas.-Voltaire' Assim como qualquer outro tipo de preconceito!!!!  Agora nossos alunos estão na aula de educação fisíca e você terá que descobrir quem infelizmente tem sofrido Bullying, não apenas nessa aula. ").vai()
+            Texto(self.todas.sul,"O becker de vidro é um recipiente cilíndrico utilizado para armazenar, misturar e aquecer líquidos em laboratórios. Muito bem! ").vai()
         
     def acertou(self,ev=0):
             self.todas.oeste.vai()
@@ -142,6 +142,8 @@ class ajuda():
     def __init__(self,todos):
         self.foi,todos.norte.vai=todos.norte.vai,self.vai
         self.todos=todos
+        self.dra= Elemento ( img=NEIDE, tit="Para o alívio dos sintomas você vai precisar tomar um omeprazol ao acordar em jejum.", style=dict(left=370, top=300, width=300, height="200px"))
+        self.dra.entra(todos.norte)
         self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="200px"))
         self.play.entra(todos.norte)
         self.play.vai=self.todos.norte.vai
@@ -152,7 +154,7 @@ class ajuda():
     def vai(self,ev=0):
         self.foi()
         Texto(self.todos.norte, "O intuito do jogo é fazer com que as pessoas tenham ciência de que a prática do bullying pode causar mal à saúde humana. Resultando em aspectos que possam dificultar o cotidiano de quem é alvo dessa barbaridade, e saber o limite de brincadeira e agressão. ").vai()
-        
+        self.dr.entra
     
     
         
