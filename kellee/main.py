@@ -93,10 +93,10 @@ class hey():
             Texto(self.todas.sul,"O becker de vidro é um recipiente cilíndrico utilizado para armazenar, misturar e aquecer líquidos em laboratórios. Muito bem! ").vai()
         
     def acertou(self,ev=0):
-            self.todas.oeste.vai()
+            self.todos.leste.vai()
             
     def errou(self,ev=0):
-            self.todas.leste.vai()
+            self.todas.sul.vai()
         
 
 class cansada():
