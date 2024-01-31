@@ -116,10 +116,10 @@ class cansada():
         self.setad.entra(todos.leste)
         self.setad.vai=self.todos.sul.vai
         
-        self.bola=Elemento(img = "https://4.bp.blogspot.com/-5tI9f8dEANo/WFJvsXn1pvI/AAAAAAAAX2I/Cbx902UhDIM_cOm-p3JHfKKtTnEJ6QKvgCLcB/s320/Gifs%2Banimados%2BBola%2Bde%2BFutebol%2Bakigifs%2B14.gif",
-        style=dict(left=1070, top=350, width=80, height="100px"))
-        self.bola.entra(todos.sul)
-        self.bola.vai
+       # self.bola=Elemento(img = "https://4.bp.blogspot.com/-5tI9f8dEANo/WFJvsXn1pvI/AAAAAAAAX2I/Cbx902UhDIM_cOm-p3JHfKKtTnEJ6QKvgCLcB/s320/Gifs%2Banimados%2BBola%2Bde%2BFutebol%2Bakigifs%2B14.gif",
+        #style=dict(left=1070, top=350, width=80, height="100px"))
+        #self.bola.entra(todos.sul)
+        #self.bola.vai
     
     def vai(self,ev=0):
         self.foi()
@@ -148,7 +148,7 @@ class ajuda():
         self.paciente= Elemento ( img= PACIENTE, tit="Por que em jejum, dra?", style=dict(left=870, top=120, width=300, height="500px"))
         self.paciente.entra(todos.norte)
         
-        self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="500px"))
+        self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="300px"))
         self.play.entra(todos.norte)
         self.play.vai=self.todos.norte.vai
          # self.play = Elemento (img = "ÂÂÂÂÂÂ https://i.imgur.com/G9QfpN5.png", tit="Jogar",
