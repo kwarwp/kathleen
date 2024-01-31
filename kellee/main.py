@@ -144,7 +144,7 @@ class ajuda():
         self.todos=todos
         self.dra= Elemento ( img=NEIDE, tit="Para o alívio dos sintomas você vai precisar tomar um omeprazol ao acordar em jejum.", style=dict(left=100, top=300, width=300, height="200px"))
         self.dra.entra(todos.norte)
-        self.paci= Elemento ( img= "https://imgur.com/a/aDBS6Mf", tit="Por que em jejum, dra?", style=dict(left=570, top=300, width=300, height="200px"))
+        self.paci= Elemento ( img= "https://imgur.com/a/aDBS6Mf.png", tit="Por que em jejum, dra?", style=dict(left=470, top=300, width=300, height="200px"))
         self.paci.entra(todos.norte)
         
         self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="200px"))
