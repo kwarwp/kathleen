@@ -122,7 +122,7 @@ class cansada():
     
     def vai(self,ev=0):
         self.foi()
-        Texto(self.todos.leste,"Os experimentos são uma maneira prática de aprender e testar seus conhecimentos. Vamos lá!").vai()
+        Texto(self.todos.leste,"Para provar ao, podemos fazer um experimento. Os experimentos são uma maneira prática de aprender e testar seus conhecimentos. Vamos lá!").vai()
         
         
         
@@ -144,6 +144,9 @@ class ajuda():
         self.todos=todos
         self.dra= Elemento ( img=NEIDE, tit="Para o alívio dos sintomas você vai precisar tomar um omeprazol ao acordar em jejum.", style=dict(left=100, top=300, width=300, height="200px"))
         self.dra.entra(todos.norte)
+        self.dra= Elemento ( img= "https://imgur.com/a/aDBS6Mf", tit="Por que em jejum, dra?", style=dict(left=570, top=300, width=300, height="200px"))
+        self.dra.entra(todos.norte)
+        
         self.play = Elemento(img=PLAY, tit="Jogar", style=dict(left=370, top=300, width=300, height="200px"))
         self.play.entra(todos.norte)
         self.play.vai=self.todos.norte.vai
