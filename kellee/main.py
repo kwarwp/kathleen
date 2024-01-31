@@ -98,12 +98,6 @@ class hey():
     def errou(self,ev=0):
             self.todas.sul.vai()
             
-class pol():
-    def __init__(self,todas):
-        self.foi,todas.oeste.vai=todas.oeste.vai,self.vai
-        self.todas=todas
-        self.setinha= Elemento (img=SETINHA)
-        self.setinha.entra(todas.oeste)
 
 class cansada():
     def __init__(self,todos):
