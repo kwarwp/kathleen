@@ -93,7 +93,7 @@ class hey():
             Texto(self.todas.sul,"O becker de vidro é um recipiente cilíndrico utilizado para armazenar, misturar e aquecer líquidos em laboratórios. Muito bem! Sabemos que nosso estômago possui um líquido chamado suco gástrico, que possui PH=2. Qual líquido podemos representar?").vai()
         
     def acertou(self,ev=0):
-            self.todos.oeste.vai()
+            self.todas.oeste.vai()
             
     def errou(self,ev=0):
             self.todas.sul.vai()
