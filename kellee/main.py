@@ -93,7 +93,7 @@ class hey():
             Texto(self.todas.sul,"O becker de vidro é um recipiente cilíndrico utilizado para armazenar, misturar e aquecer líquidos em laboratórios. Muito bem! Sabemos que nosso estômago possui um líquido chamado suco gástrico, que possui PH=2. Qual líquido podemos representar?").vai()
         
     def acertou(self,ev=0):
-            self.todas.norte.vai()
+            self.todos.leste.vai()
             
     def errou(self,ev=0):
             self.todas.sul.vai()
@@ -115,7 +115,7 @@ class cansada():
         style=dict(left=1090, top=350, width=80, height="100px"))
         self.setad.entra(todos.leste)
         self.setad.vai=self.todos.sul.vai
-        
+        self.setad.vai
        # self.bola=Elemento(img = "https://4.bp.blogspot.com/-5tI9f8dEANo/WFJvsXn1pvI/AAAAAAAAX2I/Cbx902UhDIM_cOm-p3JHfKKtTnEJ6QKvgCLcB/s320/Gifs%2Banimados%2BBola%2Bde%2BFutebol%2Bakigifs%2B14.gif",
         #style=dict(left=1070, top=350, width=80, height="100px"))
         #self.bola.entra(todos.sul)
